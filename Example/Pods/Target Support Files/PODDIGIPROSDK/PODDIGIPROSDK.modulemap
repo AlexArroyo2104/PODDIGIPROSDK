@@ -1,0 +1,6 @@
+framework module PODDIGIPROSDK {
+  umbrella header "PODDIGIPROSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "PODDIGIPROSDK",
+  "version": "0.1.0",
+  "summary": "A short description of PODDIGIPROSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AlexArroyo2104/PODDIGIPROSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AlexArroyo2104": "alejandrol@digipro.com.mx"
+  },
+  "source": {
+    "git": "https://github.com/AlexArroyo2104/PODDIGIPROSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PODDIGIPROSDK/Classes/**/*"
+}

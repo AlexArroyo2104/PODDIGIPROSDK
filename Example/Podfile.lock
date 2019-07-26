@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (7.3.4)
+  - PODDIGIPROSDK (0.1.0)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0)
+  - PODDIGIPROSDK (from `../`)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  PODDIGIPROSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  PODDIGIPROSDK: 2388fc5a7f62c7eb2b74174958fc36f097961097
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 1415dc9afa5052a353253beed964f7a3a8fc0bec
+
+COCOAPODS: 1.7.2
