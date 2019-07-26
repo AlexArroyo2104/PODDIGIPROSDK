@@ -255,7 +255,8 @@
 		C8ED4F1A22EB87940079B0B7 /* ConversionOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED4F0B22EB87940079B0B7 /* ConversionOptions.swift */; };
 		C8ED4F1B22EB87940079B0B7 /* EVArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED4F0C22EB87940079B0B7 /* EVArrayExtension.swift */; };
 		C8ED4F1C22EB87940079B0B7 /* EVReflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED4F0D22EB87940079B0B7 /* EVReflection.swift */; };
-		C8ED4F1F22EB88100079B0B7 /* Data+Gzip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED4F1E22EB88100079B0B7 /* Data+Gzip.swift */; };
+		C8ED4F8022EB92540079B0B7 /* Data+Gzip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED4F1E22EB88100079B0B7 /* Data+Gzip.swift */; };
+		C8ED4F8122EB92560079B0B7 /* Data+Gzip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED4F1E22EB88100079B0B7 /* Data+Gzip.swift */; };
 		C9088581BC43832D6AF65207A507F6E9 /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088EEE14D1D638B26C3F5149DB54089E /* BeCloseTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		C923C7A7E74F165D32CAB0DDAB8C5504 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678219935DC321E0AB0DE094E991AE8C /* Expression.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		C971A8D42C7C043DC4970A69B81546A7 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = F69E910398A50BF41B85CA216D7F0770 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1771,7 +1772,7 @@
 				C8ED4EB922EB86E20079B0B7 /* CellType.swift in Sources */,
 				C8ED4E4F22EB85170079B0B7 /* DigestType.swift in Sources */,
 				C8ED4E3822EB85170079B0B7 /* Array+Foundation.swift in Sources */,
-				C8ED4F1F22EB88100079B0B7 /* Data+Gzip.swift in Sources */,
+				C8ED4F8022EB92540079B0B7 /* Data+Gzip.swift in Sources */,
 				8A2AADAB3E3CBA788D4DF80984DADFE8 /* XCTestObservationCenter+Register.m in Sources */,
 				C8ED4E5922EB85170079B0B7 /* PBKDF1.swift in Sources */,
 				C8ED4F0E22EB87940079B0B7 /* EVObject.swift in Sources */,
@@ -1819,6 +1820,7 @@
 				9B08E99EE1FE9A21C7A39A89B089084B /* QuickSelectedTestSuiteBuilder.swift in Sources */,
 				DF35A6A1D0AD961E61E2C34D1654B07C /* QuickSpec.m in Sources */,
 				16EFAB6D6AE45841C4A039600E30D242 /* QuickSpecBase.m in Sources */,
+				C8ED4F8122EB92560079B0B7 /* Data+Gzip.swift in Sources */,
 				D19D7BD8F850EC7C63707DBC61A4842B /* QuickTestSuite.swift in Sources */,
 				D111493E6CB19611D3D2F62064131203 /* SuiteHooks.swift in Sources */,
 				DB74BACCF3D3991B38E8F09F60BF9202 /* URL+FileName.swift in Sources */,
@@ -1932,6 +1934,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7419D9382905509D6EA1AF14992417FF /* Nimble.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2179,7 +2182,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2241,7 +2244,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -2258,6 +2261,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7419D9382905509D6EA1AF14992417FF /* Nimble.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
