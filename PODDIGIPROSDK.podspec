@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.swift_versions = '4.2'
 
-  s.source_files = 'PODDIGIPROSDK/Classes/**/*'
+  s.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,swift}'
   
   # s.resource_bundles = {
   #   'PODDIGIPROSDK' => ['PODDIGIPROSDK/Assets/*.png']
