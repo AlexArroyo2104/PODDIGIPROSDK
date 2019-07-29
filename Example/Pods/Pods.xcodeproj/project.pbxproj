@@ -414,6 +414,7 @@
 		C8ED53D022EFA26D0079B0B7 /* JGProgressHUDRingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED53B122EFA26D0079B0B7 /* JGProgressHUDRingIndicatorView.m */; };
 		C8ED53D122EFA26D0079B0B7 /* JGProgressHUDPieIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED53B222EFA26D0079B0B7 /* JGProgressHUDPieIndicatorView.m */; };
 		C8ED53D222EFA26D0079B0B7 /* JGProgressHUDShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED53B322EFA26D0079B0B7 /* JGProgressHUDShadow.m */; };
+		C8ED53D422EFA6B30079B0B7 /* Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED53D322EFA6B30079B0B7 /* Bridging-Header.h */; };
 		C912897D77798A90873A3DAD8A4BDC50 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4D831C03026C50D9C46AAA6A6A99DC /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA958DBAA5F69BBB7FABA426CF2898E9 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA112225FF526E65896DDDF956F74AF1 /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		CC4D4A58D5696C431EA499C04B436F5F /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4FE44A565B7D51777C3DCF0536EE10 /* SourceLocation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -870,6 +871,7 @@
 		C8ED53B122EFA26D0079B0B7 /* JGProgressHUDRingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDRingIndicatorView.m; sourceTree = "<group>"; };
 		C8ED53B222EFA26D0079B0B7 /* JGProgressHUDPieIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDPieIndicatorView.m; sourceTree = "<group>"; };
 		C8ED53B322EFA26D0079B0B7 /* JGProgressHUDShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDShadow.m; sourceTree = "<group>"; };
+		C8ED53D322EFA6B30079B0B7 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "PODDIGIPROSDK/Bridging-Header.h"; sourceTree = "<group>"; };
 		C96571B81B1E1F2A7632243AA8B316CE /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		CA985FC7047F76D7D9C5C7F0BB3D2670 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatePickerRow.swift; sourceTree = "<group>"; };
 		CBAE96EEDAD94F9A069E674467BB71AD /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CMAC.swift; sourceTree = "<group>"; };
@@ -1476,6 +1478,7 @@
 		C575D00C4782A03D67A4C9A6D517971C /* PODDIGIPROSDK */ = {
 			isa = PBXGroup;
 			children = (
+				C8ED53D322EFA6B30079B0B7 /* Bridging-Header.h */,
 				78B3428D6DFD7CB75806667192810B70 /* Core */,
 				F8F7E5D13EB89BFE6BF96F558B62B020 /* Pod */,
 				B4D41691594931E83570A0BD6984B205 /* Support Files */,
@@ -1920,6 +1923,7 @@
 				C8ED53C222EFA26D0079B0B7 /* JGProgressHUDPieIndicatorView.h in Headers */,
 				CD6B1F146B0E157FE5B9CAFFAE77A5B5 /* Nimble-umbrella.h in Headers */,
 				C8ED53C522EFA26D0079B0B7 /* JGProgressHUDFadeAnimation.h in Headers */,
+				C8ED53D422EFA6B30079B0B7 /* Bridging-Header.h in Headers */,
 				9BB5E9B6487FE95C710687B484C17161 /* Nimble.h in Headers */,
 				C8ED53C022EFA26D0079B0B7 /* JGProgressHUD.h in Headers */,
 				C8ED53C922EFA26D0079B0B7 /* JGProgressHUDAnimation.h in Headers */,
