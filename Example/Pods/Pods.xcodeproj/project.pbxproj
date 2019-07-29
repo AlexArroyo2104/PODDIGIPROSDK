@@ -272,6 +272,28 @@
 		C737512354FE851258D82F1D82EF2C1C /* ZeroPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0620AD70D8FB2D009457B608BE1E3EB2 /* ZeroPadding.swift */; };
 		C787F6912D23D2055CFF77061678DF5A /* ECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE72D806C94F866EB90783F22FEEC8 /* ECB.swift */; };
 		C8474AF6C41FC2AC934DAD6CEFEABBAF /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D144BCB18487D3935A818D75F80AC5 /* ConstraintLayoutGuide.swift */; };
+		C8ED50CE22EF4DDC0079B0B7 /* CoverVerticalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50B822EF4DDC0079B0B7 /* CoverVerticalAnimation.swift */; };
+		C8ED50CF22EF4DDC0079B0B7 /* PresentrController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50B922EF4DDC0079B0B7 /* PresentrController.swift */; };
+		C8ED50D022EF4DDC0079B0B7 /* Presentr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50BA22EF4DDC0079B0B7 /* Presentr.swift */; };
+		C8ED50D122EF4DDC0079B0B7 /* PresentrShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50BB22EF4DDC0079B0B7 /* PresentrShadow.swift */; };
+		C8ED50D222EF4DDC0079B0B7 /* FlipHorizontalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50BC22EF4DDC0079B0B7 /* FlipHorizontalAnimation.swift */; };
+		C8ED50D322EF4DDC0079B0B7 /* CoverHorizontalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50BD22EF4DDC0079B0B7 /* CoverHorizontalAnimation.swift */; };
+		C8ED50D422EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50BF22EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf */; };
+		C8ED50D522EF4DDC0079B0B7 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C022EF4DDC0079B0B7 /* AlertViewController.xib */; };
+		C8ED50D622EF4DDC0079B0B7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C122EF4DDC0079B0B7 /* Montserrat-Regular.ttf */; };
+		C8ED50D722EF4DDC0079B0B7 /* CoverFromCornerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50C222EF4DDC0079B0B7 /* CoverFromCornerAnimation.swift */; };
+		C8ED50D822EF4DDC0079B0B7 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50C322EF4DDC0079B0B7 /* AlertViewController.swift */; };
+		C8ED50D922EF4DDC0079B0B7 /* PresentrAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50C422EF4DDC0079B0B7 /* PresentrAnimation.swift */; };
+		C8ED50DA22EF4DDC0079B0B7 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50C522EF4DDC0079B0B7 /* BackgroundView.swift */; };
+		C8ED50DB22EF4DDC0079B0B7 /* TransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50C622EF4DDC0079B0B7 /* TransitionType.swift */; };
+		C8ED50DC22EF4DDC0079B0B7 /* KeyboardTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50C722EF4DDC0079B0B7 /* KeyboardTranslation.swift */; };
+		C8ED50DD22EF4DDC0079B0B7 /* PresentationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50C822EF4DDC0079B0B7 /* PresentationType.swift */; };
+		C8ED50DE22EF4DDC0079B0B7 /* CrossDissolveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50C922EF4DDC0079B0B7 /* CrossDissolveAnimation.swift */; };
+		C8ED50DF22EF4DDC0079B0B7 /* ModalCenterPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50CA22EF4DDC0079B0B7 /* ModalCenterPosition.swift */; };
+		C8ED50E022EF4DDC0079B0B7 /* CoverVerticalFromTopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50CB22EF4DDC0079B0B7 /* CoverVerticalFromTopAnimation.swift */; };
+		C8ED50E122EF4DDC0079B0B7 /* Presentr+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50CC22EF4DDC0079B0B7 /* Presentr+Equatable.swift */; };
+		C8ED50E222EF4DDC0079B0B7 /* ModalSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50CD22EF4DDC0079B0B7 /* ModalSize.swift */; };
+		C8ED50E522EF4DF90079B0B7 /* ScrollableSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50E422EF4DF90079B0B7 /* ScrollableSegmentedControl.swift */; };
 		C912897D77798A90873A3DAD8A4BDC50 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4D831C03026C50D9C46AAA6A6A99DC /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9313BD07770A5BD76EC99E5919D26C2 /* CalendarDateRangePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD0FB80C4C51D0830340A36ED191064 /* CalendarDateRangePickerViewController.swift */; };
 		C93454C1217DC8D6EE4830AE2FE5144B /* PrintOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6E019F22878E688847EE52B5BD1ED /* PrintOptions.swift */; };
@@ -668,6 +690,28 @@
 		C43A013177A83C6B8FD5FF027F27DAE8 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		C52EFEFB6D98F06328AF58DBA90954C3 /* BatchedCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BatchedCollection.swift; sourceTree = "<group>"; };
 		C583D55E93D2C23506816D0ECC9CB0B0 /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/QuickObjectiveC/Quick.h; sourceTree = "<group>"; };
+		C8ED50B822EF4DDC0079B0B7 /* CoverVerticalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverVerticalAnimation.swift; sourceTree = "<group>"; };
+		C8ED50B922EF4DDC0079B0B7 /* PresentrController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentrController.swift; sourceTree = "<group>"; };
+		C8ED50BA22EF4DDC0079B0B7 /* Presentr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentr.swift; sourceTree = "<group>"; };
+		C8ED50BB22EF4DDC0079B0B7 /* PresentrShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentrShadow.swift; sourceTree = "<group>"; };
+		C8ED50BC22EF4DDC0079B0B7 /* FlipHorizontalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipHorizontalAnimation.swift; sourceTree = "<group>"; };
+		C8ED50BD22EF4DDC0079B0B7 /* CoverHorizontalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverHorizontalAnimation.swift; sourceTree = "<group>"; };
+		C8ED50BF22EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		C8ED50C022EF4DDC0079B0B7 /* AlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
+		C8ED50C122EF4DDC0079B0B7 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		C8ED50C222EF4DDC0079B0B7 /* CoverFromCornerAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverFromCornerAnimation.swift; sourceTree = "<group>"; };
+		C8ED50C322EF4DDC0079B0B7 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		C8ED50C422EF4DDC0079B0B7 /* PresentrAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentrAnimation.swift; sourceTree = "<group>"; };
+		C8ED50C522EF4DDC0079B0B7 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		C8ED50C622EF4DDC0079B0B7 /* TransitionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionType.swift; sourceTree = "<group>"; };
+		C8ED50C722EF4DDC0079B0B7 /* KeyboardTranslation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardTranslation.swift; sourceTree = "<group>"; };
+		C8ED50C822EF4DDC0079B0B7 /* PresentationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationType.swift; sourceTree = "<group>"; };
+		C8ED50C922EF4DDC0079B0B7 /* CrossDissolveAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossDissolveAnimation.swift; sourceTree = "<group>"; };
+		C8ED50CA22EF4DDC0079B0B7 /* ModalCenterPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalCenterPosition.swift; sourceTree = "<group>"; };
+		C8ED50CB22EF4DDC0079B0B7 /* CoverVerticalFromTopAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverVerticalFromTopAnimation.swift; sourceTree = "<group>"; };
+		C8ED50CC22EF4DDC0079B0B7 /* Presentr+Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Presentr+Equatable.swift"; sourceTree = "<group>"; };
+		C8ED50CD22EF4DDC0079B0B7 /* ModalSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalSize.swift; sourceTree = "<group>"; };
+		C8ED50E422EF4DF90079B0B7 /* ScrollableSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableSegmentedControl.swift; sourceTree = "<group>"; };
 		C96571B81B1E1F2A7632243AA8B316CE /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		CA985FC7047F76D7D9C5C7F0BB3D2670 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatePickerRow.swift; sourceTree = "<group>"; };
 		CBAE96EEDAD94F9A069E674467BB71AD /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CMAC.swift; sourceTree = "<group>"; };
@@ -1182,6 +1226,8 @@
 				F6F3AB9AEB3AD9EE15D201A407EE8BB9 /* Menu-swift */,
 				0B9B7F5D432D32856C7EE83DBF0B55F0 /* NotificationBannerSwift */,
 				73F81C95D11E031BAAFF2D52A2FF3EFE /* SnapKit */,
+				C8ED50B722EF4DDC0079B0B7 /* Presentr */,
+				C8ED50E322EF4DF90079B0B7 /* ScrollableSegmentedControl */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -1298,6 +1344,52 @@
 			);
 			name = PODDIGIPROSDK;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		C8ED50B722EF4DDC0079B0B7 /* Presentr */ = {
+			isa = PBXGroup;
+			children = (
+				C8ED50B822EF4DDC0079B0B7 /* CoverVerticalAnimation.swift */,
+				C8ED50B922EF4DDC0079B0B7 /* PresentrController.swift */,
+				C8ED50BA22EF4DDC0079B0B7 /* Presentr.swift */,
+				C8ED50BB22EF4DDC0079B0B7 /* PresentrShadow.swift */,
+				C8ED50BC22EF4DDC0079B0B7 /* FlipHorizontalAnimation.swift */,
+				C8ED50BD22EF4DDC0079B0B7 /* CoverHorizontalAnimation.swift */,
+				C8ED50BE22EF4DDC0079B0B7 /* Resources */,
+				C8ED50C222EF4DDC0079B0B7 /* CoverFromCornerAnimation.swift */,
+				C8ED50C322EF4DDC0079B0B7 /* AlertViewController.swift */,
+				C8ED50C422EF4DDC0079B0B7 /* PresentrAnimation.swift */,
+				C8ED50C522EF4DDC0079B0B7 /* BackgroundView.swift */,
+				C8ED50C622EF4DDC0079B0B7 /* TransitionType.swift */,
+				C8ED50C722EF4DDC0079B0B7 /* KeyboardTranslation.swift */,
+				C8ED50C822EF4DDC0079B0B7 /* PresentationType.swift */,
+				C8ED50C922EF4DDC0079B0B7 /* CrossDissolveAnimation.swift */,
+				C8ED50CA22EF4DDC0079B0B7 /* ModalCenterPosition.swift */,
+				C8ED50CB22EF4DDC0079B0B7 /* CoverVerticalFromTopAnimation.swift */,
+				C8ED50CC22EF4DDC0079B0B7 /* Presentr+Equatable.swift */,
+				C8ED50CD22EF4DDC0079B0B7 /* ModalSize.swift */,
+			);
+			name = Presentr;
+			path = PODDIGIPROSDK/Classes/Presentr;
+			sourceTree = "<group>";
+		};
+		C8ED50BE22EF4DDC0079B0B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8ED50BF22EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf */,
+				C8ED50C022EF4DDC0079B0B7 /* AlertViewController.xib */,
+				C8ED50C122EF4DDC0079B0B7 /* Montserrat-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C8ED50E322EF4DF90079B0B7 /* ScrollableSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				C8ED50E422EF4DF90079B0B7 /* ScrollableSegmentedControl.swift */,
+			);
+			name = ScrollableSegmentedControl;
+			path = PODDIGIPROSDK/Classes/ScrollableSegmentedControl;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -1711,6 +1803,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8ED50D622EF4DDC0079B0B7 /* Montserrat-Regular.ttf in Resources */,
+				C8ED50D422EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf in Resources */,
+				C8ED50D522EF4DDC0079B0B7 /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1780,19 +1875,26 @@
 				D346102261430008A78C8E54905E68F2 /* AdapterProtocols.swift in Sources */,
 				A333C8F11B3337CB7FCA6ACAA20919F8 /* AllPass.swift in Sources */,
 				57DAE6ED12EDA7C7234F2F1A422AD8BC /* AssertionDispatcher.swift in Sources */,
+				C8ED50DD22EF4DDC0079B0B7 /* PresentationType.swift in Sources */,
 				7AFB2A4868895FEEABA1EA8EBA80F4F1 /* AssertionRecorder.swift in Sources */,
 				23B929016459822A57FF4F84DC6000B5 /* Async.swift in Sources */,
+				C8ED50D722EF4DDC0079B0B7 /* CoverFromCornerAnimation.swift in Sources */,
 				C732FD7C66AEA96BC61C0B105CE16376 /* Await.swift in Sources */,
 				41B2F632A375DCF59B4D65567E59FCD3 /* BeAKindOf.swift in Sources */,
 				0244025E5F4CE4060978D034CF740810 /* BeAnInstanceOf.swift in Sources */,
 				646E7E1E9D3F4663D9CE23FF0231F80C /* BeCloseTo.swift in Sources */,
+				C8ED50DB22EF4DDC0079B0B7 /* TransitionType.swift in Sources */,
+				C8ED50E022EF4DDC0079B0B7 /* CoverVerticalFromTopAnimation.swift in Sources */,
 				535416689ADDB151B7A6B4BF1435C984 /* BeEmpty.swift in Sources */,
 				25390BCB7E708FE600AA7903982238CD /* BeginWith.swift in Sources */,
 				7EB823DCBD13FBF9DD72D1BA97FF9D71 /* BeGreaterThan.swift in Sources */,
 				D7DD35ED5A306AC529590AAE0B79F2BE /* BeGreaterThanOrEqualTo.swift in Sources */,
 				8C36F62A65EF1B4D80DDF5191EC943BF /* BeIdenticalTo.swift in Sources */,
 				80DE0FCB42B465CF0F9C391D6F78732D /* BeLessThan.swift in Sources */,
+				C8ED50DE22EF4DDC0079B0B7 /* CrossDissolveAnimation.swift in Sources */,
 				1619CC5DF835D29CFE745C443B8728DD /* BeLessThanOrEqual.swift in Sources */,
+				C8ED50E122EF4DDC0079B0B7 /* Presentr+Equatable.swift in Sources */,
+				C8ED50CE22EF4DDC0079B0B7 /* CoverVerticalAnimation.swift in Sources */,
 				5100B743B7B3EC774D052AB45F58C9A9 /* BeLogical.swift in Sources */,
 				A545FDFDE03E09328983281E9396D287 /* BeNil.swift in Sources */,
 				066719F150BB45B3E4430CDF5FB1403A /* BeVoid.swift in Sources */,
@@ -1801,17 +1903,25 @@
 				50655497550E397B95A35501CCF28D8D /* CwlBadInstructionException.swift in Sources */,
 				71EC482B285F78B50C0C093F41E8DC87 /* CwlCatchBadInstruction.swift in Sources */,
 				0CCF72769464C214E6268ACFCFE1EBFD /* CwlCatchException.m in Sources */,
+				C8ED50CF22EF4DDC0079B0B7 /* PresentrController.swift in Sources */,
 				A25E62A3FD894EDEB3150A46C8D3A3D4 /* CwlCatchException.swift in Sources */,
+				C8ED50E222EF4DDC0079B0B7 /* ModalSize.swift in Sources */,
 				1A42C3390A0AD0F6F1C58237517D463B /* CwlDarwinDefinitions.swift in Sources */,
 				4E1C1DD9CFC24D9FBDA23F927CA73196 /* CwlMachBadInstructionHandler.m in Sources */,
 				B7097E9992DFF704E16BAFC3FBDCC287 /* DSL+Wait.swift in Sources */,
 				CD5123F817D58D46FCAF8103A818EFDC /* DSL.m in Sources */,
 				71F9C34DC1AFED7BD3C27F6D3C99D1AB /* DSL.swift in Sources */,
+				C8ED50D322EF4DDC0079B0B7 /* CoverHorizontalAnimation.swift in Sources */,
+				C8ED50DF22EF4DDC0079B0B7 /* ModalCenterPosition.swift in Sources */,
 				6087BDAB63A7B0C8D643145A58DE0598 /* ElementsEqual.swift in Sources */,
+				C8ED50D222EF4DDC0079B0B7 /* FlipHorizontalAnimation.swift in Sources */,
 				A8A524C1C48219643DE7E2EAE36BD7D3 /* EndWith.swift in Sources */,
+				C8ED50D022EF4DDC0079B0B7 /* Presentr.swift in Sources */,
 				42C4D2CAA790780B1F5ADBF8A1536223 /* Equal.swift in Sources */,
 				31C781D9B2FB24F1C63EF944A8D10665 /* Errors.swift in Sources */,
 				19756A88FFFBE4639A1FB65D8367C01B /* Expectation.swift in Sources */,
+				C8ED50E522EF4DF90079B0B7 /* ScrollableSegmentedControl.swift in Sources */,
+				C8ED50D122EF4DDC0079B0B7 /* PresentrShadow.swift in Sources */,
 				A7867BF922CA2954E6929C98B486B000 /* ExpectationMessage.swift in Sources */,
 				DDB5F5FBFFF5CB20A648FB45EB00490C /* Expression.swift in Sources */,
 				2F5DD8E51F5E37611F72EAA6D30DD1E2 /* FailureMessage.swift in Sources */,
@@ -1821,8 +1931,10 @@
 				A47730695C36FCFB46492D571D65058D /* Match.swift in Sources */,
 				B31AB226691794D80D6B4164F615F941 /* MatcherFunc.swift in Sources */,
 				33A73C721E2CD8AA8D1029AEF325CC2F /* MatcherProtocols.swift in Sources */,
+				C8ED50DA22EF4DDC0079B0B7 /* BackgroundView.swift in Sources */,
 				CA958DBAA5F69BBB7FABA426CF2898E9 /* MatchError.swift in Sources */,
 				D24C4AA23C22701D3D65541B337F1AC4 /* Nimble-dummy.m in Sources */,
+				C8ED50D922EF4DDC0079B0B7 /* PresentrAnimation.swift in Sources */,
 				89202ED7A199568C27625984E30B0A7E /* NimbleEnvironment.swift in Sources */,
 				D9AD266DDADA8DCB08B476BE5034B65F /* NimbleXCTestHandler.swift in Sources */,
 				3E367F36AF797374E9BA528A4790F5FB /* NMBExceptionCapture.m in Sources */,
@@ -1833,6 +1945,8 @@
 				369291BB5E6EC2524C842F7B5381731F /* Predicate.swift in Sources */,
 				8D9F157A5FCC82D1D09C419070376C12 /* RaisesException.swift in Sources */,
 				493A4962D778D034EAA172A01B776E19 /* SatisfyAllOf.swift in Sources */,
+				C8ED50D822EF4DDC0079B0B7 /* AlertViewController.swift in Sources */,
+				C8ED50DC22EF4DDC0079B0B7 /* KeyboardTranslation.swift in Sources */,
 				952E443F85653A8A1767339BBD329B18 /* SatisfyAnyOf.swift in Sources */,
 				CC4D4A58D5696C431EA499C04B436F5F /* SourceLocation.swift in Sources */,
 				09670BDC554A2BD2DA6ECBFECCF48DDE /* Stringers.swift in Sources */,
@@ -2430,6 +2544,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90C5E2161B26FB91DE16BFC45DAEC7BF /* Nimble.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2463,6 +2578,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90C5E2161B26FB91DE16BFC45DAEC7BF /* Nimble.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
