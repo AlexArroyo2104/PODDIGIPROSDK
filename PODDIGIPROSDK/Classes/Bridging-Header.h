@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #import <XMLDictionary.h>
+#import <FCFileManager.h>
 #import <UIScrollView+EmptyDataSet.h>
 #import <JGProgressHUD-Defines.h>
 #import <JGProgressHUD.h>
