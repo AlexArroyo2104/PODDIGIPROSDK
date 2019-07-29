@@ -38,6 +38,7 @@ Pod::Spec.new do |s|
   s.header_mappings_dir = 'PODDIGIPROSDK'
   core.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,m,swift}'
   core.public_header_files = 'PODDIGIPROSDK/Classes/**/*.h'
+  core.header_mappings_dir = 'PODDIGIPROSDK'
   end
   
   s.subspec 'AppExtension' do |ext|
