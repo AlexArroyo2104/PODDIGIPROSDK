@@ -30,6 +30,7 @@ public protocol MenuTheme {
     
 }
 
+@available(iOS 8.2, *)
 @available(iOSApplicationExtension 8.2, *)
 @available(iOSApplicationExtension 8.2, *)
 public struct LightMenuTheme: MenuTheme {

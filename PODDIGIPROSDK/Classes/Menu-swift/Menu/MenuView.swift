@@ -10,6 +10,7 @@ import UIKit
 
 //MARK: - MenuView
 
+@available(iOS 10.0, *)
 @available(iOSApplicationExtension 10.0, *)
 public class MenuView: UIView, MenuThemeable {
     
@@ -128,7 +129,7 @@ public class MenuView: UIView, MenuThemeable {
     }
     
     deinit {
-        NotificationCenter.default.removeObserver(menuPresentationObserver)
+        NotificationCenter.default.removeObserver(menuPresentationObserver!)
     }
     
     //MARK: - Required Init

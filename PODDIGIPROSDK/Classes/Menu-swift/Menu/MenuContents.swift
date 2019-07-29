@@ -14,6 +14,7 @@ extension UIScrollView {
     }
 }
 
+@available(iOS 9.0, *)
 @available(iOSApplicationExtension 9.0, *)
 class MenuContents: UIView {
     
@@ -62,7 +63,9 @@ class MenuContents: UIView {
     var highlightedPosition: CGPoint? {
         didSet {
             let pos = highlightedPosition ?? CGPoint(x: CGFloat.infinity, y: CGFloat.infinity)
-            updateHighlightedPosition(pos)
+            
+                updateHighlightedPosition(pos)
+            
         }
     }
     
@@ -87,6 +90,7 @@ class MenuContents: UIView {
         return point.y < scrollView.frame.minY + 40 && isScrollable
     }
     
+    @available(iOS 10.0, *)
     private func updateHighlightedPosition(_ point: CGPoint) {
         menuItemViews.forEach {
             var view = $0
@@ -224,11 +228,8 @@ class MenuContents: UIView {
             make in
             
             make.top.bottom.equalToSuperview()
-            if #available(iOS 11.0, *) {
-                make.left.right.equalTo(scrollView.frameLayoutGuide)
-            } else {
-                make.left.right.equalTo(self)
-            }
+            make.left.right.equalTo(scrollView.frameLayoutGuide)
+            
         }
         
         stackView.axis = .vertical
@@ -248,6 +249,10 @@ class MenuContents: UIView {
         applyTheme(theme)
     }
     
+    @available(iOS 10.0, *)
+    @available(iOS 10.0, *)
+    @available(iOS 10.0, *)
+    @available(iOS 10.0, *)
     @available(iOSApplicationExtension 10.0, *)
     private func computePath(withParentView view: UIView, alignment: MenuView.Alignment) -> UIBezierPath {
         let localViewBounds: CGRect
@@ -359,6 +364,7 @@ class MenuContents: UIView {
         }
     }
     
+    @available(iOS 10.0, *)
     @available(iOSApplicationExtension 10.0, *)
     func generateMaskAndShadow(alignment: MenuView.Alignment) {
         guard let view = superview else {
@@ -380,19 +386,23 @@ class MenuContents: UIView {
         sublayer.shadowPath = path.cgPath
         sublayer.shadowOffset = CGSize(width: 0, height: 6)
         
-        let imageRenderer = UIGraphicsImageRenderer(size: shadowView.bounds.size)
         
-        let shadowMask = imageRenderer.image {
+        _ = UIGraphicsImageRenderer(size: shadowView.bounds.size)
+        
+        
+        let render = UIGraphicsImageRenderer(size: shadowView.bounds.size)
+        
+        _ = render.image(actions: {
             context in
             
             UIColor.white.setFill()
             context.fill(shadowView.bounds)
             path.fill(with: .clear, alpha: 1.0)
-        }
+        })
         
         let imageMask = CALayer()
         imageMask.frame = shadowView.bounds
-        imageMask.contents = shadowMask.cgImage
+        //imageMask.contents = shadowView.cg
         
         sublayer.mask = imageMask
     }
