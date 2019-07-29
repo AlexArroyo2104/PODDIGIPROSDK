@@ -326,6 +326,8 @@
 		C8ED512522EF50F70079B0B7 /* SignatureDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED511F22EF50F70079B0B7 /* SignatureDrawingViewController.swift */; };
 		C8ED512922EF512B0079B0B7 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED512722EF512B0079B0B7 /* XMLDictionary.h */; };
 		C8ED512A22EF512B0079B0B7 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED512822EF512B0079B0B7 /* XMLDictionary.m */; };
+		C8ED512E22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED512C22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.m */; };
+		C8ED512F22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED512D22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.h */; };
 		C912897D77798A90873A3DAD8A4BDC50 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4D831C03026C50D9C46AAA6A6A99DC /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9313BD07770A5BD76EC99E5919D26C2 /* CalendarDateRangePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD0FB80C4C51D0830340A36ED191064 /* CalendarDateRangePickerViewController.swift */; };
 		C93454C1217DC8D6EE4830AE2FE5144B /* PrintOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6E019F22878E688847EE52B5BD1ED /* PrintOptions.swift */; };
@@ -776,6 +778,8 @@
 		C8ED511F22EF50F70079B0B7 /* SignatureDrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureDrawingViewController.swift; sourceTree = "<group>"; };
 		C8ED512722EF512B0079B0B7 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
 		C8ED512822EF512B0079B0B7 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		C8ED512C22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		C8ED512D22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
 		C96571B81B1E1F2A7632243AA8B316CE /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		CA985FC7047F76D7D9C5C7F0BB3D2670 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatePickerRow.swift; sourceTree = "<group>"; };
 		CBAE96EEDAD94F9A069E674467BB71AD /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CMAC.swift; sourceTree = "<group>"; };
@@ -1282,6 +1286,7 @@
 				106F23F8EC13ED4054E8285554599320 /* ASHorizontalScrollView */,
 				F36E2B6DDA2FC7BE529286F85EE3F55B /* CalendarDateRangePickerViewController */,
 				60E0CA9EC425357CACA3730C221F027E /* CryptoSwift */,
+				C8ED512B22EF57AC0079B0B7 /* DZNEmptyDataSet */,
 				93DFAAD55B503615A8CFA055B4F5C771 /* Enum */,
 				BAEA3E8D3C78C36B0197E0EFE3803FEE /* Eureka */,
 				F44617C80A2E5A5427DB24360B72EFBE /* EVReflection */,
@@ -1530,6 +1535,16 @@
 			path = PODDIGIPROSDK/Classes/XMLDictionary;
 			sourceTree = "<group>";
 		};
+		C8ED512B22EF57AC0079B0B7 /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				C8ED512C22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.m */,
+				C8ED512D22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.h */,
+			);
+			name = DZNEmptyDataSet;
+			path = PODDIGIPROSDK/Classes/DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -1743,6 +1758,7 @@
 				221ED892E5138A00F3CDF540E914519D /* CwlCatchException.h in Headers */,
 				9F70369EF71BD9ABAFF687AF532CC20D /* CwlMachBadInstructionHandler.h in Headers */,
 				19BA8AF46D9CC49E3E2CEDCAF6354442 /* CwlPreconditionTesting.h in Headers */,
+				C8ED512F22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.h in Headers */,
 				C051C0411627BD5FCDA031782EB1F716 /* DSL.h in Headers */,
 				3BD0C370BBCEBDEA68B8EDBD969370EB /* mach_excServer.h in Headers */,
 				CD6B1F146B0E157FE5B9CAFFAE77A5B5 /* Nimble-umbrella.h in Headers */,
@@ -2093,6 +2109,7 @@
 				A9195203B4E2CE96CEFE4C5BA927512C /* HaveCount.swift in Sources */,
 				54D6650C6B0F612CC9B2DCE2A128CFBA /* mach_excServer.c in Sources */,
 				A47730695C36FCFB46492D571D65058D /* Match.swift in Sources */,
+				C8ED512E22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.m in Sources */,
 				B31AB226691794D80D6B4164F615F941 /* MatcherFunc.swift in Sources */,
 				33A73C721E2CD8AA8D1029AEF325CC2F /* MatcherProtocols.swift in Sources */,
 				C8ED50DA22EF4DDC0079B0B7 /* BackgroundView.swift in Sources */,
