@@ -294,6 +294,29 @@
 		C8ED50E122EF4DDC0079B0B7 /* Presentr+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50CC22EF4DDC0079B0B7 /* Presentr+Equatable.swift */; };
 		C8ED50E222EF4DDC0079B0B7 /* ModalSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50CD22EF4DDC0079B0B7 /* ModalSize.swift */; };
 		C8ED50E522EF4DF90079B0B7 /* ScrollableSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50E422EF4DF90079B0B7 /* ScrollableSegmentedControl.swift */; };
+		C8ED50FE22EF4F0B0079B0B7 /* SpreadsheetView+UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50E722EF4F0B0079B0B7 /* SpreadsheetView+UIScrollView.swift */; };
+		C8ED50FF22EF4F0B0079B0B7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50E822EF4F0B0079B0B7 /* Location.swift */; };
+		C8ED510022EF4F0B0079B0B7 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50E922EF4F0B0079B0B7 /* Address.swift */; };
+		C8ED510122EF4F0B0079B0B7 /* CircularScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50EA22EF4F0B0079B0B7 /* CircularScrolling.swift */; };
+		C8ED510222EF4F0B0079B0B7 /* SpreadsheetViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50EB22EF4F0B0079B0B7 /* SpreadsheetViewDataSource.swift */; };
+		C8ED510322EF4F0B0079B0B7 /* Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50EC22EF4F0B0079B0B7 /* Borders.swift */; };
+		C8ED510422EF4F0B0079B0B7 /* Array+BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50ED22EF4F0B0079B0B7 /* Array+BinarySearch.swift */; };
+		C8ED510522EF4F0B0079B0B7 /* ScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50EE22EF4F0B0079B0B7 /* ScrollPosition.swift */; };
+		C8ED510622EF4F0B0079B0B7 /* SpreadsheetView+UIViewHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50EF22EF4F0B0079B0B7 /* SpreadsheetView+UIViewHierarchy.swift */; };
+		C8ED510722EF4F0B0079B0B7 /* CellRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50F022EF4F0B0079B0B7 /* CellRange.swift */; };
+		C8ED510822EF4F0B0079B0B7 /* LayoutEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50F122EF4F0B0079B0B7 /* LayoutEngine.swift */; };
+		C8ED510922EF4F0B0079B0B7 /* IndexPath+Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50F222EF4F0B0079B0B7 /* IndexPath+Column.swift */; };
+		C8ED510A22EF4F0B0079B0B7 /* SpreadsheetView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50F322EF4F0B0079B0B7 /* SpreadsheetView+Layout.swift */; };
+		C8ED510B22EF4F0B0079B0B7 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50F422EF4F0B0079B0B7 /* ScrollView.swift */; };
+		C8ED510C22EF4F0B0079B0B7 /* SpreadsheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50F522EF4F0B0079B0B7 /* SpreadsheetView.swift */; };
+		C8ED510D22EF4F0B0079B0B7 /* SpreadsheetView+UISnapshotting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50F622EF4F0B0079B0B7 /* SpreadsheetView+UISnapshotting.swift */; };
+		C8ED510E22EF4F0B0079B0B7 /* Gridlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50F722EF4F0B0079B0B7 /* Gridlines.swift */; };
+		C8ED510F22EF4F0B0079B0B7 /* SpreadsheetViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50F822EF4F0B0079B0B7 /* SpreadsheetViewDelegate.swift */; };
+		C8ED511022EF4F0B0079B0B7 /* ReuseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50F922EF4F0B0079B0B7 /* ReuseQueue.swift */; };
+		C8ED511122EF4F0B0079B0B7 /* SpreadsheetView+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50FA22EF4F0B0079B0B7 /* SpreadsheetView+Touches.swift */; };
+		C8ED511222EF4F0B0079B0B7 /* SpreadsheetView+CirclularScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50FB22EF4F0B0079B0B7 /* SpreadsheetView+CirclularScrolling.swift */; };
+		C8ED511322EF4F0B0079B0B7 /* CellNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50FC22EF4F0B0079B0B7 /* CellNew.swift */; };
+		C8ED511422EF4F0B0079B0B7 /* SpreadsheetView+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50FD22EF4F0B0079B0B7 /* SpreadsheetView+UIScrollViewDelegate.swift */; };
 		C912897D77798A90873A3DAD8A4BDC50 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4D831C03026C50D9C46AAA6A6A99DC /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9313BD07770A5BD76EC99E5919D26C2 /* CalendarDateRangePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD0FB80C4C51D0830340A36ED191064 /* CalendarDateRangePickerViewController.swift */; };
 		C93454C1217DC8D6EE4830AE2FE5144B /* PrintOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6E019F22878E688847EE52B5BD1ED /* PrintOptions.swift */; };
@@ -712,6 +735,29 @@
 		C8ED50CC22EF4DDC0079B0B7 /* Presentr+Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Presentr+Equatable.swift"; sourceTree = "<group>"; };
 		C8ED50CD22EF4DDC0079B0B7 /* ModalSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalSize.swift; sourceTree = "<group>"; };
 		C8ED50E422EF4DF90079B0B7 /* ScrollableSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableSegmentedControl.swift; sourceTree = "<group>"; };
+		C8ED50E722EF4F0B0079B0B7 /* SpreadsheetView+UIScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+UIScrollView.swift"; sourceTree = "<group>"; };
+		C8ED50E822EF4F0B0079B0B7 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C8ED50E922EF4F0B0079B0B7 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		C8ED50EA22EF4F0B0079B0B7 /* CircularScrolling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularScrolling.swift; sourceTree = "<group>"; };
+		C8ED50EB22EF4F0B0079B0B7 /* SpreadsheetViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpreadsheetViewDataSource.swift; sourceTree = "<group>"; };
+		C8ED50EC22EF4F0B0079B0B7 /* Borders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Borders.swift; sourceTree = "<group>"; };
+		C8ED50ED22EF4F0B0079B0B7 /* Array+BinarySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+BinarySearch.swift"; sourceTree = "<group>"; };
+		C8ED50EE22EF4F0B0079B0B7 /* ScrollPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollPosition.swift; sourceTree = "<group>"; };
+		C8ED50EF22EF4F0B0079B0B7 /* SpreadsheetView+UIViewHierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+UIViewHierarchy.swift"; sourceTree = "<group>"; };
+		C8ED50F022EF4F0B0079B0B7 /* CellRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellRange.swift; sourceTree = "<group>"; };
+		C8ED50F122EF4F0B0079B0B7 /* LayoutEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutEngine.swift; sourceTree = "<group>"; };
+		C8ED50F222EF4F0B0079B0B7 /* IndexPath+Column.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IndexPath+Column.swift"; sourceTree = "<group>"; };
+		C8ED50F322EF4F0B0079B0B7 /* SpreadsheetView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+Layout.swift"; sourceTree = "<group>"; };
+		C8ED50F422EF4F0B0079B0B7 /* ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		C8ED50F522EF4F0B0079B0B7 /* SpreadsheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpreadsheetView.swift; sourceTree = "<group>"; };
+		C8ED50F622EF4F0B0079B0B7 /* SpreadsheetView+UISnapshotting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+UISnapshotting.swift"; sourceTree = "<group>"; };
+		C8ED50F722EF4F0B0079B0B7 /* Gridlines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gridlines.swift; sourceTree = "<group>"; };
+		C8ED50F822EF4F0B0079B0B7 /* SpreadsheetViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpreadsheetViewDelegate.swift; sourceTree = "<group>"; };
+		C8ED50F922EF4F0B0079B0B7 /* ReuseQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseQueue.swift; sourceTree = "<group>"; };
+		C8ED50FA22EF4F0B0079B0B7 /* SpreadsheetView+Touches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+Touches.swift"; sourceTree = "<group>"; };
+		C8ED50FB22EF4F0B0079B0B7 /* SpreadsheetView+CirclularScrolling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+CirclularScrolling.swift"; sourceTree = "<group>"; };
+		C8ED50FC22EF4F0B0079B0B7 /* CellNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellNew.swift; sourceTree = "<group>"; };
+		C8ED50FD22EF4F0B0079B0B7 /* SpreadsheetView+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
 		C96571B81B1E1F2A7632243AA8B316CE /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		CA985FC7047F76D7D9C5C7F0BB3D2670 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatePickerRow.swift; sourceTree = "<group>"; };
 		CBAE96EEDAD94F9A069E674467BB71AD /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CMAC.swift; sourceTree = "<group>"; };
@@ -1228,6 +1274,7 @@
 				73F81C95D11E031BAAFF2D52A2FF3EFE /* SnapKit */,
 				C8ED50B722EF4DDC0079B0B7 /* Presentr */,
 				C8ED50E322EF4DF90079B0B7 /* ScrollableSegmentedControl */,
+				C8ED50E622EF4F0B0079B0B7 /* SpreadsheetView */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -1390,6 +1437,37 @@
 			);
 			name = ScrollableSegmentedControl;
 			path = PODDIGIPROSDK/Classes/ScrollableSegmentedControl;
+			sourceTree = "<group>";
+		};
+		C8ED50E622EF4F0B0079B0B7 /* SpreadsheetView */ = {
+			isa = PBXGroup;
+			children = (
+				C8ED50E722EF4F0B0079B0B7 /* SpreadsheetView+UIScrollView.swift */,
+				C8ED50E822EF4F0B0079B0B7 /* Location.swift */,
+				C8ED50E922EF4F0B0079B0B7 /* Address.swift */,
+				C8ED50EA22EF4F0B0079B0B7 /* CircularScrolling.swift */,
+				C8ED50EB22EF4F0B0079B0B7 /* SpreadsheetViewDataSource.swift */,
+				C8ED50EC22EF4F0B0079B0B7 /* Borders.swift */,
+				C8ED50ED22EF4F0B0079B0B7 /* Array+BinarySearch.swift */,
+				C8ED50EE22EF4F0B0079B0B7 /* ScrollPosition.swift */,
+				C8ED50EF22EF4F0B0079B0B7 /* SpreadsheetView+UIViewHierarchy.swift */,
+				C8ED50F022EF4F0B0079B0B7 /* CellRange.swift */,
+				C8ED50F122EF4F0B0079B0B7 /* LayoutEngine.swift */,
+				C8ED50F222EF4F0B0079B0B7 /* IndexPath+Column.swift */,
+				C8ED50F322EF4F0B0079B0B7 /* SpreadsheetView+Layout.swift */,
+				C8ED50F422EF4F0B0079B0B7 /* ScrollView.swift */,
+				C8ED50F522EF4F0B0079B0B7 /* SpreadsheetView.swift */,
+				C8ED50F622EF4F0B0079B0B7 /* SpreadsheetView+UISnapshotting.swift */,
+				C8ED50F722EF4F0B0079B0B7 /* Gridlines.swift */,
+				C8ED50F822EF4F0B0079B0B7 /* SpreadsheetViewDelegate.swift */,
+				C8ED50F922EF4F0B0079B0B7 /* ReuseQueue.swift */,
+				C8ED50FA22EF4F0B0079B0B7 /* SpreadsheetView+Touches.swift */,
+				C8ED50FB22EF4F0B0079B0B7 /* SpreadsheetView+CirclularScrolling.swift */,
+				C8ED50FC22EF4F0B0079B0B7 /* CellNew.swift */,
+				C8ED50FD22EF4F0B0079B0B7 /* SpreadsheetView+UIScrollViewDelegate.swift */,
+			);
+			name = SpreadsheetView;
+			path = PODDIGIPROSDK/Classes/SpreadsheetView;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -1878,8 +1956,11 @@
 				C8ED50DD22EF4DDC0079B0B7 /* PresentationType.swift in Sources */,
 				7AFB2A4868895FEEABA1EA8EBA80F4F1 /* AssertionRecorder.swift in Sources */,
 				23B929016459822A57FF4F84DC6000B5 /* Async.swift in Sources */,
+				C8ED510F22EF4F0B0079B0B7 /* SpreadsheetViewDelegate.swift in Sources */,
+				C8ED510C22EF4F0B0079B0B7 /* SpreadsheetView.swift in Sources */,
 				C8ED50D722EF4DDC0079B0B7 /* CoverFromCornerAnimation.swift in Sources */,
 				C732FD7C66AEA96BC61C0B105CE16376 /* Await.swift in Sources */,
+				C8ED50FE22EF4F0B0079B0B7 /* SpreadsheetView+UIScrollView.swift in Sources */,
 				41B2F632A375DCF59B4D65567E59FCD3 /* BeAKindOf.swift in Sources */,
 				0244025E5F4CE4060978D034CF740810 /* BeAnInstanceOf.swift in Sources */,
 				646E7E1E9D3F4663D9CE23FF0231F80C /* BeCloseTo.swift in Sources */,
@@ -1887,7 +1968,10 @@
 				C8ED50E022EF4DDC0079B0B7 /* CoverVerticalFromTopAnimation.swift in Sources */,
 				535416689ADDB151B7A6B4BF1435C984 /* BeEmpty.swift in Sources */,
 				25390BCB7E708FE600AA7903982238CD /* BeginWith.swift in Sources */,
+				C8ED510D22EF4F0B0079B0B7 /* SpreadsheetView+UISnapshotting.swift in Sources */,
 				7EB823DCBD13FBF9DD72D1BA97FF9D71 /* BeGreaterThan.swift in Sources */,
+				C8ED510922EF4F0B0079B0B7 /* IndexPath+Column.swift in Sources */,
+				C8ED510A22EF4F0B0079B0B7 /* SpreadsheetView+Layout.swift in Sources */,
 				D7DD35ED5A306AC529590AAE0B79F2BE /* BeGreaterThanOrEqualTo.swift in Sources */,
 				8C36F62A65EF1B4D80DDF5191EC943BF /* BeIdenticalTo.swift in Sources */,
 				80DE0FCB42B465CF0F9C391D6F78732D /* BeLessThan.swift in Sources */,
@@ -1898,14 +1982,20 @@
 				5100B743B7B3EC774D052AB45F58C9A9 /* BeLogical.swift in Sources */,
 				A545FDFDE03E09328983281E9396D287 /* BeNil.swift in Sources */,
 				066719F150BB45B3E4430CDF5FB1403A /* BeVoid.swift in Sources */,
+				C8ED511222EF4F0B0079B0B7 /* SpreadsheetView+CirclularScrolling.swift in Sources */,
 				AD841E0C41DF45D2E086A203BB265762 /* Contain.swift in Sources */,
+				C8ED510622EF4F0B0079B0B7 /* SpreadsheetView+UIViewHierarchy.swift in Sources */,
 				C147B29A97ACEC6639FC0D3CDAA6BA64 /* ContainElementSatisfying.swift in Sources */,
+				C8ED510022EF4F0B0079B0B7 /* Address.swift in Sources */,
 				50655497550E397B95A35501CCF28D8D /* CwlBadInstructionException.swift in Sources */,
 				71EC482B285F78B50C0C093F41E8DC87 /* CwlCatchBadInstruction.swift in Sources */,
 				0CCF72769464C214E6268ACFCFE1EBFD /* CwlCatchException.m in Sources */,
+				C8ED510522EF4F0B0079B0B7 /* ScrollPosition.swift in Sources */,
 				C8ED50CF22EF4DDC0079B0B7 /* PresentrController.swift in Sources */,
 				A25E62A3FD894EDEB3150A46C8D3A3D4 /* CwlCatchException.swift in Sources */,
+				C8ED50FF22EF4F0B0079B0B7 /* Location.swift in Sources */,
 				C8ED50E222EF4DDC0079B0B7 /* ModalSize.swift in Sources */,
+				C8ED510722EF4F0B0079B0B7 /* CellRange.swift in Sources */,
 				1A42C3390A0AD0F6F1C58237517D463B /* CwlDarwinDefinitions.swift in Sources */,
 				4E1C1DD9CFC24D9FBDA23F927CA73196 /* CwlMachBadInstructionHandler.m in Sources */,
 				B7097E9992DFF704E16BAFC3FBDCC287 /* DSL+Wait.swift in Sources */,
@@ -1917,15 +2007,21 @@
 				C8ED50D222EF4DDC0079B0B7 /* FlipHorizontalAnimation.swift in Sources */,
 				A8A524C1C48219643DE7E2EAE36BD7D3 /* EndWith.swift in Sources */,
 				C8ED50D022EF4DDC0079B0B7 /* Presentr.swift in Sources */,
+				C8ED510B22EF4F0B0079B0B7 /* ScrollView.swift in Sources */,
+				C8ED511322EF4F0B0079B0B7 /* CellNew.swift in Sources */,
 				42C4D2CAA790780B1F5ADBF8A1536223 /* Equal.swift in Sources */,
 				31C781D9B2FB24F1C63EF944A8D10665 /* Errors.swift in Sources */,
+				C8ED510122EF4F0B0079B0B7 /* CircularScrolling.swift in Sources */,
 				19756A88FFFBE4639A1FB65D8367C01B /* Expectation.swift in Sources */,
+				C8ED510822EF4F0B0079B0B7 /* LayoutEngine.swift in Sources */,
 				C8ED50E522EF4DF90079B0B7 /* ScrollableSegmentedControl.swift in Sources */,
 				C8ED50D122EF4DDC0079B0B7 /* PresentrShadow.swift in Sources */,
 				A7867BF922CA2954E6929C98B486B000 /* ExpectationMessage.swift in Sources */,
 				DDB5F5FBFFF5CB20A648FB45EB00490C /* Expression.swift in Sources */,
 				2F5DD8E51F5E37611F72EAA6D30DD1E2 /* FailureMessage.swift in Sources */,
+				C8ED511022EF4F0B0079B0B7 /* ReuseQueue.swift in Sources */,
 				11BB30DF8A2490E38059737170227988 /* Functional.swift in Sources */,
+				C8ED510E22EF4F0B0079B0B7 /* Gridlines.swift in Sources */,
 				A9195203B4E2CE96CEFE4C5BA927512C /* HaveCount.swift in Sources */,
 				54D6650C6B0F612CC9B2DCE2A128CFBA /* mach_excServer.c in Sources */,
 				A47730695C36FCFB46492D571D65058D /* Match.swift in Sources */,
@@ -1933,12 +2029,16 @@
 				33A73C721E2CD8AA8D1029AEF325CC2F /* MatcherProtocols.swift in Sources */,
 				C8ED50DA22EF4DDC0079B0B7 /* BackgroundView.swift in Sources */,
 				CA958DBAA5F69BBB7FABA426CF2898E9 /* MatchError.swift in Sources */,
+				C8ED510322EF4F0B0079B0B7 /* Borders.swift in Sources */,
 				D24C4AA23C22701D3D65541B337F1AC4 /* Nimble-dummy.m in Sources */,
+				C8ED510422EF4F0B0079B0B7 /* Array+BinarySearch.swift in Sources */,
 				C8ED50D922EF4DDC0079B0B7 /* PresentrAnimation.swift in Sources */,
+				C8ED511422EF4F0B0079B0B7 /* SpreadsheetView+UIScrollViewDelegate.swift in Sources */,
 				89202ED7A199568C27625984E30B0A7E /* NimbleEnvironment.swift in Sources */,
 				D9AD266DDADA8DCB08B476BE5034B65F /* NimbleXCTestHandler.swift in Sources */,
 				3E367F36AF797374E9BA528A4790F5FB /* NMBExceptionCapture.m in Sources */,
 				C16CDA92867234C2253A914F7D2488B1 /* NMBExpectation.swift in Sources */,
+				C8ED511122EF4F0B0079B0B7 /* SpreadsheetView+Touches.swift in Sources */,
 				2396790A402C07B516B64FA83B004FEF /* NMBObjCMatcher.swift in Sources */,
 				325DE03B3B111B85F78DB900A84EC7C8 /* NMBStringify.m in Sources */,
 				1E33FCBEF60178365211641F986F212D /* PostNotification.swift in Sources */,
@@ -1947,6 +2047,7 @@
 				493A4962D778D034EAA172A01B776E19 /* SatisfyAllOf.swift in Sources */,
 				C8ED50D822EF4DDC0079B0B7 /* AlertViewController.swift in Sources */,
 				C8ED50DC22EF4DDC0079B0B7 /* KeyboardTranslation.swift in Sources */,
+				C8ED510222EF4F0B0079B0B7 /* SpreadsheetViewDataSource.swift in Sources */,
 				952E443F85653A8A1767339BBD329B18 /* SatisfyAnyOf.swift in Sources */,
 				CC4D4A58D5696C431EA499C04B436F5F /* SourceLocation.swift in Sources */,
 				09670BDC554A2BD2DA6ECBFECCF48DDE /* Stringers.swift in Sources */,
