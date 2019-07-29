@@ -8,19 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-#import <XMLDictionary.h>
-#import <FCFileManager.h>
-#import <UIScrollView+EmptyDataSet.h>
-#import <JGProgressHUD-Defines.h>
-#import <JGProgressHUD.h>
-#import <JGProgressHUDAnimation.h>
-#import <JGProgressHUDErrorIndicatorView.h>
-#import <JGProgressHUDFadeAnimation.h>
-#import <JGProgressHUDFadeZoomAnimation.h>
-#import <JGProgressHUDImageIndicatorView.h>
-#import <JGProgressHUDIndeterminateIndicatorView.h>
-#import <JGProgressHUDIndicatorView.h>
-#import <JGProgressHUDPieIndicatorView.h>
-#import <JGProgressHUDRingIndicatorView.h>
-#import <JGProgressHUDShadow.h>
-#import <JGProgressHUDSuccessIndicatorView.h>
+#import <PODDIGIPROSDK/XMLDictionary.h>
+#import <PODDIGIPROSDK/FCFileManager.h>
+#import <PODDIGIPROSDK/UIScrollView+EmptyDataSet.h>
+#import <PODDIGIPROSDK/JGProgressHUD-Defines.h>
+#import <PODDIGIPROSDK/JGProgressHUD.h>
+#import <PODDIGIPROSDK/JGProgressHUDAnimation.h>
+#import <PODDIGIPROSDK/JGProgressHUDErrorIndicatorView.h>
+#import <PODDIGIPROSDK/JGProgressHUDFadeAnimation.h>
+#import <PODDIGIPROSDK/JGProgressHUDFadeZoomAnimation.h>
+#import <PODDIGIPROSDK/JGProgressHUDImageIndicatorView.h>
+#import <PODDIGIPROSDK/JGProgressHUDIndeterminateIndicatorView.h>
+#import <PODDIGIPROSDK/JGProgressHUDIndicatorView.h>
+#import <PODDIGIPROSDK/JGProgressHUDPieIndicatorView.h>
+#import <PODDIGIPROSDK/JGProgressHUDRingIndicatorView.h>
+#import <PODDIGIPROSDK/JGProgressHUDShadow.h>
+#import <PODDIGIPROSDK/JGProgressHUDSuccessIndicatorView.h>
