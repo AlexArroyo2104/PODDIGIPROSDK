@@ -871,7 +871,7 @@
 		C8ED53B122EFA26D0079B0B7 /* JGProgressHUDRingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDRingIndicatorView.m; sourceTree = "<group>"; };
 		C8ED53B222EFA26D0079B0B7 /* JGProgressHUDPieIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDPieIndicatorView.m; sourceTree = "<group>"; };
 		C8ED53B322EFA26D0079B0B7 /* JGProgressHUDShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDShadow.m; sourceTree = "<group>"; };
-		C8ED53D522EFA9150079B0B7 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "PODDIGIPROSDK/Classes/Bridging-Header.h"; sourceTree = "<group>"; };
+		C8ED53D522EFA9150079B0B7 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		C96571B81B1E1F2A7632243AA8B316CE /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		CA985FC7047F76D7D9C5C7F0BB3D2670 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatePickerRow.swift; sourceTree = "<group>"; };
 		CBAE96EEDAD94F9A069E674467BB71AD /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CMAC.swift; sourceTree = "<group>"; };
@@ -1356,7 +1356,6 @@
 		78B3428D6DFD7CB75806667192810B70 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				C8ED53D522EFA9150079B0B7 /* Bridging-Header.h */,
 				6DE48EF837B7B554A64816429EC92585 /* BlinkingLabel.swift */,
 				B7B80AE484377C25636C9A21926F60E2 /* AEXML */,
 				106F23F8EC13ED4054E8285554599320 /* ASHorizontalScrollView */,
@@ -1479,6 +1478,7 @@
 		C575D00C4782A03D67A4C9A6D517971C /* PODDIGIPROSDK */ = {
 			isa = PBXGroup;
 			children = (
+				C8ED53D522EFA9150079B0B7 /* Bridging-Header.h */,
 				78B3428D6DFD7CB75806667192810B70 /* Core */,
 				F8F7E5D13EB89BFE6BF96F558B62B020 /* Pod */,
 				B4D41691594931E83570A0BD6984B205 /* Support Files */,
