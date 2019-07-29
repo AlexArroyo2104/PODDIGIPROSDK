@@ -31,13 +31,17 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.swift_versions = '4.2'
   
+  
   s.default_subspec = 'Core'
   s.subspec 'Core' do |core|
-  core.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,swift}'
+  s.xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => 'PODDIGIPROSDK/Bridging-Header.h' }
+  s.header_mappings_dir = 'PODDIGIPROSDK'
+  core.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,m,swift}'
+  core.public_header_files = 'PODDIGIPROSDK/Classes/**/*.h'
   end
   
   s.subspec 'AppExtension' do |ext|
-      ext.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,swift}'
+      ext.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,m,swift}'
       # For app extensions, disabling code paths using unavailable API
       ext.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'MYLIBRARY_APP_EXTENSIONS=1' }
   end
@@ -47,7 +51,7 @@ Pod::Spec.new do |s|
   #   'PODDIGIPROSDK' => ['PODDIGIPROSDK/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  #s.public_header_files = 'PODDIGIPROSDK/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

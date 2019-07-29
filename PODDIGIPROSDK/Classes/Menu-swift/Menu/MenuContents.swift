@@ -64,7 +64,11 @@ class MenuContents: UIView {
         didSet {
             let pos = highlightedPosition ?? CGPoint(x: CGFloat.infinity, y: CGFloat.infinity)
             
+            if #available(iOSApplicationExtension 10.0, *) {
                 updateHighlightedPosition(pos)
+            } else {
+                // Fallback on earlier versions
+            }
             
         }
     }
@@ -165,6 +169,7 @@ class MenuContents: UIView {
         }
     }
     
+    @available(iOSApplicationExtension 11.0, *)
     init(name: String, items: [MenuItem], theme: MenuTheme, maxHeight: CGFloat = 300, radius: CGFloat = 8.0) {
 
         let itemViews: [MenuViewType] = items.map {

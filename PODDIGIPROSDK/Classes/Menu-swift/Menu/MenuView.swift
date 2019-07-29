@@ -53,6 +53,7 @@ public class MenuView: UIView, MenuThemeable {
         }
     }
     
+    @available(iOSApplicationExtension 11.0, *)
     public init(title: String, theme: MenuTheme, itemsSource: @escaping () -> [MenuItem]) {
         self.itemsSource = itemsSource
         self.title = title
@@ -142,6 +143,7 @@ public class MenuView: UIView, MenuThemeable {
     
     private var gestureStart: Date = .distantPast
     
+    @available(iOSApplicationExtension 11.0, *)
     @objc private func longPressGesture(_ sender: UILongPressGestureRecognizer) {
         
         //Highlight whatever we can
@@ -194,6 +196,7 @@ public class MenuView: UIView, MenuThemeable {
         }
     }
     
+    @available(iOSApplicationExtension 11.0, *)
     public func showContents() {
         NotificationCenter.default.post(name: MenuView.menuWillPresent, object: self)
         
