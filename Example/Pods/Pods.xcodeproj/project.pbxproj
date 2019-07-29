@@ -317,6 +317,15 @@
 		C8ED511222EF4F0B0079B0B7 /* SpreadsheetView+CirclularScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50FB22EF4F0B0079B0B7 /* SpreadsheetView+CirclularScrolling.swift */; };
 		C8ED511322EF4F0B0079B0B7 /* CellNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50FC22EF4F0B0079B0B7 /* CellNew.swift */; };
 		C8ED511422EF4F0B0079B0B7 /* SpreadsheetView+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED50FD22EF4F0B0079B0B7 /* SpreadsheetView+UIScrollViewDelegate.swift */; };
+		C8ED511722EF50C70079B0B7 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED511622EF50C70079B0B7 /* SwiftyJSON.swift */; };
+		C8ED512022EF50F70079B0B7 /* UIBezierPath+WeightedPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED511A22EF50F70079B0B7 /* UIBezierPath+WeightedPoint.swift */; };
+		C8ED512122EF50F70079B0B7 /* SignatureDrawingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED511B22EF50F70079B0B7 /* SignatureDrawingModel.swift */; };
+		C8ED512222EF50F70079B0B7 /* SignatureDrawingModelAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED511C22EF50F70079B0B7 /* SignatureDrawingModelAsync.swift */; };
+		C8ED512322EF50F70079B0B7 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED511D22EF50F70079B0B7 /* CGPoint+Extensions.swift */; };
+		C8ED512422EF50F70079B0B7 /* SignatureBezierProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED511E22EF50F70079B0B7 /* SignatureBezierProvider.swift */; };
+		C8ED512522EF50F70079B0B7 /* SignatureDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED511F22EF50F70079B0B7 /* SignatureDrawingViewController.swift */; };
+		C8ED512922EF512B0079B0B7 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED512722EF512B0079B0B7 /* XMLDictionary.h */; };
+		C8ED512A22EF512B0079B0B7 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED512822EF512B0079B0B7 /* XMLDictionary.m */; };
 		C912897D77798A90873A3DAD8A4BDC50 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4D831C03026C50D9C46AAA6A6A99DC /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9313BD07770A5BD76EC99E5919D26C2 /* CalendarDateRangePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD0FB80C4C51D0830340A36ED191064 /* CalendarDateRangePickerViewController.swift */; };
 		C93454C1217DC8D6EE4830AE2FE5144B /* PrintOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6E019F22878E688847EE52B5BD1ED /* PrintOptions.swift */; };
@@ -758,6 +767,15 @@
 		C8ED50FB22EF4F0B0079B0B7 /* SpreadsheetView+CirclularScrolling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+CirclularScrolling.swift"; sourceTree = "<group>"; };
 		C8ED50FC22EF4F0B0079B0B7 /* CellNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellNew.swift; sourceTree = "<group>"; };
 		C8ED50FD22EF4F0B0079B0B7 /* SpreadsheetView+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SpreadsheetView+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		C8ED511622EF50C70079B0B7 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		C8ED511A22EF50F70079B0B7 /* UIBezierPath+WeightedPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+WeightedPoint.swift"; sourceTree = "<group>"; };
+		C8ED511B22EF50F70079B0B7 /* SignatureDrawingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureDrawingModel.swift; sourceTree = "<group>"; };
+		C8ED511C22EF50F70079B0B7 /* SignatureDrawingModelAsync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureDrawingModelAsync.swift; sourceTree = "<group>"; };
+		C8ED511D22EF50F70079B0B7 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		C8ED511E22EF50F70079B0B7 /* SignatureBezierProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureBezierProvider.swift; sourceTree = "<group>"; };
+		C8ED511F22EF50F70079B0B7 /* SignatureDrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureDrawingViewController.swift; sourceTree = "<group>"; };
+		C8ED512722EF512B0079B0B7 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		C8ED512822EF512B0079B0B7 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
 		C96571B81B1E1F2A7632243AA8B316CE /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		CA985FC7047F76D7D9C5C7F0BB3D2670 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatePickerRow.swift; sourceTree = "<group>"; };
 		CBAE96EEDAD94F9A069E674467BB71AD /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CMAC.swift; sourceTree = "<group>"; };
@@ -1275,6 +1293,9 @@
 				C8ED50B722EF4DDC0079B0B7 /* Presentr */,
 				C8ED50E322EF4DF90079B0B7 /* ScrollableSegmentedControl */,
 				C8ED50E622EF4F0B0079B0B7 /* SpreadsheetView */,
+				C8ED511522EF50C60079B0B7 /* SwiftyJSON */,
+				C8ED511822EF50F70079B0B7 /* UberSignature */,
+				C8ED512622EF512B0079B0B7 /* XMLDictionary */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -1468,6 +1489,45 @@
 			);
 			name = SpreadsheetView;
 			path = PODDIGIPROSDK/Classes/SpreadsheetView;
+			sourceTree = "<group>";
+		};
+		C8ED511522EF50C60079B0B7 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				C8ED511622EF50C70079B0B7 /* SwiftyJSON.swift */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		C8ED511822EF50F70079B0B7 /* UberSignature */ = {
+			isa = PBXGroup;
+			children = (
+				C8ED511922EF50F70079B0B7 /* Internal */,
+				C8ED511F22EF50F70079B0B7 /* SignatureDrawingViewController.swift */,
+			);
+			path = UberSignature;
+			sourceTree = "<group>";
+		};
+		C8ED511922EF50F70079B0B7 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				C8ED511A22EF50F70079B0B7 /* UIBezierPath+WeightedPoint.swift */,
+				C8ED511B22EF50F70079B0B7 /* SignatureDrawingModel.swift */,
+				C8ED511C22EF50F70079B0B7 /* SignatureDrawingModelAsync.swift */,
+				C8ED511D22EF50F70079B0B7 /* CGPoint+Extensions.swift */,
+				C8ED511E22EF50F70079B0B7 /* SignatureBezierProvider.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		C8ED512622EF512B0079B0B7 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				C8ED512722EF512B0079B0B7 /* XMLDictionary.h */,
+				C8ED512822EF512B0079B0B7 /* XMLDictionary.m */,
+			);
+			name = XMLDictionary;
+			path = PODDIGIPROSDK/Classes/XMLDictionary;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -1679,6 +1739,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8ED512922EF512B0079B0B7 /* XMLDictionary.h in Headers */,
 				221ED892E5138A00F3CDF540E914519D /* CwlCatchException.h in Headers */,
 				9F70369EF71BD9ABAFF687AF532CC20D /* CwlMachBadInstructionHandler.h in Headers */,
 				19BA8AF46D9CC49E3E2CEDCAF6354442 /* CwlPreconditionTesting.h in Headers */,
@@ -1951,6 +2012,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D346102261430008A78C8E54905E68F2 /* AdapterProtocols.swift in Sources */,
+				C8ED511722EF50C70079B0B7 /* SwiftyJSON.swift in Sources */,
 				A333C8F11B3337CB7FCA6ACAA20919F8 /* AllPass.swift in Sources */,
 				57DAE6ED12EDA7C7234F2F1A422AD8BC /* AssertionDispatcher.swift in Sources */,
 				C8ED50DD22EF4DDC0079B0B7 /* PresentationType.swift in Sources */,
@@ -1959,8 +2021,10 @@
 				C8ED510F22EF4F0B0079B0B7 /* SpreadsheetViewDelegate.swift in Sources */,
 				C8ED510C22EF4F0B0079B0B7 /* SpreadsheetView.swift in Sources */,
 				C8ED50D722EF4DDC0079B0B7 /* CoverFromCornerAnimation.swift in Sources */,
+				C8ED512022EF50F70079B0B7 /* UIBezierPath+WeightedPoint.swift in Sources */,
 				C732FD7C66AEA96BC61C0B105CE16376 /* Await.swift in Sources */,
 				C8ED50FE22EF4F0B0079B0B7 /* SpreadsheetView+UIScrollView.swift in Sources */,
+				C8ED512222EF50F70079B0B7 /* SignatureDrawingModelAsync.swift in Sources */,
 				41B2F632A375DCF59B4D65567E59FCD3 /* BeAKindOf.swift in Sources */,
 				0244025E5F4CE4060978D034CF740810 /* BeAnInstanceOf.swift in Sources */,
 				646E7E1E9D3F4663D9CE23FF0231F80C /* BeCloseTo.swift in Sources */,
@@ -1975,9 +2039,11 @@
 				D7DD35ED5A306AC529590AAE0B79F2BE /* BeGreaterThanOrEqualTo.swift in Sources */,
 				8C36F62A65EF1B4D80DDF5191EC943BF /* BeIdenticalTo.swift in Sources */,
 				80DE0FCB42B465CF0F9C391D6F78732D /* BeLessThan.swift in Sources */,
+				C8ED512522EF50F70079B0B7 /* SignatureDrawingViewController.swift in Sources */,
 				C8ED50DE22EF4DDC0079B0B7 /* CrossDissolveAnimation.swift in Sources */,
 				1619CC5DF835D29CFE745C443B8728DD /* BeLessThanOrEqual.swift in Sources */,
 				C8ED50E122EF4DDC0079B0B7 /* Presentr+Equatable.swift in Sources */,
+				C8ED512A22EF512B0079B0B7 /* XMLDictionary.m in Sources */,
 				C8ED50CE22EF4DDC0079B0B7 /* CoverVerticalAnimation.swift in Sources */,
 				5100B743B7B3EC774D052AB45F58C9A9 /* BeLogical.swift in Sources */,
 				A545FDFDE03E09328983281E9396D287 /* BeNil.swift in Sources */,
@@ -1986,6 +2052,7 @@
 				AD841E0C41DF45D2E086A203BB265762 /* Contain.swift in Sources */,
 				C8ED510622EF4F0B0079B0B7 /* SpreadsheetView+UIViewHierarchy.swift in Sources */,
 				C147B29A97ACEC6639FC0D3CDAA6BA64 /* ContainElementSatisfying.swift in Sources */,
+				C8ED512422EF50F70079B0B7 /* SignatureBezierProvider.swift in Sources */,
 				C8ED510022EF4F0B0079B0B7 /* Address.swift in Sources */,
 				50655497550E397B95A35501CCF28D8D /* CwlBadInstructionException.swift in Sources */,
 				71EC482B285F78B50C0C093F41E8DC87 /* CwlCatchBadInstruction.swift in Sources */,
@@ -2005,6 +2072,7 @@
 				C8ED50DF22EF4DDC0079B0B7 /* ModalCenterPosition.swift in Sources */,
 				6087BDAB63A7B0C8D643145A58DE0598 /* ElementsEqual.swift in Sources */,
 				C8ED50D222EF4DDC0079B0B7 /* FlipHorizontalAnimation.swift in Sources */,
+				C8ED512122EF50F70079B0B7 /* SignatureDrawingModel.swift in Sources */,
 				A8A524C1C48219643DE7E2EAE36BD7D3 /* EndWith.swift in Sources */,
 				C8ED50D022EF4DDC0079B0B7 /* Presentr.swift in Sources */,
 				C8ED510B22EF4F0B0079B0B7 /* ScrollView.swift in Sources */,
@@ -2052,6 +2120,7 @@
 				CC4D4A58D5696C431EA499C04B436F5F /* SourceLocation.swift in Sources */,
 				09670BDC554A2BD2DA6ECBFECCF48DDE /* Stringers.swift in Sources */,
 				A7EE275B9E3A5469E158340F0EC5D1D6 /* ThrowAssertion.swift in Sources */,
+				C8ED512322EF50F70079B0B7 /* CGPoint+Extensions.swift in Sources */,
 				2DBF35E81CA291E0A68E593F2AB4321C /* ThrowError.swift in Sources */,
 				C31925A89D60BE7F1B25379A5DE8AE8C /* ToSucceed.swift in Sources */,
 				123A3221A5BC50497EE0F7A3F0694B2F /* XCTestObservationCenter+Register.m in Sources */,
