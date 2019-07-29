@@ -34,11 +34,9 @@ Pod::Spec.new do |s|
   
   s.default_subspec = 'Core'
   s.subspec 'Core' do |core|
-  s.xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => 'PODDIGIPROSDK/Classes/Bridging-Header.h' }
-  s.header_mappings_dir = 'PODDIGIPROSDK'
+      #s.xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => 'PODDIGIPROSDK/Classes/Bridging-Header.h' }
+  
   core.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,m,swift}'
-  core.public_header_files = 'PODDIGIPROSDK/Classes/**/*.h'
-  core.header_mappings_dir = 'PODDIGIPROSDK'
   end
   
   s.subspec 'AppExtension' do |ext|
