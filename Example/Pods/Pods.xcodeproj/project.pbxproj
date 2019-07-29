@@ -328,28 +328,8 @@
 		C8ED512A22EF512B0079B0B7 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED512822EF512B0079B0B7 /* XMLDictionary.m */; };
 		C8ED512E22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED512C22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.m */; };
 		C8ED512F22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED512D22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.h */; };
-		C8ED514722EF589C0079B0B7 /* Promise+try.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED513122EF589C0079B0B7 /* Promise+try.swift */; };
-		C8ED514822EF589C0079B0B7 /* Promise+void.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED513222EF589C0079B0B7 /* Promise+void.swift */; };
-		C8ED514922EF589C0079B0B7 /* Promise+reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED513322EF589C0079B0B7 /* Promise+reduce.swift */; };
-		C8ED514A22EF589C0079B0B7 /* Promise+recover.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED513422EF589C0079B0B7 /* Promise+recover.swift */; };
-		C8ED514B22EF589C0079B0B7 /* Promise+errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED513522EF589C0079B0B7 /* Promise+errors.swift */; };
-		C8ED514C22EF589C0079B0B7 /* Promise+race.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED513622EF589C0079B0B7 /* Promise+race.swift */; };
-		C8ED514D22EF589C0079B0B7 /* Promise+join.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED513722EF589C0079B0B7 /* Promise+join.swift */; };
-		C8ED514E22EF589C0079B0B7 /* Promise+finally.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED513822EF589C0079B0B7 /* Promise+finally.swift */; };
-		C8ED514F22EF589C0079B0B7 /* Promise+catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED513922EF589C0079B0B7 /* Promise+catch.swift */; };
-		C8ED515022EF589C0079B0B7 /* Promise+tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED513A22EF589C0079B0B7 /* Promise+tap.swift */; };
-		C8ED515122EF589C0079B0B7 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED513B22EF589C0079B0B7 /* Lock.swift */; };
-		C8ED515222EF589C0079B0B7 /* Promise+any.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED513C22EF589C0079B0B7 /* Promise+any.swift */; };
-		C8ED515322EF589C0079B0B7 /* Promise+defer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED513D22EF589C0079B0B7 /* Promise+defer.swift */; };
-		C8ED515422EF589C0079B0B7 /* Promise+timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED513E22EF589C0079B0B7 /* Promise+timeout.swift */; };
-		C8ED515522EF589C0079B0B7 /* Promise+all.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED513F22EF589C0079B0B7 /* Promise+all.swift */; };
-		C8ED515622EF589C0079B0B7 /* Promise+return.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED514022EF589C0079B0B7 /* Promise+return.swift */; };
-		C8ED515722EF589C0079B0B7 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED514122EF589C0079B0B7 /* Promise.swift */; };
-		C8ED515822EF589C0079B0B7 /* Promise+map.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED514222EF589C0079B0B7 /* Promise+map.swift */; };
-		C8ED515922EF589C0079B0B7 /* Promise+reflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED514322EF589C0079B0B7 /* Promise+reflect.swift */; };
-		C8ED515A22EF589C0079B0B7 /* Promise+tapCatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED514422EF589C0079B0B7 /* Promise+tapCatch.swift */; };
-		C8ED515B22EF589C0079B0B7 /* Promise+delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED514522EF589C0079B0B7 /* Promise+delay.swift */; };
-		C8ED515C22EF589C0079B0B7 /* Promise+then.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED514622EF589C0079B0B7 /* Promise+then.swift */; };
+		C8ED516522EF5CBF0079B0B7 /* FCFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED516322EF5CBF0079B0B7 /* FCFileManager.h */; };
+		C8ED516622EF5CBF0079B0B7 /* FCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED516422EF5CBF0079B0B7 /* FCFileManager.m */; };
 		C912897D77798A90873A3DAD8A4BDC50 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4D831C03026C50D9C46AAA6A6A99DC /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9313BD07770A5BD76EC99E5919D26C2 /* CalendarDateRangePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD0FB80C4C51D0830340A36ED191064 /* CalendarDateRangePickerViewController.swift */; };
 		C93454C1217DC8D6EE4830AE2FE5144B /* PrintOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6E019F22878E688847EE52B5BD1ED /* PrintOptions.swift */; };
@@ -802,28 +782,8 @@
 		C8ED512822EF512B0079B0B7 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
 		C8ED512C22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
 		C8ED512D22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
-		C8ED513122EF589C0079B0B7 /* Promise+try.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+try.swift"; sourceTree = "<group>"; };
-		C8ED513222EF589C0079B0B7 /* Promise+void.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+void.swift"; sourceTree = "<group>"; };
-		C8ED513322EF589C0079B0B7 /* Promise+reduce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+reduce.swift"; sourceTree = "<group>"; };
-		C8ED513422EF589C0079B0B7 /* Promise+recover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+recover.swift"; sourceTree = "<group>"; };
-		C8ED513522EF589C0079B0B7 /* Promise+errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+errors.swift"; sourceTree = "<group>"; };
-		C8ED513622EF589C0079B0B7 /* Promise+race.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+race.swift"; sourceTree = "<group>"; };
-		C8ED513722EF589C0079B0B7 /* Promise+join.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+join.swift"; sourceTree = "<group>"; };
-		C8ED513822EF589C0079B0B7 /* Promise+finally.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+finally.swift"; sourceTree = "<group>"; };
-		C8ED513922EF589C0079B0B7 /* Promise+catch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+catch.swift"; sourceTree = "<group>"; };
-		C8ED513A22EF589C0079B0B7 /* Promise+tap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+tap.swift"; sourceTree = "<group>"; };
-		C8ED513B22EF589C0079B0B7 /* Lock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
-		C8ED513C22EF589C0079B0B7 /* Promise+any.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+any.swift"; sourceTree = "<group>"; };
-		C8ED513D22EF589C0079B0B7 /* Promise+defer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+defer.swift"; sourceTree = "<group>"; };
-		C8ED513E22EF589C0079B0B7 /* Promise+timeout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+timeout.swift"; sourceTree = "<group>"; };
-		C8ED513F22EF589C0079B0B7 /* Promise+all.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+all.swift"; sourceTree = "<group>"; };
-		C8ED514022EF589C0079B0B7 /* Promise+return.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+return.swift"; sourceTree = "<group>"; };
-		C8ED514122EF589C0079B0B7 /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
-		C8ED514222EF589C0079B0B7 /* Promise+map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+map.swift"; sourceTree = "<group>"; };
-		C8ED514322EF589C0079B0B7 /* Promise+reflect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+reflect.swift"; sourceTree = "<group>"; };
-		C8ED514422EF589C0079B0B7 /* Promise+tapCatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+tapCatch.swift"; sourceTree = "<group>"; };
-		C8ED514522EF589C0079B0B7 /* Promise+delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+delay.swift"; sourceTree = "<group>"; };
-		C8ED514622EF589C0079B0B7 /* Promise+then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+then.swift"; sourceTree = "<group>"; };
+		C8ED516322EF5CBF0079B0B7 /* FCFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCFileManager.h; sourceTree = "<group>"; };
+		C8ED516422EF5CBF0079B0B7 /* FCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCFileManager.m; sourceTree = "<group>"; };
 		C96571B81B1E1F2A7632243AA8B316CE /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		CA985FC7047F76D7D9C5C7F0BB3D2670 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatePickerRow.swift; sourceTree = "<group>"; };
 		CBAE96EEDAD94F9A069E674467BB71AD /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CMAC.swift; sourceTree = "<group>"; };
@@ -1328,13 +1288,13 @@
 				6DE48EF837B7B554A64816429EC92585 /* BlinkingLabel.swift */,
 				B7B80AE484377C25636C9A21926F60E2 /* AEXML */,
 				106F23F8EC13ED4054E8285554599320 /* ASHorizontalScrollView */,
-				C8ED513022EF589C0079B0B7 /* Bluebird */,
 				F36E2B6DDA2FC7BE529286F85EE3F55B /* CalendarDateRangePickerViewController */,
 				60E0CA9EC425357CACA3730C221F027E /* CryptoSwift */,
 				C8ED512B22EF57AC0079B0B7 /* DZNEmptyDataSet */,
 				93DFAAD55B503615A8CFA055B4F5C771 /* Enum */,
 				BAEA3E8D3C78C36B0197E0EFE3803FEE /* Eureka */,
 				F44617C80A2E5A5427DB24360B72EFBE /* EVReflection */,
+				C8ED516222EF5CBF0079B0B7 /* FCFileManager */,
 				8ED7E637E5891D555C0300D52C3A9BF8 /* GzipSwift */,
 				285CFBA584930F53E47084B0BC423A6E /* MarqueeLabel */,
 				F6F3AB9AEB3AD9EE15D201A407EE8BB9 /* Menu-swift */,
@@ -1590,34 +1550,14 @@
 			path = PODDIGIPROSDK/Classes/DZNEmptyDataSet;
 			sourceTree = "<group>";
 		};
-		C8ED513022EF589C0079B0B7 /* Bluebird */ = {
+		C8ED516222EF5CBF0079B0B7 /* FCFileManager */ = {
 			isa = PBXGroup;
 			children = (
-				C8ED513122EF589C0079B0B7 /* Promise+try.swift */,
-				C8ED513222EF589C0079B0B7 /* Promise+void.swift */,
-				C8ED513322EF589C0079B0B7 /* Promise+reduce.swift */,
-				C8ED513422EF589C0079B0B7 /* Promise+recover.swift */,
-				C8ED513522EF589C0079B0B7 /* Promise+errors.swift */,
-				C8ED513622EF589C0079B0B7 /* Promise+race.swift */,
-				C8ED513722EF589C0079B0B7 /* Promise+join.swift */,
-				C8ED513822EF589C0079B0B7 /* Promise+finally.swift */,
-				C8ED513922EF589C0079B0B7 /* Promise+catch.swift */,
-				C8ED513A22EF589C0079B0B7 /* Promise+tap.swift */,
-				C8ED513B22EF589C0079B0B7 /* Lock.swift */,
-				C8ED513C22EF589C0079B0B7 /* Promise+any.swift */,
-				C8ED513D22EF589C0079B0B7 /* Promise+defer.swift */,
-				C8ED513E22EF589C0079B0B7 /* Promise+timeout.swift */,
-				C8ED513F22EF589C0079B0B7 /* Promise+all.swift */,
-				C8ED514022EF589C0079B0B7 /* Promise+return.swift */,
-				C8ED514122EF589C0079B0B7 /* Promise.swift */,
-				C8ED514222EF589C0079B0B7 /* Promise+map.swift */,
-				C8ED514322EF589C0079B0B7 /* Promise+reflect.swift */,
-				C8ED514422EF589C0079B0B7 /* Promise+tapCatch.swift */,
-				C8ED514522EF589C0079B0B7 /* Promise+delay.swift */,
-				C8ED514622EF589C0079B0B7 /* Promise+then.swift */,
+				C8ED516322EF5CBF0079B0B7 /* FCFileManager.h */,
+				C8ED516422EF5CBF0079B0B7 /* FCFileManager.m */,
 			);
-			name = Bluebird;
-			path = PODDIGIPROSDK/Classes/Bluebird;
+			name = FCFileManager;
+			path = PODDIGIPROSDK/Classes/FCFileManager;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -1830,6 +1770,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8ED512922EF512B0079B0B7 /* XMLDictionary.h in Headers */,
+				C8ED516522EF5CBF0079B0B7 /* FCFileManager.h in Headers */,
 				221ED892E5138A00F3CDF540E914519D /* CwlCatchException.h in Headers */,
 				9F70369EF71BD9ABAFF687AF532CC20D /* CwlMachBadInstructionHandler.h in Headers */,
 				19BA8AF46D9CC49E3E2CEDCAF6354442 /* CwlPreconditionTesting.h in Headers */,
@@ -2103,10 +2044,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D346102261430008A78C8E54905E68F2 /* AdapterProtocols.swift in Sources */,
-				C8ED515422EF589C0079B0B7 /* Promise+timeout.swift in Sources */,
 				C8ED511722EF50C70079B0B7 /* SwiftyJSON.swift in Sources */,
 				A333C8F11B3337CB7FCA6ACAA20919F8 /* AllPass.swift in Sources */,
-				C8ED514722EF589C0079B0B7 /* Promise+try.swift in Sources */,
 				57DAE6ED12EDA7C7234F2F1A422AD8BC /* AssertionDispatcher.swift in Sources */,
 				C8ED50DD22EF4DDC0079B0B7 /* PresentationType.swift in Sources */,
 				7AFB2A4868895FEEABA1EA8EBA80F4F1 /* AssertionRecorder.swift in Sources */,
@@ -2115,9 +2054,7 @@
 				C8ED510C22EF4F0B0079B0B7 /* SpreadsheetView.swift in Sources */,
 				C8ED50D722EF4DDC0079B0B7 /* CoverFromCornerAnimation.swift in Sources */,
 				C8ED512022EF50F70079B0B7 /* UIBezierPath+WeightedPoint.swift in Sources */,
-				C8ED515622EF589C0079B0B7 /* Promise+return.swift in Sources */,
 				C732FD7C66AEA96BC61C0B105CE16376 /* Await.swift in Sources */,
-				C8ED514922EF589C0079B0B7 /* Promise+reduce.swift in Sources */,
 				C8ED50FE22EF4F0B0079B0B7 /* SpreadsheetView+UIScrollView.swift in Sources */,
 				C8ED512222EF50F70079B0B7 /* SignatureDrawingModelAsync.swift in Sources */,
 				41B2F632A375DCF59B4D65567E59FCD3 /* BeAKindOf.swift in Sources */,
@@ -2133,7 +2070,6 @@
 				C8ED510A22EF4F0B0079B0B7 /* SpreadsheetView+Layout.swift in Sources */,
 				D7DD35ED5A306AC529590AAE0B79F2BE /* BeGreaterThanOrEqualTo.swift in Sources */,
 				8C36F62A65EF1B4D80DDF5191EC943BF /* BeIdenticalTo.swift in Sources */,
-				C8ED514D22EF589C0079B0B7 /* Promise+join.swift in Sources */,
 				80DE0FCB42B465CF0F9C391D6F78732D /* BeLessThan.swift in Sources */,
 				C8ED512522EF50F70079B0B7 /* SignatureDrawingViewController.swift in Sources */,
 				C8ED50DE22EF4DDC0079B0B7 /* CrossDissolveAnimation.swift in Sources */,
@@ -2148,21 +2084,17 @@
 				AD841E0C41DF45D2E086A203BB265762 /* Contain.swift in Sources */,
 				C8ED510622EF4F0B0079B0B7 /* SpreadsheetView+UIViewHierarchy.swift in Sources */,
 				C147B29A97ACEC6639FC0D3CDAA6BA64 /* ContainElementSatisfying.swift in Sources */,
-				C8ED515222EF589C0079B0B7 /* Promise+any.swift in Sources */,
 				C8ED512422EF50F70079B0B7 /* SignatureBezierProvider.swift in Sources */,
 				C8ED510022EF4F0B0079B0B7 /* Address.swift in Sources */,
 				50655497550E397B95A35501CCF28D8D /* CwlBadInstructionException.swift in Sources */,
 				71EC482B285F78B50C0C093F41E8DC87 /* CwlCatchBadInstruction.swift in Sources */,
 				0CCF72769464C214E6268ACFCFE1EBFD /* CwlCatchException.m in Sources */,
-				C8ED515822EF589C0079B0B7 /* Promise+map.swift in Sources */,
 				C8ED510522EF4F0B0079B0B7 /* ScrollPosition.swift in Sources */,
-				C8ED515522EF589C0079B0B7 /* Promise+all.swift in Sources */,
 				C8ED50CF22EF4DDC0079B0B7 /* PresentrController.swift in Sources */,
 				A25E62A3FD894EDEB3150A46C8D3A3D4 /* CwlCatchException.swift in Sources */,
 				C8ED50FF22EF4F0B0079B0B7 /* Location.swift in Sources */,
 				C8ED50E222EF4DDC0079B0B7 /* ModalSize.swift in Sources */,
 				C8ED510722EF4F0B0079B0B7 /* CellRange.swift in Sources */,
-				C8ED515022EF589C0079B0B7 /* Promise+tap.swift in Sources */,
 				1A42C3390A0AD0F6F1C58237517D463B /* CwlDarwinDefinitions.swift in Sources */,
 				4E1C1DD9CFC24D9FBDA23F927CA73196 /* CwlMachBadInstructionHandler.m in Sources */,
 				B7097E9992DFF704E16BAFC3FBDCC287 /* DSL+Wait.swift in Sources */,
@@ -2171,18 +2103,13 @@
 				C8ED50D322EF4DDC0079B0B7 /* CoverHorizontalAnimation.swift in Sources */,
 				C8ED50DF22EF4DDC0079B0B7 /* ModalCenterPosition.swift in Sources */,
 				6087BDAB63A7B0C8D643145A58DE0598 /* ElementsEqual.swift in Sources */,
-				C8ED515A22EF589C0079B0B7 /* Promise+tapCatch.swift in Sources */,
 				C8ED50D222EF4DDC0079B0B7 /* FlipHorizontalAnimation.swift in Sources */,
 				C8ED512122EF50F70079B0B7 /* SignatureDrawingModel.swift in Sources */,
-				C8ED514A22EF589C0079B0B7 /* Promise+recover.swift in Sources */,
 				A8A524C1C48219643DE7E2EAE36BD7D3 /* EndWith.swift in Sources */,
 				C8ED50D022EF4DDC0079B0B7 /* Presentr.swift in Sources */,
 				C8ED510B22EF4F0B0079B0B7 /* ScrollView.swift in Sources */,
-				C8ED515322EF589C0079B0B7 /* Promise+defer.swift in Sources */,
 				C8ED511322EF4F0B0079B0B7 /* CellNew.swift in Sources */,
 				42C4D2CAA790780B1F5ADBF8A1536223 /* Equal.swift in Sources */,
-				C8ED514E22EF589C0079B0B7 /* Promise+finally.swift in Sources */,
-				C8ED514B22EF589C0079B0B7 /* Promise+errors.swift in Sources */,
 				31C781D9B2FB24F1C63EF944A8D10665 /* Errors.swift in Sources */,
 				C8ED510122EF4F0B0079B0B7 /* CircularScrolling.swift in Sources */,
 				19756A88FFFBE4639A1FB65D8367C01B /* Expectation.swift in Sources */,
@@ -2194,11 +2121,7 @@
 				2F5DD8E51F5E37611F72EAA6D30DD1E2 /* FailureMessage.swift in Sources */,
 				C8ED511022EF4F0B0079B0B7 /* ReuseQueue.swift in Sources */,
 				11BB30DF8A2490E38059737170227988 /* Functional.swift in Sources */,
-				C8ED514C22EF589C0079B0B7 /* Promise+race.swift in Sources */,
-				C8ED515B22EF589C0079B0B7 /* Promise+delay.swift in Sources */,
-				C8ED515C22EF589C0079B0B7 /* Promise+then.swift in Sources */,
 				C8ED510E22EF4F0B0079B0B7 /* Gridlines.swift in Sources */,
-				C8ED515922EF589C0079B0B7 /* Promise+reflect.swift in Sources */,
 				A9195203B4E2CE96CEFE4C5BA927512C /* HaveCount.swift in Sources */,
 				54D6650C6B0F612CC9B2DCE2A128CFBA /* mach_excServer.c in Sources */,
 				A47730695C36FCFB46492D571D65058D /* Match.swift in Sources */,
@@ -2211,20 +2134,18 @@
 				D24C4AA23C22701D3D65541B337F1AC4 /* Nimble-dummy.m in Sources */,
 				C8ED510422EF4F0B0079B0B7 /* Array+BinarySearch.swift in Sources */,
 				C8ED50D922EF4DDC0079B0B7 /* PresentrAnimation.swift in Sources */,
+				C8ED516622EF5CBF0079B0B7 /* FCFileManager.m in Sources */,
 				C8ED511422EF4F0B0079B0B7 /* SpreadsheetView+UIScrollViewDelegate.swift in Sources */,
 				89202ED7A199568C27625984E30B0A7E /* NimbleEnvironment.swift in Sources */,
 				D9AD266DDADA8DCB08B476BE5034B65F /* NimbleXCTestHandler.swift in Sources */,
 				3E367F36AF797374E9BA528A4790F5FB /* NMBExceptionCapture.m in Sources */,
 				C16CDA92867234C2253A914F7D2488B1 /* NMBExpectation.swift in Sources */,
-				C8ED514822EF589C0079B0B7 /* Promise+void.swift in Sources */,
 				C8ED511122EF4F0B0079B0B7 /* SpreadsheetView+Touches.swift in Sources */,
 				2396790A402C07B516B64FA83B004FEF /* NMBObjCMatcher.swift in Sources */,
 				325DE03B3B111B85F78DB900A84EC7C8 /* NMBStringify.m in Sources */,
 				1E33FCBEF60178365211641F986F212D /* PostNotification.swift in Sources */,
 				369291BB5E6EC2524C842F7B5381731F /* Predicate.swift in Sources */,
-				C8ED515722EF589C0079B0B7 /* Promise.swift in Sources */,
 				8D9F157A5FCC82D1D09C419070376C12 /* RaisesException.swift in Sources */,
-				C8ED515122EF589C0079B0B7 /* Lock.swift in Sources */,
 				493A4962D778D034EAA172A01B776E19 /* SatisfyAllOf.swift in Sources */,
 				C8ED50D822EF4DDC0079B0B7 /* AlertViewController.swift in Sources */,
 				C8ED50DC22EF4DDC0079B0B7 /* KeyboardTranslation.swift in Sources */,
@@ -2235,7 +2156,6 @@
 				A7EE275B9E3A5469E158340F0EC5D1D6 /* ThrowAssertion.swift in Sources */,
 				C8ED512322EF50F70079B0B7 /* CGPoint+Extensions.swift in Sources */,
 				2DBF35E81CA291E0A68E593F2AB4321C /* ThrowError.swift in Sources */,
-				C8ED514F22EF589C0079B0B7 /* Promise+catch.swift in Sources */,
 				C31925A89D60BE7F1B25379A5DE8AE8C /* ToSucceed.swift in Sources */,
 				123A3221A5BC50497EE0F7A3F0694B2F /* XCTestObservationCenter+Register.m in Sources */,
 			);
