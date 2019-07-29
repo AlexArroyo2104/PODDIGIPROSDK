@@ -330,6 +330,37 @@
 		C8ED512F22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED512D22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.h */; };
 		C8ED516522EF5CBF0079B0B7 /* FCFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED516322EF5CBF0079B0B7 /* FCFileManager.h */; };
 		C8ED516622EF5CBF0079B0B7 /* FCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED516422EF5CBF0079B0B7 /* FCFileManager.m */; };
+		C8ED519922EF640C0079B0B7 /* JGProgressHUDSuccessIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED517922EF640C0079B0B7 /* JGProgressHUDSuccessIndicatorView.h */; };
+		C8ED519A22EF640C0079B0B7 /* JGProgressHUDImageIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED517A22EF640C0079B0B7 /* JGProgressHUDImageIndicatorView.h */; };
+		C8ED519B22EF640C0079B0B7 /* JGProgressHUDIndeterminateIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED517B22EF640C0079B0B7 /* JGProgressHUDIndeterminateIndicatorView.m */; };
+		C8ED519C22EF640C0079B0B7 /* JGProgressHUDErrorIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED517C22EF640C0079B0B7 /* JGProgressHUDErrorIndicatorView.m */; };
+		C8ED519D22EF640C0079B0B7 /* JGProgressHUDIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED517D22EF640C0079B0B7 /* JGProgressHUDIndicatorView.h */; };
+		C8ED519E22EF640C0079B0B7 /* JGProgressHUDAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED517E22EF640C0079B0B7 /* JGProgressHUDAnimation.m */; };
+		C8ED519F22EF640C0079B0B7 /* jg_hud_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ED518022EF640C0079B0B7 /* jg_hud_error@3x.png */; };
+		C8ED51A022EF640C0079B0B7 /* jg_hud_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ED518122EF640C0079B0B7 /* jg_hud_error@2x.png */; };
+		C8ED51A122EF640C0079B0B7 /* jg_hud_success.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ED518222EF640C0079B0B7 /* jg_hud_success.png */; };
+		C8ED51A222EF640C0079B0B7 /* jg_hud_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ED518322EF640C0079B0B7 /* jg_hud_success@3x.png */; };
+		C8ED51A322EF640C0079B0B7 /* jg_hud_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ED518422EF640C0079B0B7 /* jg_hud_success@2x.png */; };
+		C8ED51A422EF640C0079B0B7 /* jg_hud_error.png in Resources */ = {isa = PBXBuildFile; fileRef = C8ED518522EF640C0079B0B7 /* jg_hud_error.png */; };
+		C8ED51A522EF640C0079B0B7 /* JGProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED518622EF640C0079B0B7 /* JGProgressHUD.h */; };
+		C8ED51A622EF640C0079B0B7 /* JGProgressHUDShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED518722EF640C0079B0B7 /* JGProgressHUDShadow.h */; };
+		C8ED51A722EF640C0079B0B7 /* JGProgressHUDPieIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED518822EF640C0079B0B7 /* JGProgressHUDPieIndicatorView.h */; };
+		C8ED51A822EF640C0079B0B7 /* JGProgressHUDRingIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED518922EF640C0079B0B7 /* JGProgressHUDRingIndicatorView.h */; };
+		C8ED51A922EF640C0079B0B7 /* JGProgressHUDFadeZoomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED518A22EF640C0079B0B7 /* JGProgressHUDFadeZoomAnimation.m */; };
+		C8ED51AA22EF640C0079B0B7 /* JGProgressHUDFadeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED518B22EF640C0079B0B7 /* JGProgressHUDFadeAnimation.h */; };
+		C8ED51AB22EF640C0079B0B7 /* JGProgressHUDImageIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED518C22EF640C0079B0B7 /* JGProgressHUDImageIndicatorView.m */; };
+		C8ED51AC22EF640C0079B0B7 /* JGProgressHUD-Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED518D22EF640C0079B0B7 /* JGProgressHUD-Defines.h */; };
+		C8ED51AD22EF640C0079B0B7 /* JGProgressHUDSuccessIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED518E22EF640C0079B0B7 /* JGProgressHUDSuccessIndicatorView.m */; };
+		C8ED51AE22EF640C0079B0B7 /* JGProgressHUDAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED518F22EF640C0079B0B7 /* JGProgressHUDAnimation.h */; };
+		C8ED51AF22EF640C0079B0B7 /* JGProgressHUDIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED519022EF640C0079B0B7 /* JGProgressHUDIndicatorView.m */; };
+		C8ED51B022EF640C0079B0B7 /* JGProgressHUDErrorIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED519122EF640C0079B0B7 /* JGProgressHUDErrorIndicatorView.h */; };
+		C8ED51B122EF640C0079B0B7 /* JGProgressHUDIndeterminateIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED519222EF640C0079B0B7 /* JGProgressHUDIndeterminateIndicatorView.h */; };
+		C8ED51B222EF640C0079B0B7 /* JGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED519322EF640C0079B0B7 /* JGProgressHUD.m */; };
+		C8ED51B322EF640C0079B0B7 /* JGProgressHUDFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED519422EF640C0079B0B7 /* JGProgressHUDFadeAnimation.m */; };
+		C8ED51B422EF640C0079B0B7 /* JGProgressHUDFadeZoomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ED519522EF640C0079B0B7 /* JGProgressHUDFadeZoomAnimation.h */; };
+		C8ED51B522EF640C0079B0B7 /* JGProgressHUDRingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED519622EF640C0079B0B7 /* JGProgressHUDRingIndicatorView.m */; };
+		C8ED51B622EF640C0079B0B7 /* JGProgressHUDPieIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED519722EF640C0079B0B7 /* JGProgressHUDPieIndicatorView.m */; };
+		C8ED51B722EF640C0079B0B7 /* JGProgressHUDShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED519822EF640C0079B0B7 /* JGProgressHUDShadow.m */; };
 		C912897D77798A90873A3DAD8A4BDC50 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4D831C03026C50D9C46AAA6A6A99DC /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9313BD07770A5BD76EC99E5919D26C2 /* CalendarDateRangePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD0FB80C4C51D0830340A36ED191064 /* CalendarDateRangePickerViewController.swift */; };
 		C93454C1217DC8D6EE4830AE2FE5144B /* PrintOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6E019F22878E688847EE52B5BD1ED /* PrintOptions.swift */; };
@@ -784,6 +815,37 @@
 		C8ED512D22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
 		C8ED516322EF5CBF0079B0B7 /* FCFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCFileManager.h; sourceTree = "<group>"; };
 		C8ED516422EF5CBF0079B0B7 /* FCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCFileManager.m; sourceTree = "<group>"; };
+		C8ED517922EF640C0079B0B7 /* JGProgressHUDSuccessIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDSuccessIndicatorView.h; sourceTree = "<group>"; };
+		C8ED517A22EF640C0079B0B7 /* JGProgressHUDImageIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDImageIndicatorView.h; sourceTree = "<group>"; };
+		C8ED517B22EF640C0079B0B7 /* JGProgressHUDIndeterminateIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDIndeterminateIndicatorView.m; sourceTree = "<group>"; };
+		C8ED517C22EF640C0079B0B7 /* JGProgressHUDErrorIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDErrorIndicatorView.m; sourceTree = "<group>"; };
+		C8ED517D22EF640C0079B0B7 /* JGProgressHUDIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDIndicatorView.h; sourceTree = "<group>"; };
+		C8ED517E22EF640C0079B0B7 /* JGProgressHUDAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDAnimation.m; sourceTree = "<group>"; };
+		C8ED518022EF640C0079B0B7 /* jg_hud_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jg_hud_error@3x.png"; sourceTree = "<group>"; };
+		C8ED518122EF640C0079B0B7 /* jg_hud_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jg_hud_error@2x.png"; sourceTree = "<group>"; };
+		C8ED518222EF640C0079B0B7 /* jg_hud_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jg_hud_success.png; sourceTree = "<group>"; };
+		C8ED518322EF640C0079B0B7 /* jg_hud_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jg_hud_success@3x.png"; sourceTree = "<group>"; };
+		C8ED518422EF640C0079B0B7 /* jg_hud_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jg_hud_success@2x.png"; sourceTree = "<group>"; };
+		C8ED518522EF640C0079B0B7 /* jg_hud_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jg_hud_error.png; sourceTree = "<group>"; };
+		C8ED518622EF640C0079B0B7 /* JGProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUD.h; sourceTree = "<group>"; };
+		C8ED518722EF640C0079B0B7 /* JGProgressHUDShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDShadow.h; sourceTree = "<group>"; };
+		C8ED518822EF640C0079B0B7 /* JGProgressHUDPieIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDPieIndicatorView.h; sourceTree = "<group>"; };
+		C8ED518922EF640C0079B0B7 /* JGProgressHUDRingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDRingIndicatorView.h; sourceTree = "<group>"; };
+		C8ED518A22EF640C0079B0B7 /* JGProgressHUDFadeZoomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDFadeZoomAnimation.m; sourceTree = "<group>"; };
+		C8ED518B22EF640C0079B0B7 /* JGProgressHUDFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDFadeAnimation.h; sourceTree = "<group>"; };
+		C8ED518C22EF640C0079B0B7 /* JGProgressHUDImageIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDImageIndicatorView.m; sourceTree = "<group>"; };
+		C8ED518D22EF640C0079B0B7 /* JGProgressHUD-Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-Defines.h"; sourceTree = "<group>"; };
+		C8ED518E22EF640C0079B0B7 /* JGProgressHUDSuccessIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDSuccessIndicatorView.m; sourceTree = "<group>"; };
+		C8ED518F22EF640C0079B0B7 /* JGProgressHUDAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDAnimation.h; sourceTree = "<group>"; };
+		C8ED519022EF640C0079B0B7 /* JGProgressHUDIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDIndicatorView.m; sourceTree = "<group>"; };
+		C8ED519122EF640C0079B0B7 /* JGProgressHUDErrorIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDErrorIndicatorView.h; sourceTree = "<group>"; };
+		C8ED519222EF640C0079B0B7 /* JGProgressHUDIndeterminateIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDIndeterminateIndicatorView.h; sourceTree = "<group>"; };
+		C8ED519322EF640C0079B0B7 /* JGProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUD.m; sourceTree = "<group>"; };
+		C8ED519422EF640C0079B0B7 /* JGProgressHUDFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDFadeAnimation.m; sourceTree = "<group>"; };
+		C8ED519522EF640C0079B0B7 /* JGProgressHUDFadeZoomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressHUDFadeZoomAnimation.h; sourceTree = "<group>"; };
+		C8ED519622EF640C0079B0B7 /* JGProgressHUDRingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDRingIndicatorView.m; sourceTree = "<group>"; };
+		C8ED519722EF640C0079B0B7 /* JGProgressHUDPieIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDPieIndicatorView.m; sourceTree = "<group>"; };
+		C8ED519822EF640C0079B0B7 /* JGProgressHUDShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDShadow.m; sourceTree = "<group>"; };
 		C96571B81B1E1F2A7632243AA8B316CE /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		CA985FC7047F76D7D9C5C7F0BB3D2670 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatePickerRow.swift; sourceTree = "<group>"; };
 		CBAE96EEDAD94F9A069E674467BB71AD /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CMAC.swift; sourceTree = "<group>"; };
@@ -1296,6 +1358,7 @@
 				F44617C80A2E5A5427DB24360B72EFBE /* EVReflection */,
 				C8ED516222EF5CBF0079B0B7 /* FCFileManager */,
 				8ED7E637E5891D555C0300D52C3A9BF8 /* GzipSwift */,
+				C8ED517822EF640C0079B0B7 /* JGProgressHUD */,
 				285CFBA584930F53E47084B0BC423A6E /* MarqueeLabel */,
 				F6F3AB9AEB3AD9EE15D201A407EE8BB9 /* Menu-swift */,
 				0B9B7F5D432D32856C7EE83DBF0B55F0 /* NotificationBannerSwift */,
@@ -1560,6 +1623,53 @@
 			path = PODDIGIPROSDK/Classes/FCFileManager;
 			sourceTree = "<group>";
 		};
+		C8ED517822EF640C0079B0B7 /* JGProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C8ED517922EF640C0079B0B7 /* JGProgressHUDSuccessIndicatorView.h */,
+				C8ED517A22EF640C0079B0B7 /* JGProgressHUDImageIndicatorView.h */,
+				C8ED517B22EF640C0079B0B7 /* JGProgressHUDIndeterminateIndicatorView.m */,
+				C8ED517C22EF640C0079B0B7 /* JGProgressHUDErrorIndicatorView.m */,
+				C8ED517D22EF640C0079B0B7 /* JGProgressHUDIndicatorView.h */,
+				C8ED517E22EF640C0079B0B7 /* JGProgressHUDAnimation.m */,
+				C8ED517F22EF640C0079B0B7 /* Resources */,
+				C8ED518622EF640C0079B0B7 /* JGProgressHUD.h */,
+				C8ED518722EF640C0079B0B7 /* JGProgressHUDShadow.h */,
+				C8ED518822EF640C0079B0B7 /* JGProgressHUDPieIndicatorView.h */,
+				C8ED518922EF640C0079B0B7 /* JGProgressHUDRingIndicatorView.h */,
+				C8ED518A22EF640C0079B0B7 /* JGProgressHUDFadeZoomAnimation.m */,
+				C8ED518B22EF640C0079B0B7 /* JGProgressHUDFadeAnimation.h */,
+				C8ED518C22EF640C0079B0B7 /* JGProgressHUDImageIndicatorView.m */,
+				C8ED518D22EF640C0079B0B7 /* JGProgressHUD-Defines.h */,
+				C8ED518E22EF640C0079B0B7 /* JGProgressHUDSuccessIndicatorView.m */,
+				C8ED518F22EF640C0079B0B7 /* JGProgressHUDAnimation.h */,
+				C8ED519022EF640C0079B0B7 /* JGProgressHUDIndicatorView.m */,
+				C8ED519122EF640C0079B0B7 /* JGProgressHUDErrorIndicatorView.h */,
+				C8ED519222EF640C0079B0B7 /* JGProgressHUDIndeterminateIndicatorView.h */,
+				C8ED519322EF640C0079B0B7 /* JGProgressHUD.m */,
+				C8ED519422EF640C0079B0B7 /* JGProgressHUDFadeAnimation.m */,
+				C8ED519522EF640C0079B0B7 /* JGProgressHUDFadeZoomAnimation.h */,
+				C8ED519622EF640C0079B0B7 /* JGProgressHUDRingIndicatorView.m */,
+				C8ED519722EF640C0079B0B7 /* JGProgressHUDPieIndicatorView.m */,
+				C8ED519822EF640C0079B0B7 /* JGProgressHUDShadow.m */,
+			);
+			name = JGProgressHUD;
+			path = PODDIGIPROSDK/Classes/JGProgressHUD;
+			sourceTree = "<group>";
+		};
+		C8ED517F22EF640C0079B0B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8ED518022EF640C0079B0B7 /* jg_hud_error@3x.png */,
+				C8ED518122EF640C0079B0B7 /* jg_hud_error@2x.png */,
+				C8ED518222EF640C0079B0B7 /* jg_hud_success.png */,
+				C8ED518322EF640C0079B0B7 /* jg_hud_success@3x.png */,
+				C8ED518422EF640C0079B0B7 /* jg_hud_success@2x.png */,
+				C8ED518522EF640C0079B0B7 /* jg_hud_error.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -1770,17 +1880,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8ED512922EF512B0079B0B7 /* XMLDictionary.h in Headers */,
+				C8ED519A22EF640C0079B0B7 /* JGProgressHUDImageIndicatorView.h in Headers */,
 				C8ED516522EF5CBF0079B0B7 /* FCFileManager.h in Headers */,
 				221ED892E5138A00F3CDF540E914519D /* CwlCatchException.h in Headers */,
+				C8ED51A822EF640C0079B0B7 /* JGProgressHUDRingIndicatorView.h in Headers */,
+				C8ED51AC22EF640C0079B0B7 /* JGProgressHUD-Defines.h in Headers */,
 				9F70369EF71BD9ABAFF687AF532CC20D /* CwlMachBadInstructionHandler.h in Headers */,
 				19BA8AF46D9CC49E3E2CEDCAF6354442 /* CwlPreconditionTesting.h in Headers */,
 				C8ED512F22EF57AC0079B0B7 /* UIScrollView+EmptyDataSet.h in Headers */,
 				C051C0411627BD5FCDA031782EB1F716 /* DSL.h in Headers */,
 				3BD0C370BBCEBDEA68B8EDBD969370EB /* mach_excServer.h in Headers */,
+				C8ED519922EF640C0079B0B7 /* JGProgressHUDSuccessIndicatorView.h in Headers */,
+				C8ED51A722EF640C0079B0B7 /* JGProgressHUDPieIndicatorView.h in Headers */,
 				CD6B1F146B0E157FE5B9CAFFAE77A5B5 /* Nimble-umbrella.h in Headers */,
+				C8ED51AA22EF640C0079B0B7 /* JGProgressHUDFadeAnimation.h in Headers */,
 				9BB5E9B6487FE95C710687B484C17161 /* Nimble.h in Headers */,
+				C8ED51A522EF640C0079B0B7 /* JGProgressHUD.h in Headers */,
+				C8ED51AE22EF640C0079B0B7 /* JGProgressHUDAnimation.h in Headers */,
+				C8ED519D22EF640C0079B0B7 /* JGProgressHUDIndicatorView.h in Headers */,
+				C8ED51B022EF640C0079B0B7 /* JGProgressHUDErrorIndicatorView.h in Headers */,
 				8D17749611AB0C8BD51C068749D8DF68 /* NMBExceptionCapture.h in Headers */,
 				E0EAC85F7ACFAD998B14FCE66144000E /* NMBStringify.h in Headers */,
+				C8ED51A622EF640C0079B0B7 /* JGProgressHUDShadow.h in Headers */,
+				C8ED51B422EF640C0079B0B7 /* JGProgressHUDFadeZoomAnimation.h in Headers */,
+				C8ED51B122EF640C0079B0B7 /* JGProgressHUDIndeterminateIndicatorView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1976,7 +2099,13 @@
 			files = (
 				C8ED50D622EF4DDC0079B0B7 /* Montserrat-Regular.ttf in Resources */,
 				C8ED50D422EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf in Resources */,
+				C8ED51A222EF640C0079B0B7 /* jg_hud_success@3x.png in Resources */,
+				C8ED51A322EF640C0079B0B7 /* jg_hud_success@2x.png in Resources */,
+				C8ED51A122EF640C0079B0B7 /* jg_hud_success.png in Resources */,
 				C8ED50D522EF4DDC0079B0B7 /* AlertViewController.xib in Resources */,
+				C8ED51A022EF640C0079B0B7 /* jg_hud_error@2x.png in Resources */,
+				C8ED519F22EF640C0079B0B7 /* jg_hud_error@3x.png in Resources */,
+				C8ED51A422EF640C0079B0B7 /* jg_hud_error.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2050,8 +2179,10 @@
 				C8ED50DD22EF4DDC0079B0B7 /* PresentationType.swift in Sources */,
 				7AFB2A4868895FEEABA1EA8EBA80F4F1 /* AssertionRecorder.swift in Sources */,
 				23B929016459822A57FF4F84DC6000B5 /* Async.swift in Sources */,
+				C8ED51B522EF640C0079B0B7 /* JGProgressHUDRingIndicatorView.m in Sources */,
 				C8ED510F22EF4F0B0079B0B7 /* SpreadsheetViewDelegate.swift in Sources */,
 				C8ED510C22EF4F0B0079B0B7 /* SpreadsheetView.swift in Sources */,
+				C8ED51B222EF640C0079B0B7 /* JGProgressHUD.m in Sources */,
 				C8ED50D722EF4DDC0079B0B7 /* CoverFromCornerAnimation.swift in Sources */,
 				C8ED512022EF50F70079B0B7 /* UIBezierPath+WeightedPoint.swift in Sources */,
 				C732FD7C66AEA96BC61C0B105CE16376 /* Await.swift in Sources */,
@@ -2059,6 +2190,7 @@
 				C8ED512222EF50F70079B0B7 /* SignatureDrawingModelAsync.swift in Sources */,
 				41B2F632A375DCF59B4D65567E59FCD3 /* BeAKindOf.swift in Sources */,
 				0244025E5F4CE4060978D034CF740810 /* BeAnInstanceOf.swift in Sources */,
+				C8ED51AF22EF640C0079B0B7 /* JGProgressHUDIndicatorView.m in Sources */,
 				646E7E1E9D3F4663D9CE23FF0231F80C /* BeCloseTo.swift in Sources */,
 				C8ED50DB22EF4DDC0079B0B7 /* TransitionType.swift in Sources */,
 				C8ED50E022EF4DDC0079B0B7 /* CoverVerticalFromTopAnimation.swift in Sources */,
@@ -2072,6 +2204,7 @@
 				8C36F62A65EF1B4D80DDF5191EC943BF /* BeIdenticalTo.swift in Sources */,
 				80DE0FCB42B465CF0F9C391D6F78732D /* BeLessThan.swift in Sources */,
 				C8ED512522EF50F70079B0B7 /* SignatureDrawingViewController.swift in Sources */,
+				C8ED519C22EF640C0079B0B7 /* JGProgressHUDErrorIndicatorView.m in Sources */,
 				C8ED50DE22EF4DDC0079B0B7 /* CrossDissolveAnimation.swift in Sources */,
 				1619CC5DF835D29CFE745C443B8728DD /* BeLessThanOrEqual.swift in Sources */,
 				C8ED50E122EF4DDC0079B0B7 /* Presentr+Equatable.swift in Sources */,
@@ -2083,6 +2216,7 @@
 				C8ED511222EF4F0B0079B0B7 /* SpreadsheetView+CirclularScrolling.swift in Sources */,
 				AD841E0C41DF45D2E086A203BB265762 /* Contain.swift in Sources */,
 				C8ED510622EF4F0B0079B0B7 /* SpreadsheetView+UIViewHierarchy.swift in Sources */,
+				C8ED519B22EF640C0079B0B7 /* JGProgressHUDIndeterminateIndicatorView.m in Sources */,
 				C147B29A97ACEC6639FC0D3CDAA6BA64 /* ContainElementSatisfying.swift in Sources */,
 				C8ED512422EF50F70079B0B7 /* SignatureBezierProvider.swift in Sources */,
 				C8ED510022EF4F0B0079B0B7 /* Address.swift in Sources */,
@@ -2091,6 +2225,8 @@
 				0CCF72769464C214E6268ACFCFE1EBFD /* CwlCatchException.m in Sources */,
 				C8ED510522EF4F0B0079B0B7 /* ScrollPosition.swift in Sources */,
 				C8ED50CF22EF4DDC0079B0B7 /* PresentrController.swift in Sources */,
+				C8ED51AB22EF640C0079B0B7 /* JGProgressHUDImageIndicatorView.m in Sources */,
+				C8ED51AD22EF640C0079B0B7 /* JGProgressHUDSuccessIndicatorView.m in Sources */,
 				A25E62A3FD894EDEB3150A46C8D3A3D4 /* CwlCatchException.swift in Sources */,
 				C8ED50FF22EF4F0B0079B0B7 /* Location.swift in Sources */,
 				C8ED50E222EF4DDC0079B0B7 /* ModalSize.swift in Sources */,
@@ -2099,6 +2235,7 @@
 				4E1C1DD9CFC24D9FBDA23F927CA73196 /* CwlMachBadInstructionHandler.m in Sources */,
 				B7097E9992DFF704E16BAFC3FBDCC287 /* DSL+Wait.swift in Sources */,
 				CD5123F817D58D46FCAF8103A818EFDC /* DSL.m in Sources */,
+				C8ED519E22EF640C0079B0B7 /* JGProgressHUDAnimation.m in Sources */,
 				71F9C34DC1AFED7BD3C27F6D3C99D1AB /* DSL.swift in Sources */,
 				C8ED50D322EF4DDC0079B0B7 /* CoverHorizontalAnimation.swift in Sources */,
 				C8ED50DF22EF4DDC0079B0B7 /* ModalCenterPosition.swift in Sources */,
@@ -2107,12 +2244,14 @@
 				C8ED512122EF50F70079B0B7 /* SignatureDrawingModel.swift in Sources */,
 				A8A524C1C48219643DE7E2EAE36BD7D3 /* EndWith.swift in Sources */,
 				C8ED50D022EF4DDC0079B0B7 /* Presentr.swift in Sources */,
+				C8ED51A922EF640C0079B0B7 /* JGProgressHUDFadeZoomAnimation.m in Sources */,
 				C8ED510B22EF4F0B0079B0B7 /* ScrollView.swift in Sources */,
 				C8ED511322EF4F0B0079B0B7 /* CellNew.swift in Sources */,
 				42C4D2CAA790780B1F5ADBF8A1536223 /* Equal.swift in Sources */,
 				31C781D9B2FB24F1C63EF944A8D10665 /* Errors.swift in Sources */,
 				C8ED510122EF4F0B0079B0B7 /* CircularScrolling.swift in Sources */,
 				19756A88FFFBE4639A1FB65D8367C01B /* Expectation.swift in Sources */,
+				C8ED51B622EF640C0079B0B7 /* JGProgressHUDPieIndicatorView.m in Sources */,
 				C8ED510822EF4F0B0079B0B7 /* LayoutEngine.swift in Sources */,
 				C8ED50E522EF4DF90079B0B7 /* ScrollableSegmentedControl.swift in Sources */,
 				C8ED50D122EF4DDC0079B0B7 /* PresentrShadow.swift in Sources */,
@@ -2129,6 +2268,7 @@
 				B31AB226691794D80D6B4164F615F941 /* MatcherFunc.swift in Sources */,
 				33A73C721E2CD8AA8D1029AEF325CC2F /* MatcherProtocols.swift in Sources */,
 				C8ED50DA22EF4DDC0079B0B7 /* BackgroundView.swift in Sources */,
+				C8ED51B322EF640C0079B0B7 /* JGProgressHUDFadeAnimation.m in Sources */,
 				CA958DBAA5F69BBB7FABA426CF2898E9 /* MatchError.swift in Sources */,
 				C8ED510322EF4F0B0079B0B7 /* Borders.swift in Sources */,
 				D24C4AA23C22701D3D65541B337F1AC4 /* Nimble-dummy.m in Sources */,
@@ -2139,6 +2279,7 @@
 				89202ED7A199568C27625984E30B0A7E /* NimbleEnvironment.swift in Sources */,
 				D9AD266DDADA8DCB08B476BE5034B65F /* NimbleXCTestHandler.swift in Sources */,
 				3E367F36AF797374E9BA528A4790F5FB /* NMBExceptionCapture.m in Sources */,
+				C8ED51B722EF640C0079B0B7 /* JGProgressHUDShadow.m in Sources */,
 				C16CDA92867234C2253A914F7D2488B1 /* NMBExpectation.swift in Sources */,
 				C8ED511122EF4F0B0079B0B7 /* SpreadsheetView+Touches.swift in Sources */,
 				2396790A402C07B516B64FA83B004FEF /* NMBObjCMatcher.swift in Sources */,
