@@ -34,10 +34,11 @@ Pod::Spec.new do |s|
     s.default_subspec = 'Core'
     s.subspec 'Core' do |core|
         core.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,m,swift}'
+        core.public_header_files = 'PODDIGIPROSDK/Classes/**/*.h'
     end
     
     s.subspec 'AppExtension' do |ext|
-        ext.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,swift}'
+        ext.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,m,swift}'
         # For app extensions, disabling code paths using unavailable API
         ext.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'MYLIBRARY_APP_EXTENSIONS=1' }
     end
@@ -47,7 +48,7 @@ Pod::Spec.new do |s|
     #   'PODDIGIPROSDK' => ['PODDIGIPROSDK/Assets/*.png']
     # }
     
-    # s.public_header_files = 'Pod/Classes/**/*.h'
+    #s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
     # s.dependency 'AFNetworking', '~> 2.3'
 end
