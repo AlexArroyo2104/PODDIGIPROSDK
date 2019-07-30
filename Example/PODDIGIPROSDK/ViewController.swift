@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PODDIGIPROSDK
 
 
 class ViewController: UIViewController {
