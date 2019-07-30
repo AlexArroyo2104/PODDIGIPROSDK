@@ -577,6 +577,7 @@
 		C801BDA322F0B0C000E75022 /* reglas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C801BDA222F0B0C000E75022 /* reglas.swift */; };
 		C801BDA522F0B18200E75022 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C801BDA422F0B18100E75022 /* Constants.swift */; };
 		C801BDA722F0B47E00E75022 /* PODDIGIPRO-Bridgging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C801BDA622F0B47E00E75022 /* PODDIGIPRO-Bridgging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C801BDAB22F0CA2500E75022 /* FormularioUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C801BDAA22F0CA2500E75022 /* FormularioUtilities.swift */; };
 		C8ED50D422EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50BF22EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf */; };
 		C8ED50D522EF4DDC0079B0B7 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C022EF4DDC0079B0B7 /* AlertViewController.xib */; };
 		C8ED50D622EF4DDC0079B0B7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C122EF4DDC0079B0B7 /* Montserrat-Regular.ttf */; };
@@ -1150,6 +1151,7 @@
 		C801BDA222F0B0C000E75022 /* reglas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reglas.swift; sourceTree = "<group>"; };
 		C801BDA422F0B18100E75022 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = PODDIGIPROSDK/Classes/Constants.swift; sourceTree = "<group>"; };
 		C801BDA622F0B47E00E75022 /* PODDIGIPRO-Bridgging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PODDIGIPRO-Bridgging-Header.h"; path = "PODDIGIPROSDK/Classes/PODDIGIPRO-Bridgging-Header.h"; sourceTree = "<group>"; };
+		C801BDAA22F0CA2500E75022 /* FormularioUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FormularioUtilities.swift; path = PODDIGIPROSDK/Classes/FormularioUtilities.swift; sourceTree = "<group>"; };
 		C8ED50B822EF4DDC0079B0B7 /* CoverVerticalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverVerticalAnimation.swift; sourceTree = "<group>"; };
 		C8ED50B922EF4DDC0079B0B7 /* PresentrController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentrController.swift; sourceTree = "<group>"; };
 		C8ED50BA22EF4DDC0079B0B7 /* Presentr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentr.swift; sourceTree = "<group>"; };
@@ -1690,6 +1692,7 @@
 				6DE48EF837B7B554A64816429EC92585 /* BlinkingLabel.swift */,
 				C801BDA422F0B18100E75022 /* Constants.swift */,
 				C801BD7322F0B05200E75022 /* ObjectFormManager.swift */,
+				C801BDAA22F0CA2500E75022 /* FormularioUtilities.swift */,
 				C801BDA122F0B0C000E75022 /* Reglas */,
 				C801BD8A22F0B0AB00E75022 /* Utilities */,
 				C801BD7822F0B08300E75022 /* Response */,
@@ -2882,6 +2885,7 @@
 				C801BB0222F0945900E75022 /* Row.swift in Sources */,
 				C801BB8222F0965E00E75022 /* Presentr+Equatable.swift in Sources */,
 				C801BBFA22F09AF600E75022 /* Promise+any.swift in Sources */,
+				C801BDAB22F0CA2500E75022 /* FormularioUtilities.swift in Sources */,
 				C801BB4D22F0958200E75022 /* MenuTheme.swift in Sources */,
 				C801BD0F22F0B00300E75022 /* Atributos_metodo.swift in Sources */,
 				C801BC3B22F09CA000E75022 /* HeroTransition+Start.swift in Sources */,
