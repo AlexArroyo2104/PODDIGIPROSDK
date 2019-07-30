@@ -467,6 +467,14 @@
 		C801BCBA22F0AC6600E75022 /* JGProgressHUDRingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C801BC9B22F0AC6600E75022 /* JGProgressHUDRingIndicatorView.m */; };
 		C801BCBB22F0AC6600E75022 /* JGProgressHUDPieIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C801BC9C22F0AC6600E75022 /* JGProgressHUDPieIndicatorView.m */; };
 		C801BCBC22F0AC6600E75022 /* JGProgressHUDShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = C801BC9D22F0AC6600E75022 /* JGProgressHUDShadow.m */; };
+		C801BCC422F0ADB500E75022 /* RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = C801BCBE22F0ADB500E75022 /* RESideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C801BCC522F0ADB500E75022 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C801BCBF22F0ADB500E75022 /* UIViewController+RESideMenu.m */; };
+		C801BCC622F0ADB500E75022 /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = C801BCC022F0ADB500E75022 /* RECommonFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C801BCC722F0ADB500E75022 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C801BCC122F0ADB500E75022 /* RESideMenu.m */; };
+		C801BCC822F0ADB500E75022 /* UIViewController+RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = C801BCC222F0ADB500E75022 /* UIViewController+RESideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C801BCC922F0ADB500E75022 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C801BCC322F0ADB500E75022 /* RECommonFunctions.m */; };
+		C801BCD222F0AE2600E75022 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = C801BCD022F0AE2600E75022 /* XMLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C801BCD322F0AE2600E75022 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C801BCD122F0AE2600E75022 /* XMLDictionary.m */; };
 		C8ED50D422EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50BF22EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf */; };
 		C8ED50D522EF4DDC0079B0B7 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C022EF4DDC0079B0B7 /* AlertViewController.xib */; };
 		C8ED50D622EF4DDC0079B0B7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C122EF4DDC0079B0B7 /* Montserrat-Regular.ttf */; };
@@ -930,6 +938,14 @@
 		C801BC9B22F0AC6600E75022 /* JGProgressHUDRingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDRingIndicatorView.m; sourceTree = "<group>"; };
 		C801BC9C22F0AC6600E75022 /* JGProgressHUDPieIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDPieIndicatorView.m; sourceTree = "<group>"; };
 		C801BC9D22F0AC6600E75022 /* JGProgressHUDShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressHUDShadow.m; sourceTree = "<group>"; };
+		C801BCBE22F0ADB500E75022 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		C801BCBF22F0ADB500E75022 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		C801BCC022F0ADB500E75022 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		C801BCC122F0ADB500E75022 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		C801BCC222F0ADB500E75022 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		C801BCC322F0ADB500E75022 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		C801BCD022F0AE2600E75022 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		C801BCD122F0AE2600E75022 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
 		C8ED50B822EF4DDC0079B0B7 /* CoverVerticalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverVerticalAnimation.swift; sourceTree = "<group>"; };
 		C8ED50B922EF4DDC0079B0B7 /* PresentrController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentrController.swift; sourceTree = "<group>"; };
 		C8ED50BA22EF4DDC0079B0B7 /* Presentr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentr.swift; sourceTree = "<group>"; };
@@ -1485,10 +1501,12 @@
 				C801BC6022F09CF300E75022 /* NotificationBannerSwift */,
 				73F81C95D11E031BAAFF2D52A2FF3EFE /* SnapKit */,
 				C8ED50B722EF4DDC0079B0B7 /* Presentr */,
+				C801BCBD22F0ADB500E75022 /* RESideMenu */,
 				C8ED50E322EF4DF90079B0B7 /* ScrollableSegmentedControl */,
 				C8ED50E622EF4F0B0079B0B7 /* SpreadsheetView */,
 				C8ED511522EF50C60079B0B7 /* SwiftyJSON */,
 				C8ED511822EF50F70079B0B7 /* UberSignature */,
+				C801BCCF22F0AE2600E75022 /* XMLDictionary */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -1775,6 +1793,30 @@
 				C801BC8A22F0AC6600E75022 /* jg_hud_error.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		C801BCBD22F0ADB500E75022 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C801BCBE22F0ADB500E75022 /* RESideMenu.h */,
+				C801BCBF22F0ADB500E75022 /* UIViewController+RESideMenu.m */,
+				C801BCC022F0ADB500E75022 /* RECommonFunctions.h */,
+				C801BCC122F0ADB500E75022 /* RESideMenu.m */,
+				C801BCC222F0ADB500E75022 /* UIViewController+RESideMenu.h */,
+				C801BCC322F0ADB500E75022 /* RECommonFunctions.m */,
+			);
+			name = RESideMenu;
+			path = PODDIGIPROSDK/Classes/RESideMenu;
+			sourceTree = "<group>";
+		};
+		C801BCCF22F0AE2600E75022 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				C801BCD022F0AE2600E75022 /* XMLDictionary.h */,
+				C801BCD122F0AE2600E75022 /* XMLDictionary.m */,
+			);
+			name = XMLDictionary;
+			path = PODDIGIPROSDK/Classes/XMLDictionary;
 			sourceTree = "<group>";
 		};
 		C8ED50B722EF4DDC0079B0B7 /* Presentr */ = {
@@ -2084,15 +2126,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C801BCD222F0AE2600E75022 /* XMLDictionary.h in Headers */,
 				C801BCAB22F0AC6600E75022 /* JGProgressHUDShadow.h in Headers */,
 				C801BCAC22F0AC6600E75022 /* JGProgressHUDPieIndicatorView.h in Headers */,
 				C801BCAD22F0AC6600E75022 /* JGProgressHUDRingIndicatorView.h in Headers */,
 				C801BC9F22F0AC6600E75022 /* JGProgressHUDImageIndicatorView.h in Headers */,
+				C801BCC622F0ADB500E75022 /* RECommonFunctions.h in Headers */,
 				C801BCB922F0AC6600E75022 /* JGProgressHUDFadeZoomAnimation.h in Headers */,
 				C801BCB522F0AC6600E75022 /* JGProgressHUDErrorIndicatorView.h in Headers */,
+				C801BCC822F0ADB500E75022 /* UIViewController+RESideMenu.h in Headers */,
 				7D83623965D40D23DDD00B7E2F920BB5 /* PODDIGIPROSDK-umbrella.h in Headers */,
 				C801BC9E22F0AC6600E75022 /* JGProgressHUDSuccessIndicatorView.h in Headers */,
 				C801BCAA22F0AC6600E75022 /* JGProgressHUD.h in Headers */,
+				C801BCC422F0ADB500E75022 /* RESideMenu.h in Headers */,
 				C801BCB622F0AC6600E75022 /* JGProgressHUDIndeterminateIndicatorView.h in Headers */,
 				C801BCB322F0AC6600E75022 /* JGProgressHUDAnimation.h in Headers */,
 				C801BCA222F0AC6600E75022 /* JGProgressHUDIndicatorView.h in Headers */,
@@ -2494,6 +2540,7 @@
 				C801BB0422F0946100E75022 /* RowProtocols.swift in Sources */,
 				C801BB5F22F095C400E75022 /* ConstraintMakerEditable.swift in Sources */,
 				93F41AA6B3EC4E8AFB060597C04FD644 /* PODDIGIPROSDK-dummy.m in Sources */,
+				C801BCC522F0ADB500E75022 /* UIViewController+RESideMenu.m in Sources */,
 				C801BAEC22F0940300E75022 /* ChaCha20+Foundation.swift in Sources */,
 				C801BAEE22F0940D00E75022 /* HMAC+Foundation.swift in Sources */,
 				C801BB5922F095B100E75022 /* ConstraintLayoutGuide.swift in Sources */,
@@ -2568,6 +2615,7 @@
 				C801BAF422F0942400E75022 /* PKCS5.swift in Sources */,
 				C801BBE622F09AF600E75022 /* Lock.swift in Sources */,
 				C801BB2B22F094FB00E75022 /* GenericMultipleSelectorRow.swift in Sources */,
+				C801BCD322F0AE2600E75022 /* XMLDictionary.m in Sources */,
 				C801BC4122F09CA000E75022 /* BasePreprocessor.swift in Sources */,
 				C801BB5122F0959700E75022 /* ConstraintAttributes.swift in Sources */,
 				C801BB1E22F094C200E75022 /* PushRow.swift in Sources */,
@@ -2659,6 +2707,7 @@
 				C801BB6822F095E800E75022 /* ConstraintRelatableTarget.swift in Sources */,
 				C801BCB722F0AC6600E75022 /* JGProgressHUD.m in Sources */,
 				C801BAFE22F0944C00E75022 /* InlineRowType.swift in Sources */,
+				C801BCC922F0ADB500E75022 /* RECommonFunctions.m in Sources */,
 				C801BAFF22F0944F00E75022 /* NavigationAccessoryView.swift in Sources */,
 				C801BB8322F0966100E75022 /* ModalSize.swift in Sources */,
 				C801BB5322F0959D00E75022 /* ConstraintConstantTarget.swift in Sources */,
@@ -2685,6 +2734,7 @@
 				C801BBEB22F09AF600E75022 /* Promise+defer.swift in Sources */,
 				C801BB4722F0956400E75022 /* EVReflectable+XMLDictionary.swift in Sources */,
 				C801BB4222F0955100E75022 /* EVReflection.swift in Sources */,
+				C801BCC722F0ADB500E75022 /* RESideMenu.m in Sources */,
 				C801BB9322F0969B00E75022 /* SpreadsheetView.swift in Sources */,
 				C801BBF622F09AF600E75022 /* Promise+recover.swift in Sources */,
 				C801BB1A22F094B500E75022 /* PickerInputRow.swift in Sources */,
