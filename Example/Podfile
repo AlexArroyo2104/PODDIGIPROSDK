@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'PODDIGIPROSDK_Example' do
+  pod 'PODDIGIPROSDK', :path => '../'
+
+  target 'PODDIGIPROSDK_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick'
+    pod 'Nimble'
+  end
+end
