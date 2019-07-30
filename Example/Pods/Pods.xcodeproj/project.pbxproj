@@ -434,6 +434,8 @@
 		C801BC7222F09CF300E75022 /* NotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C801BC6922F09CF300E75022 /* NotificationBanner.swift */; };
 		C801BC7622F0A08300E75022 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C801BC7422F0A08300E75022 /* UIScrollView+EmptyDataSet.m */; };
 		C801BC7722F0A08300E75022 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = C801BC7522F0A08300E75022 /* UIScrollView+EmptyDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C801BC7B22F0A13F00E75022 /* FCFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C801BC7922F0A13F00E75022 /* FCFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C801BC7C22F0A13F00E75022 /* FCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C801BC7A22F0A13F00E75022 /* FCFileManager.m */; };
 		C8ED50D422EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50BF22EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf */; };
 		C8ED50D522EF4DDC0079B0B7 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C022EF4DDC0079B0B7 /* AlertViewController.xib */; };
 		C8ED50D622EF4DDC0079B0B7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C122EF4DDC0079B0B7 /* Montserrat-Regular.ttf */; };
@@ -864,6 +866,8 @@
 		C801BC6922F09CF300E75022 /* NotificationBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationBanner.swift; sourceTree = "<group>"; };
 		C801BC7422F0A08300E75022 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
 		C801BC7522F0A08300E75022 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		C801BC7922F0A13F00E75022 /* FCFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCFileManager.h; sourceTree = "<group>"; };
+		C801BC7A22F0A13F00E75022 /* FCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCFileManager.m; sourceTree = "<group>"; };
 		C8ED50B822EF4DDC0079B0B7 /* CoverVerticalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverVerticalAnimation.swift; sourceTree = "<group>"; };
 		C8ED50B922EF4DDC0079B0B7 /* PresentrController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentrController.swift; sourceTree = "<group>"; };
 		C8ED50BA22EF4DDC0079B0B7 /* Presentr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentr.swift; sourceTree = "<group>"; };
@@ -1410,6 +1414,7 @@
 				C801BBFC22F09C2400E75022 /* EasyTipView */,
 				BAEA3E8D3C78C36B0197E0EFE3803FEE /* Eureka */,
 				F44617C80A2E5A5427DB24360B72EFBE /* EVReflection */,
+				C801BC7822F0A13F00E75022 /* FCFileManager */,
 				8ED7E637E5891D555C0300D52C3A9BF8 /* GzipSwift */,
 				C801BC0122F09CA000E75022 /* Hero */,
 				285CFBA584930F53E47084B0BC423A6E /* MarqueeLabel */,
@@ -1650,6 +1655,16 @@
 			);
 			name = DZNEmptyDataSet;
 			path = PODDIGIPROSDK/Classes/DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
+		C801BC7822F0A13F00E75022 /* FCFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				C801BC7922F0A13F00E75022 /* FCFileManager.h */,
+				C801BC7A22F0A13F00E75022 /* FCFileManager.m */,
+			);
+			name = FCFileManager;
+			path = PODDIGIPROSDK/Classes/FCFileManager;
 			sourceTree = "<group>";
 		};
 		C8ED50B722EF4DDC0079B0B7 /* Presentr */ = {
@@ -1960,6 +1975,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D83623965D40D23DDD00B7E2F920BB5 /* PODDIGIPROSDK-umbrella.h in Headers */,
+				C801BC7B22F0A13F00E75022 /* FCFileManager.h in Headers */,
 				C801BC7722F0A08300E75022 /* UIScrollView+EmptyDataSet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2567,6 +2583,7 @@
 				C801BB1122F0948B00E75022 /* DateInlineRow.swift in Sources */,
 				C801BADD22F093CC00E75022 /* AEADChaCha20Poly1305.swift in Sources */,
 				C801BB2922F094F400E75022 /* DecimalFormatter.swift in Sources */,
+				C801BC7C22F0A13F00E75022 /* FCFileManager.m in Sources */,
 				C801BB7522F0962400E75022 /* PresentrShadow.swift in Sources */,
 				C801BB0C22F0947E00E75022 /* AlertRow.swift in Sources */,
 				C801BC0022F09C2400E75022 /* UIKitExtensions.swift in Sources */,
