@@ -19,7 +19,7 @@ public class _TextoRow: Row<TextoCell>, KeyboardReturnHandler{
             self.value = String(describing: v)
             return String(describing: v)
         }
-        cellProvider = CellProvider<TextoCell>(nibName: "TextoRow", bundle: nil)
+        cellProvider = CellProvider<TextoCell>(nibName: "TextoRow", bundle: Bundle(path: "org.cocoapods.PODDIGIPROSDK"))
     }
 }
 
