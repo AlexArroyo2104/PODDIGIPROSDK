@@ -313,28 +313,6 @@
 		C8ED532522EF813F0079B0B7 /* PKCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAECC6DEFC280DCF8D53C5791F89F4A /* PKCS5.swift */; };
 		C8ED532622EF81420079B0B7 /* PKCS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B891BE44BAC3F6990D86D80CC7D9F001 /* PKCS7.swift */; };
 		C8ED532722EF81450079B0B7 /* PKCS7Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A1A9496764FA2F45CF5CEA48988836 /* PKCS7Padding.swift */; };
-		C8ED534022EF83140079B0B7 /* Promise+try.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED532A22EF83140079B0B7 /* Promise+try.swift */; };
-		C8ED534122EF83140079B0B7 /* Promise+void.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED532B22EF83140079B0B7 /* Promise+void.swift */; };
-		C8ED534222EF83140079B0B7 /* Promise+reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED532C22EF83140079B0B7 /* Promise+reduce.swift */; };
-		C8ED534322EF83140079B0B7 /* Promise+recover.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED532D22EF83140079B0B7 /* Promise+recover.swift */; };
-		C8ED534422EF83140079B0B7 /* Promise+errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED532E22EF83140079B0B7 /* Promise+errors.swift */; };
-		C8ED534522EF83140079B0B7 /* Promise+race.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED532F22EF83140079B0B7 /* Promise+race.swift */; };
-		C8ED534622EF83140079B0B7 /* Promise+join.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533022EF83140079B0B7 /* Promise+join.swift */; };
-		C8ED534722EF83140079B0B7 /* Promise+finally.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533122EF83140079B0B7 /* Promise+finally.swift */; };
-		C8ED534822EF83140079B0B7 /* Promise+catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533222EF83140079B0B7 /* Promise+catch.swift */; };
-		C8ED534922EF83140079B0B7 /* Promise+tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533322EF83140079B0B7 /* Promise+tap.swift */; };
-		C8ED534A22EF83140079B0B7 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533422EF83140079B0B7 /* Lock.swift */; };
-		C8ED534B22EF83140079B0B7 /* Promise+any.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533522EF83140079B0B7 /* Promise+any.swift */; };
-		C8ED534C22EF83140079B0B7 /* Promise+defer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533622EF83140079B0B7 /* Promise+defer.swift */; };
-		C8ED534D22EF83140079B0B7 /* Promise+timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533722EF83140079B0B7 /* Promise+timeout.swift */; };
-		C8ED534E22EF83140079B0B7 /* Promise+all.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533822EF83140079B0B7 /* Promise+all.swift */; };
-		C8ED534F22EF83140079B0B7 /* Promise+return.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533922EF83140079B0B7 /* Promise+return.swift */; };
-		C8ED535022EF83140079B0B7 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533A22EF83140079B0B7 /* Promise.swift */; };
-		C8ED535122EF83140079B0B7 /* Promise+map.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533B22EF83140079B0B7 /* Promise+map.swift */; };
-		C8ED535222EF83140079B0B7 /* Promise+reflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533C22EF83140079B0B7 /* Promise+reflect.swift */; };
-		C8ED535322EF83140079B0B7 /* Promise+tapCatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533D22EF83140079B0B7 /* Promise+tapCatch.swift */; };
-		C8ED535422EF83140079B0B7 /* Promise+delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533E22EF83140079B0B7 /* Promise+delay.swift */; };
-		C8ED535522EF83140079B0B7 /* Promise+then.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED533F22EF83140079B0B7 /* Promise+then.swift */; };
 		C8ED535622EF83EF0079B0B7 /* Data+Gzip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE72A518D4BEADD839932F2886420B0 /* Data+Gzip.swift */; };
 		C8ED535722EF83FB0079B0B7 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4F87D9D89C726B1EBB0EBFCE65145E /* MarqueeLabel.swift */; };
 		C8ED535822EF84010079B0B7 /* MenuContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD809A495ECB46DA57E07ACA0619E84 /* MenuContents.swift */; };
@@ -774,28 +752,6 @@
 		C8ED511D22EF50F70079B0B7 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
 		C8ED511E22EF50F70079B0B7 /* SignatureBezierProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureBezierProvider.swift; sourceTree = "<group>"; };
 		C8ED511F22EF50F70079B0B7 /* SignatureDrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureDrawingViewController.swift; sourceTree = "<group>"; };
-		C8ED532A22EF83140079B0B7 /* Promise+try.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+try.swift"; sourceTree = "<group>"; };
-		C8ED532B22EF83140079B0B7 /* Promise+void.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+void.swift"; sourceTree = "<group>"; };
-		C8ED532C22EF83140079B0B7 /* Promise+reduce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+reduce.swift"; sourceTree = "<group>"; };
-		C8ED532D22EF83140079B0B7 /* Promise+recover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+recover.swift"; sourceTree = "<group>"; };
-		C8ED532E22EF83140079B0B7 /* Promise+errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+errors.swift"; sourceTree = "<group>"; };
-		C8ED532F22EF83140079B0B7 /* Promise+race.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+race.swift"; sourceTree = "<group>"; };
-		C8ED533022EF83140079B0B7 /* Promise+join.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+join.swift"; sourceTree = "<group>"; };
-		C8ED533122EF83140079B0B7 /* Promise+finally.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+finally.swift"; sourceTree = "<group>"; };
-		C8ED533222EF83140079B0B7 /* Promise+catch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+catch.swift"; sourceTree = "<group>"; };
-		C8ED533322EF83140079B0B7 /* Promise+tap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+tap.swift"; sourceTree = "<group>"; };
-		C8ED533422EF83140079B0B7 /* Lock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
-		C8ED533522EF83140079B0B7 /* Promise+any.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+any.swift"; sourceTree = "<group>"; };
-		C8ED533622EF83140079B0B7 /* Promise+defer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+defer.swift"; sourceTree = "<group>"; };
-		C8ED533722EF83140079B0B7 /* Promise+timeout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+timeout.swift"; sourceTree = "<group>"; };
-		C8ED533822EF83140079B0B7 /* Promise+all.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+all.swift"; sourceTree = "<group>"; };
-		C8ED533922EF83140079B0B7 /* Promise+return.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+return.swift"; sourceTree = "<group>"; };
-		C8ED533A22EF83140079B0B7 /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
-		C8ED533B22EF83140079B0B7 /* Promise+map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+map.swift"; sourceTree = "<group>"; };
-		C8ED533C22EF83140079B0B7 /* Promise+reflect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+reflect.swift"; sourceTree = "<group>"; };
-		C8ED533D22EF83140079B0B7 /* Promise+tapCatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+tapCatch.swift"; sourceTree = "<group>"; };
-		C8ED533E22EF83140079B0B7 /* Promise+delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+delay.swift"; sourceTree = "<group>"; };
-		C8ED533F22EF83140079B0B7 /* Promise+then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+then.swift"; sourceTree = "<group>"; };
 		C96571B81B1E1F2A7632243AA8B316CE /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		CA985FC7047F76D7D9C5C7F0BB3D2670 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatePickerRow.swift; sourceTree = "<group>"; };
 		CBAE96EEDAD94F9A069E674467BB71AD /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CMAC.swift; sourceTree = "<group>"; };
@@ -1283,7 +1239,6 @@
 				6DE48EF837B7B554A64816429EC92585 /* BlinkingLabel.swift */,
 				B7B80AE484377C25636C9A21926F60E2 /* AEXML */,
 				106F23F8EC13ED4054E8285554599320 /* ASHorizontalScrollView */,
-				C8ED532922EF83140079B0B7 /* Bluebird */,
 				F36E2B6DDA2FC7BE529286F85EE3F55B /* CalendarDateRangePickerViewController */,
 				60E0CA9EC425357CACA3730C221F027E /* CryptoSwift */,
 				BAEA3E8D3C78C36B0197E0EFE3803FEE /* Eureka */,
@@ -1510,36 +1465,6 @@
 				C8ED511E22EF50F70079B0B7 /* SignatureBezierProvider.swift */,
 			);
 			path = Internal;
-			sourceTree = "<group>";
-		};
-		C8ED532922EF83140079B0B7 /* Bluebird */ = {
-			isa = PBXGroup;
-			children = (
-				C8ED532A22EF83140079B0B7 /* Promise+try.swift */,
-				C8ED532B22EF83140079B0B7 /* Promise+void.swift */,
-				C8ED532C22EF83140079B0B7 /* Promise+reduce.swift */,
-				C8ED532D22EF83140079B0B7 /* Promise+recover.swift */,
-				C8ED532E22EF83140079B0B7 /* Promise+errors.swift */,
-				C8ED532F22EF83140079B0B7 /* Promise+race.swift */,
-				C8ED533022EF83140079B0B7 /* Promise+join.swift */,
-				C8ED533122EF83140079B0B7 /* Promise+finally.swift */,
-				C8ED533222EF83140079B0B7 /* Promise+catch.swift */,
-				C8ED533322EF83140079B0B7 /* Promise+tap.swift */,
-				C8ED533422EF83140079B0B7 /* Lock.swift */,
-				C8ED533522EF83140079B0B7 /* Promise+any.swift */,
-				C8ED533622EF83140079B0B7 /* Promise+defer.swift */,
-				C8ED533722EF83140079B0B7 /* Promise+timeout.swift */,
-				C8ED533822EF83140079B0B7 /* Promise+all.swift */,
-				C8ED533922EF83140079B0B7 /* Promise+return.swift */,
-				C8ED533A22EF83140079B0B7 /* Promise.swift */,
-				C8ED533B22EF83140079B0B7 /* Promise+map.swift */,
-				C8ED533C22EF83140079B0B7 /* Promise+reflect.swift */,
-				C8ED533D22EF83140079B0B7 /* Promise+tapCatch.swift */,
-				C8ED533E22EF83140079B0B7 /* Promise+delay.swift */,
-				C8ED533F22EF83140079B0B7 /* Promise+then.swift */,
-			);
-			name = Bluebird;
-			path = PODDIGIPROSDK/Classes/Bluebird;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -2061,17 +1986,14 @@
 				C8ED531D22EF81220079B0B7 /* ChaCha20+Foundation.swift in Sources */,
 				C8ED530322EF72490079B0B7 /* StreamEncryptor.swift in Sources */,
 				C8ED50FE22EF4F0B0079B0B7 /* SpreadsheetView+UIScrollView.swift in Sources */,
-				C8ED534222EF83140079B0B7 /* Promise+reduce.swift in Sources */,
 				C8ED512222EF50F70079B0B7 /* SignatureDrawingModelAsync.swift in Sources */,
 				C8ED538622EF84940079B0B7 /* LayoutConstraintItem.swift in Sources */,
 				C8ED522122EF6E410079B0B7 /* Cell.swift in Sources */,
 				C8ED52F622EF72170079B0B7 /* HMAC.swift in Sources */,
 				41B2F632A375DCF59B4D65567E59FCD3 /* BeAKindOf.swift in Sources */,
 				C8ED531422EF81020079B0B7 /* CipherModeWorker.swift in Sources */,
-				C8ED535522EF83140079B0B7 /* Promise+then.swift in Sources */,
 				0244025E5F4CE4060978D034CF740810 /* BeAnInstanceOf.swift in Sources */,
 				646E7E1E9D3F4663D9CE23FF0231F80C /* BeCloseTo.swift in Sources */,
-				C8ED535322EF83140079B0B7 /* Promise+tapCatch.swift in Sources */,
 				C8ED524F22EF6EDC0079B0B7 /* AlertOptionsRow.swift in Sources */,
 				C8ED531522EF81050079B0B7 /* CTR.swift in Sources */,
 				C8ED526122EF6F260079B0B7 /* RuleRegExp.swift in Sources */,
@@ -2080,7 +2002,6 @@
 				C8ED50E022EF4DDC0079B0B7 /* CoverVerticalFromTopAnimation.swift in Sources */,
 				C8ED52AE22EF70560079B0B7 /* Parser.swift in Sources */,
 				C8ED525722EF6F020079B0B7 /* SelectorRow.swift in Sources */,
-				C8ED534B22EF83140079B0B7 /* Promise+any.swift in Sources */,
 				C8ED537722EF84650079B0B7 /* ConstraintMakerExtendable.swift in Sources */,
 				535416689ADDB151B7A6B4BF1435C984 /* BeEmpty.swift in Sources */,
 				25390BCB7E708FE600AA7903982238CD /* BeginWith.swift in Sources */,
@@ -2099,7 +2020,6 @@
 				C8ED524922EF6EC50079B0B7 /* SliderRow.swift in Sources */,
 				C8ED532522EF813F0079B0B7 /* PKCS5.swift in Sources */,
 				C8ED510A22EF4F0B0079B0B7 /* SpreadsheetView+Layout.swift in Sources */,
-				C8ED535022EF83140079B0B7 /* Promise.swift in Sources */,
 				C8ED52E922EF71EF0079B0B7 /* ChaCha20.swift in Sources */,
 				C8ED537822EF84690079B0B7 /* ConstraintMakerFinalizable.swift in Sources */,
 				D7DD35ED5A306AC529590AAE0B79F2BE /* BeGreaterThanOrEqualTo.swift in Sources */,
@@ -2110,8 +2030,6 @@
 				C8ED536822EF84350079B0B7 /* ConstraintAttributes.swift in Sources */,
 				80DE0FCB42B465CF0F9C391D6F78732D /* BeLessThan.swift in Sources */,
 				C8ED52AB22EF704D0079B0B7 /* Element.swift in Sources */,
-				C8ED534C22EF83140079B0B7 /* Promise+defer.swift in Sources */,
-				C8ED534A22EF83140079B0B7 /* Lock.swift in Sources */,
 				C8ED512522EF50F70079B0B7 /* SignatureDrawingViewController.swift in Sources */,
 				C8ED524222EF6EAA0079B0B7 /* MultipleSelectorRow.swift in Sources */,
 				C8ED521B22EF6DC70079B0B7 /* EVWorkaroundHelpers.swift in Sources */,
@@ -2120,7 +2038,6 @@
 				C8ED522722EF6E510079B0B7 /* InlineRowType.swift in Sources */,
 				C8ED52FB22EF72290079B0B7 /* Poly1305.swift in Sources */,
 				C8ED536D22EF84450079B0B7 /* ConstraintInsets.swift in Sources */,
-				C8ED535222EF83140079B0B7 /* Promise+reflect.swift in Sources */,
 				C8ED50DE22EF4DDC0079B0B7 /* CrossDissolveAnimation.swift in Sources */,
 				C8ED526322EF6F2D0079B0B7 /* RuleURL.swift in Sources */,
 				C8ED52F922EF72230079B0B7 /* OperatorsCryptoSwift.swift in Sources */,
@@ -2140,7 +2057,6 @@
 				C8ED511222EF4F0B0079B0B7 /* SpreadsheetView+CirclularScrolling.swift in Sources */,
 				C8ED538022EF84800079B0B7 /* ConstraintRelation.swift in Sources */,
 				AD841E0C41DF45D2E086A203BB265762 /* Contain.swift in Sources */,
-				C8ED534022EF83140079B0B7 /* Promise+try.swift in Sources */,
 				C8ED537622EF84620079B0B7 /* ConstraintMakerEditable.swift in Sources */,
 				C8ED537422EF845D0079B0B7 /* ConstraintLayoutSupportDSL.swift in Sources */,
 				C8ED510622EF4F0B0079B0B7 /* SpreadsheetView+UIViewHierarchy.swift in Sources */,
@@ -2149,7 +2065,6 @@
 				C8ED512422EF50F70079B0B7 /* SignatureBezierProvider.swift in Sources */,
 				C8ED510022EF4F0B0079B0B7 /* Address.swift in Sources */,
 				50655497550E397B95A35501CCF28D8D /* CwlBadInstructionException.swift in Sources */,
-				C8ED534322EF83140079B0B7 /* Promise+recover.swift in Sources */,
 				C8ED525C22EF6F150079B0B7 /* RuleClosure.swift in Sources */,
 				C8ED538222EF84870079B0B7 /* ConstraintView+Extensions.swift in Sources */,
 				71EC482B285F78B50C0C093F41E8DC87 /* CwlCatchBadInstruction.swift in Sources */,
@@ -2178,12 +2093,10 @@
 				C8ED537922EF846C0079B0B7 /* ConstraintMakerPriortizable.swift in Sources */,
 				C8ED523422EF6E7A0079B0B7 /* Validation.swift in Sources */,
 				C8ED537A22EF846F0079B0B7 /* ConstraintMakerRelatable.swift in Sources */,
-				C8ED534E22EF83140079B0B7 /* Promise+all.swift in Sources */,
 				4E1C1DD9CFC24D9FBDA23F927CA73196 /* CwlMachBadInstructionHandler.m in Sources */,
 				C8ED52EB22EF71F50079B0B7 /* Cipher.swift in Sources */,
 				C8ED523D22EF6E9C0079B0B7 /* DateRow.swift in Sources */,
 				B7097E9992DFF704E16BAFC3FBDCC287 /* DSL+Wait.swift in Sources */,
-				C8ED535422EF83140079B0B7 /* Promise+delay.swift in Sources */,
 				C8ED52E222EF71D70079B0B7 /* Authenticator.swift in Sources */,
 				CD5123F817D58D46FCAF8103A818EFDC /* DSL.m in Sources */,
 				C8ED52F822EF721F0079B0B7 /* NoPadding.swift in Sources */,
@@ -2192,9 +2105,7 @@
 				C8ED523722EF6E860079B0B7 /* AlertRow.swift in Sources */,
 				C8ED52E822EF71ED0079B0B7 /* Blowfish.swift in Sources */,
 				C8ED50DF22EF4DDC0079B0B7 /* ModalCenterPosition.swift in Sources */,
-				C8ED534622EF83140079B0B7 /* Promise+join.swift in Sources */,
 				C8ED531822EF81100079B0B7 /* OFB.swift in Sources */,
-				C8ED534522EF83140079B0B7 /* Promise+race.swift in Sources */,
 				C8ED537222EF84560079B0B7 /* ConstraintLayoutGuideDSL.swift in Sources */,
 				6087BDAB63A7B0C8D643145A58DE0598 /* ElementsEqual.swift in Sources */,
 				C8ED52ED22EF71FB0079B0B7 /* Collection+Extension.swift in Sources */,
@@ -2203,7 +2114,6 @@
 				C8ED524322EF6EAD0079B0B7 /* PickerInlineRow.swift in Sources */,
 				C8ED50D222EF4DDC0079B0B7 /* FlipHorizontalAnimation.swift in Sources */,
 				C8ED512122EF50F70079B0B7 /* SignatureDrawingModel.swift in Sources */,
-				C8ED534722EF83140079B0B7 /* Promise+finally.swift in Sources */,
 				C8ED525A22EF6F0C0079B0B7 /* SelectorViewController.swift in Sources */,
 				C8ED524622EF6EBA0079B0B7 /* PopoverSelectorRow.swift in Sources */,
 				C8ED521E22EF6DD30079B0B7 /* EVManagedObjectArrayExtension.swift in Sources */,
@@ -2219,7 +2129,6 @@
 				C8ED511322EF4F0B0079B0B7 /* CellNew.swift in Sources */,
 				42C4D2CAA790780B1F5ADBF8A1536223 /* Equal.swift in Sources */,
 				C8ED525B22EF6F110079B0B7 /* ListCheckRow.swift in Sources */,
-				C8ED534422EF83140079B0B7 /* Promise+errors.swift in Sources */,
 				C8ED523922EF6E8C0079B0B7 /* ButtonRowWithPresent.swift in Sources */,
 				C8ED52F322EF720E0079B0B7 /* Generics.swift in Sources */,
 				C8ED525D22EF6F1A0079B0B7 /* RuleEmail.swift in Sources */,
@@ -2246,12 +2155,9 @@
 				C8ED538722EF84970079B0B7 /* Typealiases.swift in Sources */,
 				A9195203B4E2CE96CEFE4C5BA927512C /* HaveCount.swift in Sources */,
 				C8ED531622EF81090079B0B7 /* ECB.swift in Sources */,
-				C8ED534F22EF83140079B0B7 /* Promise+return.swift in Sources */,
 				54D6650C6B0F612CC9B2DCE2A128CFBA /* mach_excServer.c in Sources */,
 				A47730695C36FCFB46492D571D65058D /* Match.swift in Sources */,
-				C8ED535122EF83140079B0B7 /* Promise+map.swift in Sources */,
 				C8ED532222EF81310079B0B7 /* Utils+Foundation.swift in Sources */,
-				C8ED534122EF83140079B0B7 /* Promise+void.swift in Sources */,
 				C8ED524722EF6EBD0079B0B7 /* PushRow.swift in Sources */,
 				B31AB226691794D80D6B4164F615F941 /* MatcherFunc.swift in Sources */,
 				C8ED531C22EF811F0079B0B7 /* Blowfish+Foundation.swift in Sources */,
@@ -2296,7 +2202,6 @@
 				C8ED52C522EF714E0079B0B7 /* CalendarDateRangePickerHeaderView.swift in Sources */,
 				C8ED532422EF813C0079B0B7 /* PBKDF2.swift in Sources */,
 				C8ED524C22EF6ECF0079B0B7 /* TextAreaRow.swift in Sources */,
-				C8ED534822EF83140079B0B7 /* Promise+catch.swift in Sources */,
 				D9AD266DDADA8DCB08B476BE5034B65F /* NimbleXCTestHandler.swift in Sources */,
 				C8ED523C22EF6E990079B0B7 /* DatePickerRow.swift in Sources */,
 				C8ED535722EF83FB0079B0B7 /* MarqueeLabel.swift in Sources */,
@@ -2304,7 +2209,6 @@
 				C8ED52EC22EF71F80079B0B7 /* CMAC.swift in Sources */,
 				C8ED536B22EF843E0079B0B7 /* ConstraintDescription.swift in Sources */,
 				C16CDA92867234C2253A914F7D2488B1 /* NMBExpectation.swift in Sources */,
-				C8ED534922EF83140079B0B7 /* Promise+tap.swift in Sources */,
 				C8ED525E22EF6F1D0079B0B7 /* RuleEqualsToRow.swift in Sources */,
 				C8ED535A22EF84060079B0B7 /* MenuItemView.swift in Sources */,
 				C8ED524122EF6EA70079B0B7 /* LabelRow.swift in Sources */,
@@ -2326,7 +2230,6 @@
 				8D9F157A5FCC82D1D09C419070376C12 /* RaisesException.swift in Sources */,
 				493A4962D778D034EAA172A01B776E19 /* SatisfyAllOf.swift in Sources */,
 				C8ED537022EF84500079B0B7 /* ConstraintLayoutGuide.swift in Sources */,
-				C8ED534D22EF83140079B0B7 /* Promise+timeout.swift in Sources */,
 				C8ED537E22EF847B0079B0B7 /* ConstraintPriorityTarget.swift in Sources */,
 				C8ED531022EF80F70079B0B7 /* BlockMode.swift in Sources */,
 				C8ED521722EF6DB20079B0B7 /* EVArrayExtension.swift in Sources */,
