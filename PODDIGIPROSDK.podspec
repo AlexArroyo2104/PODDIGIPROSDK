@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
     
     s.default_subspec = 'Core'
     s.subspec 'Core' do |core|
-        core.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,swift}'
+        core.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,m,swift}'
     end
     
     s.subspec 'AppExtension' do |ext|

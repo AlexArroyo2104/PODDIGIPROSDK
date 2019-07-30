@@ -432,6 +432,8 @@
 		C801BC7022F09CF300E75022 /* BaseNotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C801BC6722F09CF300E75022 /* BaseNotificationBanner.swift */; };
 		C801BC7122F09CF300E75022 /* NotificationBannerQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C801BC6822F09CF300E75022 /* NotificationBannerQueue.swift */; };
 		C801BC7222F09CF300E75022 /* NotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C801BC6922F09CF300E75022 /* NotificationBanner.swift */; };
+		C801BC7622F0A08300E75022 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C801BC7422F0A08300E75022 /* UIScrollView+EmptyDataSet.m */; };
+		C801BC7722F0A08300E75022 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = C801BC7522F0A08300E75022 /* UIScrollView+EmptyDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8ED50D422EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50BF22EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf */; };
 		C8ED50D522EF4DDC0079B0B7 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C022EF4DDC0079B0B7 /* AlertViewController.xib */; };
 		C8ED50D622EF4DDC0079B0B7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C122EF4DDC0079B0B7 /* Montserrat-Regular.ttf */; };
@@ -860,6 +862,8 @@
 		C801BC6722F09CF300E75022 /* BaseNotificationBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNotificationBanner.swift; sourceTree = "<group>"; };
 		C801BC6822F09CF300E75022 /* NotificationBannerQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationBannerQueue.swift; sourceTree = "<group>"; };
 		C801BC6922F09CF300E75022 /* NotificationBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationBanner.swift; sourceTree = "<group>"; };
+		C801BC7422F0A08300E75022 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		C801BC7522F0A08300E75022 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
 		C8ED50B822EF4DDC0079B0B7 /* CoverVerticalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverVerticalAnimation.swift; sourceTree = "<group>"; };
 		C8ED50B922EF4DDC0079B0B7 /* PresentrController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentrController.swift; sourceTree = "<group>"; };
 		C8ED50BA22EF4DDC0079B0B7 /* Presentr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentr.swift; sourceTree = "<group>"; };
@@ -1402,6 +1406,7 @@
 				C801BBA322F09A5600E75022 /* Bluebird */,
 				F36E2B6DDA2FC7BE529286F85EE3F55B /* CalendarDateRangePickerViewController */,
 				60E0CA9EC425357CACA3730C221F027E /* CryptoSwift */,
+				C801BC7322F0A08300E75022 /* DZNEmptyDataSet */,
 				C801BBFC22F09C2400E75022 /* EasyTipView */,
 				BAEA3E8D3C78C36B0197E0EFE3803FEE /* Eureka */,
 				F44617C80A2E5A5427DB24360B72EFBE /* EVReflection */,
@@ -1635,6 +1640,16 @@
 			);
 			name = NotificationBannerSwift;
 			path = PODDIGIPROSDK/Classes/NotificationBannerSwift;
+			sourceTree = "<group>";
+		};
+		C801BC7322F0A08300E75022 /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				C801BC7422F0A08300E75022 /* UIScrollView+EmptyDataSet.m */,
+				C801BC7522F0A08300E75022 /* UIScrollView+EmptyDataSet.h */,
+			);
+			name = DZNEmptyDataSet;
+			path = PODDIGIPROSDK/Classes/DZNEmptyDataSet;
 			sourceTree = "<group>";
 		};
 		C8ED50B722EF4DDC0079B0B7 /* Presentr */ = {
@@ -1945,6 +1960,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D83623965D40D23DDD00B7E2F920BB5 /* PODDIGIPROSDK-umbrella.h in Headers */,
+				C801BC7722F0A08300E75022 /* UIScrollView+EmptyDataSet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2453,6 +2469,7 @@
 				C801BC3522F09CA000E75022 /* Lexer.swift in Sources */,
 				C801BAB422F0932400E75022 /* BlockDecryptor.swift in Sources */,
 				C801BBF822F09AF600E75022 /* Promise+delay.swift in Sources */,
+				C801BC7622F0A08300E75022 /* UIScrollView+EmptyDataSet.m in Sources */,
 				C801BAA622F092E800E75022 /* Error.swift in Sources */,
 				C801BC5622F09CA000E75022 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */,
 				C801BB3222F0951500E75022 /* ListCheckRow.swift in Sources */,
