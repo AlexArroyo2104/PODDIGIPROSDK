@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   
   s.default_subspec = 'Core'
   s.subspec 'Core' do |core|
-      #s.xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => 'PODDIGIPROSDK/Classes/Bridging-Header.h' }
+  #s.xcconfig = { 'SWIFT_OBJC_BRIDGING_HEADER' => 'PODDIGIPROSDK/Classes/Bridging-Header.h' }
   
   core.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,m,swift}'
   end
