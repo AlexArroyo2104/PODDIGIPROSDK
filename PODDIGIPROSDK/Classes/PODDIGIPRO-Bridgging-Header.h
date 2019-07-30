@@ -1,5 +1,20 @@
-#ifdef __OBJC__
+//
+//  DIGIPROSDK.h
+//  DIGIPROSDK
+//
+//  Created by Jonathan Viloria M on 5/2/19.
+//  Copyright © 2019 Jonathan Viloria M. All rights reserved.
+//
+
 #import <UIKit/UIKit.h>
+
+
+//! Project version number for DIGIPROSDK.
+FOUNDATION_EXPORT double PODDIGIPROSDKVersionNumber;
+
+//! Project version string for DIGIPROSDK.
+FOUNDATION_EXPORT const unsigned char PODDIGIPROSDKVersionString[];
+
 #import <PODDIGIPROSDK/XMLDictionary.h>
 #import <PODDIGIPROSDK/FCFileManager.h>
 #import <PODDIGIPROSDK/UIScrollView+EmptyDataSet.h>
@@ -19,19 +34,4 @@
 #import <PODDIGIPROSDK/RECommonFunctions.h>
 #import <PODDIGIPROSDK/RESideMenu.h>
 #import <PODDIGIPROSDK/UIViewController+RESideMenu.h>
-
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-
-FOUNDATION_EXPORT double PODDIGIPROSDKVersionNumber;
-FOUNDATION_EXPORT const unsigned char PODDIGIPROSDKVersionString[];
-
 
