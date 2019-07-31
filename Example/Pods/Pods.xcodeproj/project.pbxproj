@@ -577,74 +577,74 @@
 		C801BDA522F0B18200E75022 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C801BDA422F0B18100E75022 /* Constants.swift */; };
 		C801BDA722F0B47E00E75022 /* PODDIGIPRO-Bridgging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C801BDA622F0B47E00E75022 /* PODDIGIPRO-Bridgging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C801BDAB22F0CA2500E75022 /* FormularioUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C801BDAA22F0CA2500E75022 /* FormularioUtilities.swift */; };
-		C863923B22F0E82D00506C49 /* TextoAreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863923822F0E82D00506C49 /* TextoAreaCell.swift */; };
-		C863923C22F0E82D00506C49 /* TextoAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863923922F0E82D00506C49 /* TextoAreaRow.swift */; };
-		C863923D22F0E82D00506C49 /* TextoAreaRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863923A22F0E82D00506C49 /* TextoAreaRow.xib */; };
-		C863933A22F0E91900506C49 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86392E722F0E91700506C49 /* Cells.swift */; };
-		C863933B22F0E91900506C49 /* TblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86392E822F0E91700506C49 /* TblCell.xib */; };
-		C863933C22F0E91900506C49 /* TablaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86392E922F0E91700506C49 /* TablaCell.swift */; };
-		C863933D22F0E91900506C49 /* TablaPlantillaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86392EA22F0E91700506C49 /* TablaPlantillaViewController.xib */; };
-		C863933E22F0E91900506C49 /* TablaPlantillaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86392EB22F0E91700506C49 /* TablaPlantillaViewController.swift */; };
-		C863933F22F0E91900506C49 /* TablaRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86392EC22F0E91700506C49 /* TablaRow.xib */; };
-		C863934022F0E91900506C49 /* TblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86392ED22F0E91700506C49 /* TblCell.swift */; };
-		C863934122F0E91900506C49 /* TablaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86392EE22F0E91700506C49 /* TablaRow.swift */; };
-		C863934222F0E91900506C49 /* SeccionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86392F022F0E91700506C49 /* SeccionCell.swift */; };
-		C863934322F0E91900506C49 /* SeccionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86392F122F0E91700506C49 /* SeccionRow.swift */; };
-		C863934422F0E91900506C49 /* SeccionRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86392F222F0E91700506C49 /* SeccionRow.xib */; };
-		C863934522F0E91900506C49 /* ListaTemporalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86392F422F0E91700506C49 /* ListaTemporalViewController.xib */; };
-		C863934622F0E91900506C49 /* ListaTemporalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86392F522F0E91700506C49 /* ListaTemporalRow.swift */; };
-		C863934722F0E91900506C49 /* ListaTemporalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86392F622F0E91700506C49 /* ListaTemporalCell.swift */; };
-		C863934822F0E91900506C49 /* ListaTemporalRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86392F722F0E91700506C49 /* ListaTemporalRow.xib */; };
-		C863934922F0E91900506C49 /* ListaTemporalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86392F822F0E91700506C49 /* ListaTemporalViewController.swift */; };
-		C863934A22F0E91900506C49 /* RangoFechasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86392FA22F0E91800506C49 /* RangoFechasCell.swift */; };
-		C863934B22F0E91900506C49 /* RangoFechasRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86392FB22F0E91800506C49 /* RangoFechasRow.swift */; };
-		C863934C22F0E91900506C49 /* RangoFechasRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86392FC22F0E91800506C49 /* RangoFechasRow.xib */; };
-		C863934D22F0E91900506C49 /* FechaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86392FE22F0E91800506C49 /* FechaRow.swift */; };
-		C863934E22F0E91900506C49 /* FechaRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86392FF22F0E91800506C49 /* FechaRow.xib */; };
-		C863934F22F0E91900506C49 /* FechaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863930022F0E91800506C49 /* FechaCell.swift */; };
-		C863935022F0E91900506C49 /* EtiquetaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863930222F0E91800506C49 /* EtiquetaRow.swift */; };
-		C863935122F0E91900506C49 /* EtiquetaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863930322F0E91800506C49 /* EtiquetaCell.swift */; };
-		C863935222F0E91900506C49 /* EtiquetaRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863930422F0E91800506C49 /* EtiquetaRow.xib */; };
-		C863935322F0E91900506C49 /* SliderNewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863930622F0E91800506C49 /* SliderNewCell.swift */; };
-		C863935422F0E91900506C49 /* SliderNewRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863930722F0E91800506C49 /* SliderNewRow.xib */; };
-		C863935522F0E91900506C49 /* SliderNewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863930822F0E91800506C49 /* SliderNewRow.swift */; };
-		C863935622F0E91900506C49 /* WizardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863930A22F0E91800506C49 /* WizardCell.swift */; };
-		C863935722F0E91900506C49 /* WizardRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863930B22F0E91800506C49 /* WizardRow.xib */; };
-		C863935822F0E91900506C49 /* WizardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863930C22F0E91800506C49 /* WizardRow.swift */; };
-		C863935922F0E91900506C49 /* LogoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863930E22F0E91800506C49 /* LogoRow.swift */; };
-		C863935A22F0E91900506C49 /* LogoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863930F22F0E91800506C49 /* LogoCell.swift */; };
-		C863935B22F0E91900506C49 /* LogoRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863931022F0E91800506C49 /* LogoRow.xib */; };
-		C863935C22F0E91900506C49 /* ListaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863931222F0E91800506C49 /* ListaRow.swift */; };
-		C863935D22F0E91900506C49 /* ListaRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863931322F0E91800506C49 /* ListaRow.xib */; };
-		C863935E22F0E91900506C49 /* ListaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863931422F0E91800506C49 /* ListaViewController.xib */; };
-		C863935F22F0E91900506C49 /* ListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863931522F0E91800506C49 /* ListaViewController.swift */; };
-		C863936022F0E91900506C49 /* ListaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863931622F0E91800506C49 /* ListaCell.swift */; };
-		C863936122F0E91900506C49 /* LogicoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863931822F0E91800506C49 /* LogicoCell.swift */; };
-		C863936222F0E91900506C49 /* LogicoRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863931922F0E91800506C49 /* LogicoRow.xib */; };
-		C863936322F0E91900506C49 /* LogicoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863931A22F0E91800506C49 /* LogicoRow.swift */; };
-		C863936422F0E91900506C49 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863931C22F0E91800506C49 /* HeaderCell.xib */; };
-		C863936522F0E91900506C49 /* HeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863931D22F0E91800506C49 /* HeaderRow.swift */; };
-		C863936622F0E91900506C49 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863931E22F0E91800506C49 /* HeaderCell.swift */; };
-		C863936722F0E91900506C49 /* BotonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863932022F0E91800506C49 /* BotonRow.swift */; };
-		C863936822F0E91900506C49 /* BotonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863932122F0E91800506C49 /* BotonCell.swift */; };
-		C863936922F0E91900506C49 /* BotonRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863932222F0E91800506C49 /* BotonRow.xib */; };
-		C863937022F0E91900506C49 /* TextoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863932B22F0E91900506C49 /* TextoRow.swift */; };
-		C863937122F0E91900506C49 /* TextoRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863932C22F0E91900506C49 /* TextoRow.xib */; };
-		C863937222F0E91900506C49 /* TextoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863932D22F0E91900506C49 /* TextoCell.swift */; };
-		C863937322F0E91900506C49 /* MonedaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863932F22F0E91900506C49 /* MonedaCell.swift */; };
-		C863937422F0E91900506C49 /* MonedaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863933022F0E91900506C49 /* MonedaRow.swift */; };
-		C863937522F0E91900506C49 /* MonedaRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863933122F0E91900506C49 /* MonedaRow.xib */; };
-		C863937622F0E91900506C49 /* NumeroRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863933322F0E91900506C49 /* NumeroRow.swift */; };
-		C863937722F0E91900506C49 /* NumeroRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863933422F0E91900506C49 /* NumeroRow.xib */; };
-		C863937822F0E91900506C49 /* NumeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863933522F0E91900506C49 /* NumeroCell.swift */; };
-		C863937922F0E91900506C49 /* HeaderTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863933722F0E91900506C49 /* HeaderTabCell.swift */; };
-		C863937A22F0E91900506C49 /* HeaderTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863933822F0E91900506C49 /* HeaderTabCell.xib */; };
-		C863937B22F0E91900506C49 /* HeaderTabRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863933922F0E91900506C49 /* HeaderTabRow.swift */; };
 		C863937D22F0F38F00506C49 /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C667D813A7A9170C939286025D7A30 /* SelectorViewController.swift */; };
 		C863937E22F1045A00506C49 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50BF22EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf */; };
 		C863937F22F1045E00506C49 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C022EF4DDC0079B0B7 /* AlertViewController.xib */; };
 		C863938022F1046200506C49 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C122EF4DDC0079B0B7 /* Montserrat-Regular.ttf */; };
 		C863938322F1D10200506C49 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C863938222F1D10200506C49 /* .gitkeep */; };
+		C86393D522F1D32200506C49 /* TextoAreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863938622F1D32100506C49 /* TextoAreaCell.swift */; };
+		C86393D622F1D32200506C49 /* TextoAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863938722F1D32100506C49 /* TextoAreaRow.swift */; };
+		C86393D722F1D32200506C49 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863938922F1D32100506C49 /* Cells.swift */; };
+		C86393D822F1D32200506C49 /* TblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863938A22F1D32100506C49 /* TblCell.xib */; };
+		C86393D922F1D32200506C49 /* TablaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863938B22F1D32100506C49 /* TablaCell.swift */; };
+		C86393DA22F1D32200506C49 /* TablaPlantillaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863938C22F1D32100506C49 /* TablaPlantillaViewController.xib */; };
+		C86393DB22F1D32200506C49 /* TablaPlantillaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863938D22F1D32100506C49 /* TablaPlantillaViewController.swift */; };
+		C86393DC22F1D32200506C49 /* TablaRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863938E22F1D32100506C49 /* TablaRow.xib */; };
+		C86393DD22F1D32200506C49 /* TblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863938F22F1D32100506C49 /* TblCell.swift */; };
+		C86393DE22F1D32200506C49 /* TablaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863939022F1D32100506C49 /* TablaRow.swift */; };
+		C86393DF22F1D32200506C49 /* HeaderTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863939222F1D32100506C49 /* HeaderTabCell.swift */; };
+		C86393E022F1D32200506C49 /* HeaderTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863939322F1D32100506C49 /* HeaderTabCell.xib */; };
+		C86393E122F1D32200506C49 /* HeaderTabRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863939422F1D32100506C49 /* HeaderTabRow.swift */; };
+		C86393E222F1D32200506C49 /* ListaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863939622F1D32100506C49 /* ListaRow.swift */; };
+		C86393E322F1D32200506C49 /* ListaRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863939722F1D32100506C49 /* ListaRow.xib */; };
+		C86393E422F1D32200506C49 /* ListaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863939822F1D32100506C49 /* ListaViewController.xib */; };
+		C86393E522F1D32200506C49 /* ListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863939922F1D32100506C49 /* ListaViewController.swift */; };
+		C86393E622F1D32200506C49 /* ListaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863939A22F1D32100506C49 /* ListaCell.swift */; };
+		C86393E722F1D32200506C49 /* SeccionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863939C22F1D32100506C49 /* SeccionCell.swift */; };
+		C86393E822F1D32200506C49 /* SeccionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863939D22F1D32100506C49 /* SeccionRow.swift */; };
+		C86393E922F1D32200506C49 /* SeccionRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863939E22F1D32100506C49 /* SeccionRow.xib */; };
+		C86393EA22F1D32200506C49 /* WizardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393A022F1D32100506C49 /* WizardCell.swift */; };
+		C86393EB22F1D32200506C49 /* WizardRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86393A122F1D32100506C49 /* WizardRow.xib */; };
+		C86393EC22F1D32200506C49 /* WizardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393A222F1D32100506C49 /* WizardRow.swift */; };
+		C86393ED22F1D32200506C49 /* SliderNewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393A422F1D32100506C49 /* SliderNewCell.swift */; };
+		C86393EE22F1D32200506C49 /* SliderNewRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86393A522F1D32100506C49 /* SliderNewRow.xib */; };
+		C86393EF22F1D32200506C49 /* SliderNewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393A622F1D32100506C49 /* SliderNewRow.swift */; };
+		C86393F022F1D32200506C49 /* NumeroRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393A822F1D32100506C49 /* NumeroRow.swift */; };
+		C86393F122F1D32200506C49 /* NumeroRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86393A922F1D32100506C49 /* NumeroRow.xib */; };
+		C86393F222F1D32200506C49 /* NumeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393AA22F1D32100506C49 /* NumeroCell.swift */; };
+		C86393F322F1D32200506C49 /* BotonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393AC22F1D32100506C49 /* BotonRow.swift */; };
+		C86393F422F1D32200506C49 /* BotonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393AD22F1D32100506C49 /* BotonCell.swift */; };
+		C86393F522F1D32200506C49 /* BotonRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86393AE22F1D32100506C49 /* BotonRow.xib */; };
+		C86393F622F1D32200506C49 /* FechaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393B022F1D32100506C49 /* FechaRow.swift */; };
+		C86393F722F1D32200506C49 /* FechaRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86393B122F1D32100506C49 /* FechaRow.xib */; };
+		C86393F822F1D32200506C49 /* FechaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393B222F1D32100506C49 /* FechaCell.swift */; };
+		C86393F922F1D32200506C49 /* TextoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393B422F1D32100506C49 /* TextoRow.swift */; };
+		C86393FA22F1D32200506C49 /* TextoRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86393B522F1D32100506C49 /* TextoRow.xib */; };
+		C86393FB22F1D32200506C49 /* TextoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393B622F1D32100506C49 /* TextoCell.swift */; };
+		C86393FC22F1D32200506C49 /* LogoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393B822F1D32100506C49 /* LogoRow.swift */; };
+		C86393FD22F1D32200506C49 /* LogoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393B922F1D32100506C49 /* LogoCell.swift */; };
+		C86393FE22F1D32200506C49 /* LogoRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86393BA22F1D32100506C49 /* LogoRow.xib */; };
+		C86393FF22F1D32200506C49 /* LogicoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393BC22F1D32100506C49 /* LogicoCell.swift */; };
+		C863940022F1D32200506C49 /* LogicoRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86393BD22F1D32100506C49 /* LogicoRow.xib */; };
+		C863940122F1D32200506C49 /* LogicoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393BE22F1D32100506C49 /* LogicoRow.swift */; };
+		C863940222F1D32200506C49 /* RangoFechasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393C022F1D32100506C49 /* RangoFechasCell.swift */; };
+		C863940322F1D32200506C49 /* RangoFechasRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393C122F1D32100506C49 /* RangoFechasRow.swift */; };
+		C863940422F1D32200506C49 /* RangoFechasRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86393C222F1D32100506C49 /* RangoFechasRow.xib */; };
+		C863940522F1D32200506C49 /* MonedaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393C422F1D32100506C49 /* MonedaCell.swift */; };
+		C863940622F1D32200506C49 /* MonedaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393C522F1D32100506C49 /* MonedaRow.swift */; };
+		C863940722F1D32200506C49 /* MonedaRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86393C622F1D32100506C49 /* MonedaRow.xib */; };
+		C863940822F1D32200506C49 /* ListaTemporalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86393C822F1D32100506C49 /* ListaTemporalViewController.xib */; };
+		C863940922F1D32200506C49 /* ListaTemporalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393C922F1D32100506C49 /* ListaTemporalRow.swift */; };
+		C863940A22F1D32200506C49 /* ListaTemporalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393CA22F1D32100506C49 /* ListaTemporalCell.swift */; };
+		C863940B22F1D32200506C49 /* ListaTemporalRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86393CB22F1D32100506C49 /* ListaTemporalRow.xib */; };
+		C863940C22F1D32200506C49 /* ListaTemporalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393CC22F1D32100506C49 /* ListaTemporalViewController.swift */; };
+		C863940D22F1D32200506C49 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86393CE22F1D32100506C49 /* HeaderCell.xib */; };
+		C863940E22F1D32200506C49 /* HeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393CF22F1D32100506C49 /* HeaderRow.swift */; };
+		C863940F22F1D32200506C49 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393D022F1D32100506C49 /* HeaderCell.swift */; };
+		C863941022F1D32200506C49 /* EtiquetaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393D222F1D32100506C49 /* EtiquetaRow.swift */; };
+		C863941122F1D32200506C49 /* EtiquetaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86393D322F1D32100506C49 /* EtiquetaCell.swift */; };
+		C863941222F1D32200506C49 /* EtiquetaRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86393D422F1D32100506C49 /* EtiquetaRow.xib */; };
+		C863941422F1D34700506C49 /* TextoAreaRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863941322F1D34700506C49 /* TextoAreaRow.xib */; };
 		C912897D77798A90873A3DAD8A4BDC50 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4D831C03026C50D9C46AAA6A6A99DC /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA958DBAA5F69BBB7FABA426CF2898E9 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA112225FF526E65896DDDF956F74AF1 /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		CC4D4A58D5696C431EA499C04B436F5F /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4FE44A565B7D51777C3DCF0536EE10 /* SourceLocation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -1216,70 +1216,70 @@
 		C801BDA422F0B18100E75022 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = PODDIGIPROSDK/Classes/Constants.swift; sourceTree = "<group>"; };
 		C801BDA622F0B47E00E75022 /* PODDIGIPRO-Bridgging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PODDIGIPRO-Bridgging-Header.h"; path = "PODDIGIPROSDK/Classes/PODDIGIPRO-Bridgging-Header.h"; sourceTree = "<group>"; };
 		C801BDAA22F0CA2500E75022 /* FormularioUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FormularioUtilities.swift; path = PODDIGIPROSDK/Classes/FormularioUtilities.swift; sourceTree = "<group>"; };
-		C863923822F0E82D00506C49 /* TextoAreaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextoAreaCell.swift; sourceTree = "<group>"; };
-		C863923922F0E82D00506C49 /* TextoAreaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextoAreaRow.swift; sourceTree = "<group>"; };
-		C863923A22F0E82D00506C49 /* TextoAreaRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextoAreaRow.xib; sourceTree = "<group>"; };
-		C86392E722F0E91700506C49 /* Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
-		C86392E822F0E91700506C49 /* TblCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TblCell.xib; sourceTree = "<group>"; };
-		C86392E922F0E91700506C49 /* TablaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablaCell.swift; sourceTree = "<group>"; };
-		C86392EA22F0E91700506C49 /* TablaPlantillaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TablaPlantillaViewController.xib; sourceTree = "<group>"; };
-		C86392EB22F0E91700506C49 /* TablaPlantillaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablaPlantillaViewController.swift; sourceTree = "<group>"; };
-		C86392EC22F0E91700506C49 /* TablaRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TablaRow.xib; sourceTree = "<group>"; };
-		C86392ED22F0E91700506C49 /* TblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TblCell.swift; sourceTree = "<group>"; };
-		C86392EE22F0E91700506C49 /* TablaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablaRow.swift; sourceTree = "<group>"; };
-		C86392F022F0E91700506C49 /* SeccionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeccionCell.swift; sourceTree = "<group>"; };
-		C86392F122F0E91700506C49 /* SeccionRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeccionRow.swift; sourceTree = "<group>"; };
-		C86392F222F0E91700506C49 /* SeccionRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeccionRow.xib; sourceTree = "<group>"; };
-		C86392F422F0E91700506C49 /* ListaTemporalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaTemporalViewController.xib; sourceTree = "<group>"; };
-		C86392F522F0E91700506C49 /* ListaTemporalRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaTemporalRow.swift; sourceTree = "<group>"; };
-		C86392F622F0E91700506C49 /* ListaTemporalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaTemporalCell.swift; sourceTree = "<group>"; };
-		C86392F722F0E91700506C49 /* ListaTemporalRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaTemporalRow.xib; sourceTree = "<group>"; };
-		C86392F822F0E91700506C49 /* ListaTemporalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaTemporalViewController.swift; sourceTree = "<group>"; };
-		C86392FA22F0E91800506C49 /* RangoFechasCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangoFechasCell.swift; sourceTree = "<group>"; };
-		C86392FB22F0E91800506C49 /* RangoFechasRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangoFechasRow.swift; sourceTree = "<group>"; };
-		C86392FC22F0E91800506C49 /* RangoFechasRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RangoFechasRow.xib; sourceTree = "<group>"; };
-		C86392FE22F0E91800506C49 /* FechaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FechaRow.swift; sourceTree = "<group>"; };
-		C86392FF22F0E91800506C49 /* FechaRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FechaRow.xib; sourceTree = "<group>"; };
-		C863930022F0E91800506C49 /* FechaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FechaCell.swift; sourceTree = "<group>"; };
-		C863930222F0E91800506C49 /* EtiquetaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtiquetaRow.swift; sourceTree = "<group>"; };
-		C863930322F0E91800506C49 /* EtiquetaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtiquetaCell.swift; sourceTree = "<group>"; };
-		C863930422F0E91800506C49 /* EtiquetaRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EtiquetaRow.xib; sourceTree = "<group>"; };
-		C863930622F0E91800506C49 /* SliderNewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderNewCell.swift; sourceTree = "<group>"; };
-		C863930722F0E91800506C49 /* SliderNewRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderNewRow.xib; sourceTree = "<group>"; };
-		C863930822F0E91800506C49 /* SliderNewRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderNewRow.swift; sourceTree = "<group>"; };
-		C863930A22F0E91800506C49 /* WizardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WizardCell.swift; sourceTree = "<group>"; };
-		C863930B22F0E91800506C49 /* WizardRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WizardRow.xib; sourceTree = "<group>"; };
-		C863930C22F0E91800506C49 /* WizardRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WizardRow.swift; sourceTree = "<group>"; };
-		C863930E22F0E91800506C49 /* LogoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoRow.swift; sourceTree = "<group>"; };
-		C863930F22F0E91800506C49 /* LogoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoCell.swift; sourceTree = "<group>"; };
-		C863931022F0E91800506C49 /* LogoRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogoRow.xib; sourceTree = "<group>"; };
-		C863931222F0E91800506C49 /* ListaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaRow.swift; sourceTree = "<group>"; };
-		C863931322F0E91800506C49 /* ListaRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaRow.xib; sourceTree = "<group>"; };
-		C863931422F0E91800506C49 /* ListaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaViewController.xib; sourceTree = "<group>"; };
-		C863931522F0E91800506C49 /* ListaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaViewController.swift; sourceTree = "<group>"; };
-		C863931622F0E91800506C49 /* ListaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaCell.swift; sourceTree = "<group>"; };
-		C863931822F0E91800506C49 /* LogicoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogicoCell.swift; sourceTree = "<group>"; };
-		C863931922F0E91800506C49 /* LogicoRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogicoRow.xib; sourceTree = "<group>"; };
-		C863931A22F0E91800506C49 /* LogicoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogicoRow.swift; sourceTree = "<group>"; };
-		C863931C22F0E91800506C49 /* HeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
-		C863931D22F0E91800506C49 /* HeaderRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderRow.swift; sourceTree = "<group>"; };
-		C863931E22F0E91800506C49 /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
-		C863932022F0E91800506C49 /* BotonRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotonRow.swift; sourceTree = "<group>"; };
-		C863932122F0E91800506C49 /* BotonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotonCell.swift; sourceTree = "<group>"; };
-		C863932222F0E91800506C49 /* BotonRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BotonRow.xib; sourceTree = "<group>"; };
-		C863932B22F0E91900506C49 /* TextoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextoRow.swift; sourceTree = "<group>"; };
-		C863932C22F0E91900506C49 /* TextoRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextoRow.xib; sourceTree = "<group>"; };
-		C863932D22F0E91900506C49 /* TextoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextoCell.swift; sourceTree = "<group>"; };
-		C863932F22F0E91900506C49 /* MonedaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonedaCell.swift; sourceTree = "<group>"; };
-		C863933022F0E91900506C49 /* MonedaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonedaRow.swift; sourceTree = "<group>"; };
-		C863933122F0E91900506C49 /* MonedaRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonedaRow.xib; sourceTree = "<group>"; };
-		C863933322F0E91900506C49 /* NumeroRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumeroRow.swift; sourceTree = "<group>"; };
-		C863933422F0E91900506C49 /* NumeroRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumeroRow.xib; sourceTree = "<group>"; };
-		C863933522F0E91900506C49 /* NumeroCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumeroCell.swift; sourceTree = "<group>"; };
-		C863933722F0E91900506C49 /* HeaderTabCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTabCell.swift; sourceTree = "<group>"; };
-		C863933822F0E91900506C49 /* HeaderTabCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderTabCell.xib; sourceTree = "<group>"; };
-		C863933922F0E91900506C49 /* HeaderTabRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTabRow.swift; sourceTree = "<group>"; };
 		C863938222F1D10200506C49 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		C863938622F1D32100506C49 /* TextoAreaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextoAreaCell.swift; sourceTree = "<group>"; };
+		C863938722F1D32100506C49 /* TextoAreaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextoAreaRow.swift; sourceTree = "<group>"; };
+		C863938922F1D32100506C49 /* Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		C863938A22F1D32100506C49 /* TblCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TblCell.xib; sourceTree = "<group>"; };
+		C863938B22F1D32100506C49 /* TablaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablaCell.swift; sourceTree = "<group>"; };
+		C863938C22F1D32100506C49 /* TablaPlantillaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TablaPlantillaViewController.xib; sourceTree = "<group>"; };
+		C863938D22F1D32100506C49 /* TablaPlantillaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablaPlantillaViewController.swift; sourceTree = "<group>"; };
+		C863938E22F1D32100506C49 /* TablaRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TablaRow.xib; sourceTree = "<group>"; };
+		C863938F22F1D32100506C49 /* TblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TblCell.swift; sourceTree = "<group>"; };
+		C863939022F1D32100506C49 /* TablaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TablaRow.swift; sourceTree = "<group>"; };
+		C863939222F1D32100506C49 /* HeaderTabCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTabCell.swift; sourceTree = "<group>"; };
+		C863939322F1D32100506C49 /* HeaderTabCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderTabCell.xib; sourceTree = "<group>"; };
+		C863939422F1D32100506C49 /* HeaderTabRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTabRow.swift; sourceTree = "<group>"; };
+		C863939622F1D32100506C49 /* ListaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaRow.swift; sourceTree = "<group>"; };
+		C863939722F1D32100506C49 /* ListaRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaRow.xib; sourceTree = "<group>"; };
+		C863939822F1D32100506C49 /* ListaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaViewController.xib; sourceTree = "<group>"; };
+		C863939922F1D32100506C49 /* ListaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaViewController.swift; sourceTree = "<group>"; };
+		C863939A22F1D32100506C49 /* ListaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaCell.swift; sourceTree = "<group>"; };
+		C863939C22F1D32100506C49 /* SeccionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeccionCell.swift; sourceTree = "<group>"; };
+		C863939D22F1D32100506C49 /* SeccionRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeccionRow.swift; sourceTree = "<group>"; };
+		C863939E22F1D32100506C49 /* SeccionRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeccionRow.xib; sourceTree = "<group>"; };
+		C86393A022F1D32100506C49 /* WizardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WizardCell.swift; sourceTree = "<group>"; };
+		C86393A122F1D32100506C49 /* WizardRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WizardRow.xib; sourceTree = "<group>"; };
+		C86393A222F1D32100506C49 /* WizardRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WizardRow.swift; sourceTree = "<group>"; };
+		C86393A422F1D32100506C49 /* SliderNewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderNewCell.swift; sourceTree = "<group>"; };
+		C86393A522F1D32100506C49 /* SliderNewRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderNewRow.xib; sourceTree = "<group>"; };
+		C86393A622F1D32100506C49 /* SliderNewRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderNewRow.swift; sourceTree = "<group>"; };
+		C86393A822F1D32100506C49 /* NumeroRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumeroRow.swift; sourceTree = "<group>"; };
+		C86393A922F1D32100506C49 /* NumeroRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumeroRow.xib; sourceTree = "<group>"; };
+		C86393AA22F1D32100506C49 /* NumeroCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumeroCell.swift; sourceTree = "<group>"; };
+		C86393AC22F1D32100506C49 /* BotonRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotonRow.swift; sourceTree = "<group>"; };
+		C86393AD22F1D32100506C49 /* BotonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotonCell.swift; sourceTree = "<group>"; };
+		C86393AE22F1D32100506C49 /* BotonRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BotonRow.xib; sourceTree = "<group>"; };
+		C86393B022F1D32100506C49 /* FechaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FechaRow.swift; sourceTree = "<group>"; };
+		C86393B122F1D32100506C49 /* FechaRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FechaRow.xib; sourceTree = "<group>"; };
+		C86393B222F1D32100506C49 /* FechaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FechaCell.swift; sourceTree = "<group>"; };
+		C86393B422F1D32100506C49 /* TextoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextoRow.swift; sourceTree = "<group>"; };
+		C86393B522F1D32100506C49 /* TextoRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextoRow.xib; sourceTree = "<group>"; };
+		C86393B622F1D32100506C49 /* TextoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextoCell.swift; sourceTree = "<group>"; };
+		C86393B822F1D32100506C49 /* LogoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoRow.swift; sourceTree = "<group>"; };
+		C86393B922F1D32100506C49 /* LogoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoCell.swift; sourceTree = "<group>"; };
+		C86393BA22F1D32100506C49 /* LogoRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogoRow.xib; sourceTree = "<group>"; };
+		C86393BC22F1D32100506C49 /* LogicoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogicoCell.swift; sourceTree = "<group>"; };
+		C86393BD22F1D32100506C49 /* LogicoRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogicoRow.xib; sourceTree = "<group>"; };
+		C86393BE22F1D32100506C49 /* LogicoRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogicoRow.swift; sourceTree = "<group>"; };
+		C86393C022F1D32100506C49 /* RangoFechasCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangoFechasCell.swift; sourceTree = "<group>"; };
+		C86393C122F1D32100506C49 /* RangoFechasRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangoFechasRow.swift; sourceTree = "<group>"; };
+		C86393C222F1D32100506C49 /* RangoFechasRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RangoFechasRow.xib; sourceTree = "<group>"; };
+		C86393C422F1D32100506C49 /* MonedaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonedaCell.swift; sourceTree = "<group>"; };
+		C86393C522F1D32100506C49 /* MonedaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonedaRow.swift; sourceTree = "<group>"; };
+		C86393C622F1D32100506C49 /* MonedaRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonedaRow.xib; sourceTree = "<group>"; };
+		C86393C822F1D32100506C49 /* ListaTemporalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaTemporalViewController.xib; sourceTree = "<group>"; };
+		C86393C922F1D32100506C49 /* ListaTemporalRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaTemporalRow.swift; sourceTree = "<group>"; };
+		C86393CA22F1D32100506C49 /* ListaTemporalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaTemporalCell.swift; sourceTree = "<group>"; };
+		C86393CB22F1D32100506C49 /* ListaTemporalRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaTemporalRow.xib; sourceTree = "<group>"; };
+		C86393CC22F1D32100506C49 /* ListaTemporalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaTemporalViewController.swift; sourceTree = "<group>"; };
+		C86393CE22F1D32100506C49 /* HeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		C86393CF22F1D32100506C49 /* HeaderRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderRow.swift; sourceTree = "<group>"; };
+		C86393D022F1D32100506C49 /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		C86393D222F1D32100506C49 /* EtiquetaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtiquetaRow.swift; sourceTree = "<group>"; };
+		C86393D322F1D32100506C49 /* EtiquetaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtiquetaCell.swift; sourceTree = "<group>"; };
+		C86393D422F1D32100506C49 /* EtiquetaRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EtiquetaRow.xib; sourceTree = "<group>"; };
+		C863941322F1D34700506C49 /* TextoAreaRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextoAreaRow.xib; sourceTree = "<group>"; };
 		C8ED50B822EF4DDC0079B0B7 /* CoverVerticalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverVerticalAnimation.swift; sourceTree = "<group>"; };
 		C8ED50B922EF4DDC0079B0B7 /* PresentrController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentrController.swift; sourceTree = "<group>"; };
 		C8ED50BA22EF4DDC0079B0B7 /* Presentr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentr.swift; sourceTree = "<group>"; };
@@ -1816,12 +1816,12 @@
 		78B3428D6DFD7CB75806667192810B70 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				C863923622F0E7F100506C49 /* DIGIPROSDKSO */,
 				C801BCD422F0AFEB00E75022 /* APIManager.swift */,
 				6DE48EF837B7B554A64816429EC92585 /* BlinkingLabel.swift */,
 				C801BDA422F0B18100E75022 /* Constants.swift */,
 				C801BD7322F0B05200E75022 /* ObjectFormManager.swift */,
 				C801BDAA22F0CA2500E75022 /* FormularioUtilities.swift */,
+				C863938422F1D32100506C49 /* DIGIPROSDKSO */,
 				C801BDA122F0B0C000E75022 /* Reglas */,
 				C801BD8A22F0B0AB00E75022 /* Utilities */,
 				C801BD7822F0B08300E75022 /* Response */,
@@ -2329,227 +2329,228 @@
 			path = PODDIGIPROSDK/Classes/Reglas;
 			sourceTree = "<group>";
 		};
-		C863923622F0E7F100506C49 /* DIGIPROSDKSO */ = {
-			isa = PBXGroup;
-			children = (
-				C863923722F0E82D00506C49 /* AreaTexto */,
-				C863931F22F0E91800506C49 /* Boton */,
-				C86392FD22F0E91800506C49 /* Fecha */,
-				C863931B22F0E91800506C49 /* Header */,
-				C863933622F0E91900506C49 /* HeaderTab */,
-				C863930122F0E91800506C49 /* Leyenda */,
-				C863931122F0E91800506C49 /* Lista */,
-				C86392F322F0E91700506C49 /* Lista Temporal */,
-				C863931722F0E91800506C49 /* Logico */,
-				C863930D22F0E91800506C49 /* Logo */,
-				C863932E22F0E91900506C49 /* Moneda */,
-				C863933222F0E91900506C49 /* Numero */,
-				C86392F922F0E91800506C49 /* RangoFechas */,
-				C86392EF22F0E91700506C49 /* Seccion */,
-				C863930522F0E91800506C49 /* Slider */,
-				C86392E622F0E91700506C49 /* Tabla */,
-				C863932A22F0E91900506C49 /* Texto */,
-				C863930922F0E91800506C49 /* Wizard */,
-			);
-			path = DIGIPROSDKSO;
-			sourceTree = "<group>";
-		};
-		C863923722F0E82D00506C49 /* AreaTexto */ = {
-			isa = PBXGroup;
-			children = (
-				C863923822F0E82D00506C49 /* TextoAreaCell.swift */,
-				C863923922F0E82D00506C49 /* TextoAreaRow.swift */,
-			);
-			path = AreaTexto;
-			sourceTree = "<group>";
-		};
-		C86392E622F0E91700506C49 /* Tabla */ = {
-			isa = PBXGroup;
-			children = (
-				C86392E722F0E91700506C49 /* Cells.swift */,
-				C86392E822F0E91700506C49 /* TblCell.xib */,
-				C86392E922F0E91700506C49 /* TablaCell.swift */,
-				C86392EA22F0E91700506C49 /* TablaPlantillaViewController.xib */,
-				C86392EB22F0E91700506C49 /* TablaPlantillaViewController.swift */,
-				C86392EC22F0E91700506C49 /* TablaRow.xib */,
-				C86392ED22F0E91700506C49 /* TblCell.swift */,
-				C86392EE22F0E91700506C49 /* TablaRow.swift */,
-			);
-			path = Tabla;
-			sourceTree = "<group>";
-		};
-		C86392EF22F0E91700506C49 /* Seccion */ = {
-			isa = PBXGroup;
-			children = (
-				C86392F022F0E91700506C49 /* SeccionCell.swift */,
-				C86392F122F0E91700506C49 /* SeccionRow.swift */,
-				C86392F222F0E91700506C49 /* SeccionRow.xib */,
-			);
-			path = Seccion;
-			sourceTree = "<group>";
-		};
-		C86392F322F0E91700506C49 /* Lista Temporal */ = {
-			isa = PBXGroup;
-			children = (
-				C86392F422F0E91700506C49 /* ListaTemporalViewController.xib */,
-				C86392F522F0E91700506C49 /* ListaTemporalRow.swift */,
-				C86392F622F0E91700506C49 /* ListaTemporalCell.swift */,
-				C86392F722F0E91700506C49 /* ListaTemporalRow.xib */,
-				C86392F822F0E91700506C49 /* ListaTemporalViewController.swift */,
-			);
-			path = "Lista Temporal";
-			sourceTree = "<group>";
-		};
-		C86392F922F0E91800506C49 /* RangoFechas */ = {
-			isa = PBXGroup;
-			children = (
-				C86392FA22F0E91800506C49 /* RangoFechasCell.swift */,
-				C86392FB22F0E91800506C49 /* RangoFechasRow.swift */,
-				C86392FC22F0E91800506C49 /* RangoFechasRow.xib */,
-			);
-			path = RangoFechas;
-			sourceTree = "<group>";
-		};
-		C86392FD22F0E91800506C49 /* Fecha */ = {
-			isa = PBXGroup;
-			children = (
-				C86392FE22F0E91800506C49 /* FechaRow.swift */,
-				C86392FF22F0E91800506C49 /* FechaRow.xib */,
-				C863930022F0E91800506C49 /* FechaCell.swift */,
-			);
-			path = Fecha;
-			sourceTree = "<group>";
-		};
-		C863930122F0E91800506C49 /* Leyenda */ = {
-			isa = PBXGroup;
-			children = (
-				C863930222F0E91800506C49 /* EtiquetaRow.swift */,
-				C863930322F0E91800506C49 /* EtiquetaCell.swift */,
-				C863930422F0E91800506C49 /* EtiquetaRow.xib */,
-			);
-			path = Leyenda;
-			sourceTree = "<group>";
-		};
-		C863930522F0E91800506C49 /* Slider */ = {
-			isa = PBXGroup;
-			children = (
-				C863930622F0E91800506C49 /* SliderNewCell.swift */,
-				C863930722F0E91800506C49 /* SliderNewRow.xib */,
-				C863930822F0E91800506C49 /* SliderNewRow.swift */,
-			);
-			path = Slider;
-			sourceTree = "<group>";
-		};
-		C863930922F0E91800506C49 /* Wizard */ = {
-			isa = PBXGroup;
-			children = (
-				C863930A22F0E91800506C49 /* WizardCell.swift */,
-				C863930B22F0E91800506C49 /* WizardRow.xib */,
-				C863930C22F0E91800506C49 /* WizardRow.swift */,
-			);
-			path = Wizard;
-			sourceTree = "<group>";
-		};
-		C863930D22F0E91800506C49 /* Logo */ = {
-			isa = PBXGroup;
-			children = (
-				C863930E22F0E91800506C49 /* LogoRow.swift */,
-				C863930F22F0E91800506C49 /* LogoCell.swift */,
-				C863931022F0E91800506C49 /* LogoRow.xib */,
-			);
-			path = Logo;
-			sourceTree = "<group>";
-		};
-		C863931122F0E91800506C49 /* Lista */ = {
-			isa = PBXGroup;
-			children = (
-				C863931222F0E91800506C49 /* ListaRow.swift */,
-				C863931322F0E91800506C49 /* ListaRow.xib */,
-				C863931422F0E91800506C49 /* ListaViewController.xib */,
-				C863931522F0E91800506C49 /* ListaViewController.swift */,
-				C863931622F0E91800506C49 /* ListaCell.swift */,
-			);
-			path = Lista;
-			sourceTree = "<group>";
-		};
-		C863931722F0E91800506C49 /* Logico */ = {
-			isa = PBXGroup;
-			children = (
-				C863931822F0E91800506C49 /* LogicoCell.swift */,
-				C863931922F0E91800506C49 /* LogicoRow.xib */,
-				C863931A22F0E91800506C49 /* LogicoRow.swift */,
-			);
-			path = Logico;
-			sourceTree = "<group>";
-		};
-		C863931B22F0E91800506C49 /* Header */ = {
-			isa = PBXGroup;
-			children = (
-				C863931C22F0E91800506C49 /* HeaderCell.xib */,
-				C863931D22F0E91800506C49 /* HeaderRow.swift */,
-				C863931E22F0E91800506C49 /* HeaderCell.swift */,
-			);
-			path = Header;
-			sourceTree = "<group>";
-		};
-		C863931F22F0E91800506C49 /* Boton */ = {
-			isa = PBXGroup;
-			children = (
-				C863932022F0E91800506C49 /* BotonRow.swift */,
-				C863932122F0E91800506C49 /* BotonCell.swift */,
-				C863932222F0E91800506C49 /* BotonRow.xib */,
-			);
-			path = Boton;
-			sourceTree = "<group>";
-		};
-		C863932A22F0E91900506C49 /* Texto */ = {
-			isa = PBXGroup;
-			children = (
-				C863932B22F0E91900506C49 /* TextoRow.swift */,
-				C863932C22F0E91900506C49 /* TextoRow.xib */,
-				C863932D22F0E91900506C49 /* TextoCell.swift */,
-			);
-			path = Texto;
-			sourceTree = "<group>";
-		};
-		C863932E22F0E91900506C49 /* Moneda */ = {
-			isa = PBXGroup;
-			children = (
-				C863932F22F0E91900506C49 /* MonedaCell.swift */,
-				C863933022F0E91900506C49 /* MonedaRow.swift */,
-				C863933122F0E91900506C49 /* MonedaRow.xib */,
-			);
-			path = Moneda;
-			sourceTree = "<group>";
-		};
-		C863933222F0E91900506C49 /* Numero */ = {
-			isa = PBXGroup;
-			children = (
-				C863933322F0E91900506C49 /* NumeroRow.swift */,
-				C863933422F0E91900506C49 /* NumeroRow.xib */,
-				C863933522F0E91900506C49 /* NumeroCell.swift */,
-			);
-			path = Numero;
-			sourceTree = "<group>";
-		};
-		C863933622F0E91900506C49 /* HeaderTab */ = {
-			isa = PBXGroup;
-			children = (
-				C863933722F0E91900506C49 /* HeaderTabCell.swift */,
-				C863933822F0E91900506C49 /* HeaderTabCell.xib */,
-				C863933922F0E91900506C49 /* HeaderTabRow.swift */,
-			);
-			path = HeaderTab;
-			sourceTree = "<group>";
-		};
 		C863938122F1D10200506C49 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				C863923A22F0E82D00506C49 /* TextoAreaRow.xib */,
 				C863938222F1D10200506C49 /* .gitkeep */,
 			);
 			name = Assets;
 			path = PODDIGIPROSDK/Assets;
+			sourceTree = "<group>";
+		};
+		C863938422F1D32100506C49 /* DIGIPROSDKSO */ = {
+			isa = PBXGroup;
+			children = (
+				C863938522F1D32100506C49 /* AreaTexto */,
+				C863938822F1D32100506C49 /* Tabla */,
+				C863939122F1D32100506C49 /* HeaderTab */,
+				C863939522F1D32100506C49 /* Lista */,
+				C863939B22F1D32100506C49 /* Seccion */,
+				C863939F22F1D32100506C49 /* Wizard */,
+				C86393A322F1D32100506C49 /* Slider */,
+				C86393A722F1D32100506C49 /* Numero */,
+				C86393AB22F1D32100506C49 /* Boton */,
+				C86393AF22F1D32100506C49 /* Fecha */,
+				C86393B322F1D32100506C49 /* Texto */,
+				C86393B722F1D32100506C49 /* Logo */,
+				C86393BB22F1D32100506C49 /* Logico */,
+				C86393BF22F1D32100506C49 /* RangoFechas */,
+				C86393C322F1D32100506C49 /* Moneda */,
+				C86393C722F1D32100506C49 /* Lista Temporal */,
+				C86393CD22F1D32100506C49 /* Header */,
+				C86393D122F1D32100506C49 /* Leyenda */,
+			);
+			name = DIGIPROSDKSO;
+			path = PODDIGIPROSDK/Classes/DIGIPROSDKSO;
+			sourceTree = "<group>";
+		};
+		C863938522F1D32100506C49 /* AreaTexto */ = {
+			isa = PBXGroup;
+			children = (
+				C863941322F1D34700506C49 /* TextoAreaRow.xib */,
+				C863938622F1D32100506C49 /* TextoAreaCell.swift */,
+				C863938722F1D32100506C49 /* TextoAreaRow.swift */,
+			);
+			path = AreaTexto;
+			sourceTree = "<group>";
+		};
+		C863938822F1D32100506C49 /* Tabla */ = {
+			isa = PBXGroup;
+			children = (
+				C863938922F1D32100506C49 /* Cells.swift */,
+				C863938A22F1D32100506C49 /* TblCell.xib */,
+				C863938B22F1D32100506C49 /* TablaCell.swift */,
+				C863938C22F1D32100506C49 /* TablaPlantillaViewController.xib */,
+				C863938D22F1D32100506C49 /* TablaPlantillaViewController.swift */,
+				C863938E22F1D32100506C49 /* TablaRow.xib */,
+				C863938F22F1D32100506C49 /* TblCell.swift */,
+				C863939022F1D32100506C49 /* TablaRow.swift */,
+			);
+			path = Tabla;
+			sourceTree = "<group>";
+		};
+		C863939122F1D32100506C49 /* HeaderTab */ = {
+			isa = PBXGroup;
+			children = (
+				C863939222F1D32100506C49 /* HeaderTabCell.swift */,
+				C863939322F1D32100506C49 /* HeaderTabCell.xib */,
+				C863939422F1D32100506C49 /* HeaderTabRow.swift */,
+			);
+			path = HeaderTab;
+			sourceTree = "<group>";
+		};
+		C863939522F1D32100506C49 /* Lista */ = {
+			isa = PBXGroup;
+			children = (
+				C863939622F1D32100506C49 /* ListaRow.swift */,
+				C863939722F1D32100506C49 /* ListaRow.xib */,
+				C863939822F1D32100506C49 /* ListaViewController.xib */,
+				C863939922F1D32100506C49 /* ListaViewController.swift */,
+				C863939A22F1D32100506C49 /* ListaCell.swift */,
+			);
+			path = Lista;
+			sourceTree = "<group>";
+		};
+		C863939B22F1D32100506C49 /* Seccion */ = {
+			isa = PBXGroup;
+			children = (
+				C863939C22F1D32100506C49 /* SeccionCell.swift */,
+				C863939D22F1D32100506C49 /* SeccionRow.swift */,
+				C863939E22F1D32100506C49 /* SeccionRow.xib */,
+			);
+			path = Seccion;
+			sourceTree = "<group>";
+		};
+		C863939F22F1D32100506C49 /* Wizard */ = {
+			isa = PBXGroup;
+			children = (
+				C86393A022F1D32100506C49 /* WizardCell.swift */,
+				C86393A122F1D32100506C49 /* WizardRow.xib */,
+				C86393A222F1D32100506C49 /* WizardRow.swift */,
+			);
+			path = Wizard;
+			sourceTree = "<group>";
+		};
+		C86393A322F1D32100506C49 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				C86393A422F1D32100506C49 /* SliderNewCell.swift */,
+				C86393A522F1D32100506C49 /* SliderNewRow.xib */,
+				C86393A622F1D32100506C49 /* SliderNewRow.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		C86393A722F1D32100506C49 /* Numero */ = {
+			isa = PBXGroup;
+			children = (
+				C86393A822F1D32100506C49 /* NumeroRow.swift */,
+				C86393A922F1D32100506C49 /* NumeroRow.xib */,
+				C86393AA22F1D32100506C49 /* NumeroCell.swift */,
+			);
+			path = Numero;
+			sourceTree = "<group>";
+		};
+		C86393AB22F1D32100506C49 /* Boton */ = {
+			isa = PBXGroup;
+			children = (
+				C86393AC22F1D32100506C49 /* BotonRow.swift */,
+				C86393AD22F1D32100506C49 /* BotonCell.swift */,
+				C86393AE22F1D32100506C49 /* BotonRow.xib */,
+			);
+			path = Boton;
+			sourceTree = "<group>";
+		};
+		C86393AF22F1D32100506C49 /* Fecha */ = {
+			isa = PBXGroup;
+			children = (
+				C86393B022F1D32100506C49 /* FechaRow.swift */,
+				C86393B122F1D32100506C49 /* FechaRow.xib */,
+				C86393B222F1D32100506C49 /* FechaCell.swift */,
+			);
+			path = Fecha;
+			sourceTree = "<group>";
+		};
+		C86393B322F1D32100506C49 /* Texto */ = {
+			isa = PBXGroup;
+			children = (
+				C86393B422F1D32100506C49 /* TextoRow.swift */,
+				C86393B522F1D32100506C49 /* TextoRow.xib */,
+				C86393B622F1D32100506C49 /* TextoCell.swift */,
+			);
+			path = Texto;
+			sourceTree = "<group>";
+		};
+		C86393B722F1D32100506C49 /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+				C86393B822F1D32100506C49 /* LogoRow.swift */,
+				C86393B922F1D32100506C49 /* LogoCell.swift */,
+				C86393BA22F1D32100506C49 /* LogoRow.xib */,
+			);
+			path = Logo;
+			sourceTree = "<group>";
+		};
+		C86393BB22F1D32100506C49 /* Logico */ = {
+			isa = PBXGroup;
+			children = (
+				C86393BC22F1D32100506C49 /* LogicoCell.swift */,
+				C86393BD22F1D32100506C49 /* LogicoRow.xib */,
+				C86393BE22F1D32100506C49 /* LogicoRow.swift */,
+			);
+			path = Logico;
+			sourceTree = "<group>";
+		};
+		C86393BF22F1D32100506C49 /* RangoFechas */ = {
+			isa = PBXGroup;
+			children = (
+				C86393C022F1D32100506C49 /* RangoFechasCell.swift */,
+				C86393C122F1D32100506C49 /* RangoFechasRow.swift */,
+				C86393C222F1D32100506C49 /* RangoFechasRow.xib */,
+			);
+			path = RangoFechas;
+			sourceTree = "<group>";
+		};
+		C86393C322F1D32100506C49 /* Moneda */ = {
+			isa = PBXGroup;
+			children = (
+				C86393C422F1D32100506C49 /* MonedaCell.swift */,
+				C86393C522F1D32100506C49 /* MonedaRow.swift */,
+				C86393C622F1D32100506C49 /* MonedaRow.xib */,
+			);
+			path = Moneda;
+			sourceTree = "<group>";
+		};
+		C86393C722F1D32100506C49 /* Lista Temporal */ = {
+			isa = PBXGroup;
+			children = (
+				C86393C822F1D32100506C49 /* ListaTemporalViewController.xib */,
+				C86393C922F1D32100506C49 /* ListaTemporalRow.swift */,
+				C86393CA22F1D32100506C49 /* ListaTemporalCell.swift */,
+				C86393CB22F1D32100506C49 /* ListaTemporalRow.xib */,
+				C86393CC22F1D32100506C49 /* ListaTemporalViewController.swift */,
+			);
+			path = "Lista Temporal";
+			sourceTree = "<group>";
+		};
+		C86393CD22F1D32100506C49 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				C86393CE22F1D32100506C49 /* HeaderCell.xib */,
+				C86393CF22F1D32100506C49 /* HeaderRow.swift */,
+				C86393D022F1D32100506C49 /* HeaderCell.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		C86393D122F1D32100506C49 /* Leyenda */ = {
+			isa = PBXGroup;
+			children = (
+				C86393D222F1D32100506C49 /* EtiquetaRow.swift */,
+				C86393D322F1D32100506C49 /* EtiquetaCell.swift */,
+				C86393D422F1D32100506C49 /* EtiquetaRow.xib */,
+			);
+			path = Leyenda;
 			sourceTree = "<group>";
 		};
 		C8ED50B722EF4DDC0079B0B7 /* Presentr */ = {
@@ -3096,38 +3097,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C863935422F0E91900506C49 /* SliderNewRow.xib in Resources */,
 				C801BCA822F0AC6600E75022 /* jg_hud_success@2x.png in Resources */,
-				C863937522F0E91900506C49 /* MonedaRow.xib in Resources */,
-				C863935D22F0E91900506C49 /* ListaRow.xib in Resources */,
-				C863937A22F0E91900506C49 /* HeaderTabCell.xib in Resources */,
-				C863936422F0E91900506C49 /* HeaderCell.xib in Resources */,
+				C86393FA22F1D32200506C49 /* TextoRow.xib in Resources */,
+				C863940722F1D32200506C49 /* MonedaRow.xib in Resources */,
 				C863938022F1046200506C49 /* Montserrat-Regular.ttf in Resources */,
+				C863940B22F1D32200506C49 /* ListaTemporalRow.xib in Resources */,
+				C863940D22F1D32200506C49 /* HeaderCell.xib in Resources */,
+				C863941422F1D34700506C49 /* TextoAreaRow.xib in Resources */,
+				C86393E322F1D32200506C49 /* ListaRow.xib in Resources */,
 				C801BCA722F0AC6600E75022 /* jg_hud_success@3x.png in Resources */,
-				C863934422F0E91900506C49 /* SeccionRow.xib in Resources */,
 				C801BCA522F0AC6600E75022 /* jg_hud_error@2x.png in Resources */,
+				C86393E022F1D32200506C49 /* HeaderTabCell.xib in Resources */,
 				C801BCA422F0AC6600E75022 /* jg_hud_error@3x.png in Resources */,
-				C863937722F0E91900506C49 /* NumeroRow.xib in Resources */,
-				C863935B22F0E91900506C49 /* LogoRow.xib in Resources */,
-				C863923D22F0E82D00506C49 /* TextoAreaRow.xib in Resources */,
-				C863934C22F0E91900506C49 /* RangoFechasRow.xib in Resources */,
-				C863933D22F0E91900506C49 /* TablaPlantillaViewController.xib in Resources */,
-				C863935722F0E91900506C49 /* WizardRow.xib in Resources */,
-				C863934E22F0E91900506C49 /* FechaRow.xib in Resources */,
+				C86393F522F1D32200506C49 /* BotonRow.xib in Resources */,
+				C863940422F1D32200506C49 /* RangoFechasRow.xib in Resources */,
+				C863940822F1D32200506C49 /* ListaTemporalViewController.xib in Resources */,
+				C863940022F1D32200506C49 /* LogicoRow.xib in Resources */,
 				C801BCA622F0AC6600E75022 /* jg_hud_success.png in Resources */,
-				C863936922F0E91900506C49 /* BotonRow.xib in Resources */,
+				C86393E422F1D32200506C49 /* ListaViewController.xib in Resources */,
 				C863937E22F1045A00506C49 /* SourceSansPro-Regular.ttf in Resources */,
-				C863935222F0E91900506C49 /* EtiquetaRow.xib in Resources */,
-				C863937122F0E91900506C49 /* TextoRow.xib in Resources */,
-				C863934522F0E91900506C49 /* ListaTemporalViewController.xib in Resources */,
-				C863933B22F0E91900506C49 /* TblCell.xib in Resources */,
-				C863935E22F0E91900506C49 /* ListaViewController.xib in Resources */,
+				C86393DA22F1D32200506C49 /* TablaPlantillaViewController.xib in Resources */,
 				C801BCA922F0AC6600E75022 /* jg_hud_error.png in Resources */,
-				C863936222F0E91900506C49 /* LogicoRow.xib in Resources */,
-				C863933F22F0E91900506C49 /* TablaRow.xib in Resources */,
-				C863934822F0E91900506C49 /* ListaTemporalRow.xib in Resources */,
 				C863937F22F1045E00506C49 /* AlertViewController.xib in Resources */,
+				C86393F722F1D32200506C49 /* FechaRow.xib in Resources */,
+				C86393D822F1D32200506C49 /* TblCell.xib in Resources */,
+				C86393EB22F1D32200506C49 /* WizardRow.xib in Resources */,
+				C86393E922F1D32200506C49 /* SeccionRow.xib in Resources */,
+				C863941222F1D32200506C49 /* EtiquetaRow.xib in Resources */,
+				C86393FE22F1D32200506C49 /* LogoRow.xib in Resources */,
 				C863938322F1D10200506C49 /* .gitkeep in Resources */,
+				C86393EE22F1D32200506C49 /* SliderNewRow.xib in Resources */,
+				C86393F122F1D32200506C49 /* NumeroRow.xib in Resources */,
+				C86393DC22F1D32200506C49 /* TablaRow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3264,6 +3265,7 @@
 				C801BDAB22F0CA2500E75022 /* FormularioUtilities.swift in Sources */,
 				C801BB4D22F0958200E75022 /* MenuTheme.swift in Sources */,
 				C801BD0F22F0B00300E75022 /* Atributos_metodo.swift in Sources */,
+				C86393E122F1D32200506C49 /* HeaderTabRow.swift in Sources */,
 				C801BC3B22F09CA000E75022 /* HeroTransition+Start.swift in Sources */,
 				C801BD5E22F0B03A00E75022 /* FEEstadistica.swift in Sources */,
 				C801BB8C22F0968600E75022 /* ScrollPosition.swift in Sources */,
@@ -3278,23 +3280,25 @@
 				B1E68796104F18DE170574E22E526F7B /* BlinkingLabel.swift in Sources */,
 				C801BBEF22F09AF600E75022 /* Promise+all.swift in Sources */,
 				C801BD1322F0B00300E75022 /* Atributos_fecha.swift in Sources */,
+				C86393FB22F1D32200506C49 /* TextoCell.swift in Sources */,
 				C801BCB422F0AC6600E75022 /* JGProgressHUDIndicatorView.m in Sources */,
 				C801BB0122F0945600E75022 /* PresenterRowType.swift in Sources */,
 				C801BB7822F0963D00E75022 /* CoverFromCornerAnimation.swift in Sources */,
+				C86393FD22F1D32200506C49 /* LogoCell.swift in Sources */,
 				C801BAF022F0941600E75022 /* String+FoundationExtension.swift in Sources */,
 				C801BD6C22F0B03A00E75022 /* FEVariableData.swift in Sources */,
-				C863935522F0E91900506C49 /* SliderNewRow.swift in Sources */,
 				C801BB8722F0967700E75022 /* Address.swift in Sources */,
+				C86393EF22F1D32200506C49 /* SliderNewRow.swift in Sources */,
 				C801BD2122F0B00300E75022 /* Atributos_listatemporal.swift in Sources */,
 				C801BB5C22F095BA00E75022 /* ConstraintLayoutSupport.swift in Sources */,
 				C801BC4D22F09CA000E75022 /* HeroTransition+Animate.swift in Sources */,
 				C801BB2522F094DE00E75022 /* TriplePickerRow.swift in Sources */,
 				C801BD8422F0B08300E75022 /* FolioAutomaticoResult.swift in Sources */,
-				C863934022F0E91900506C49 /* TblCell.swift in Sources */,
+				C86393DD22F1D32200506C49 /* TblCell.swift in Sources */,
 				C801BAAE22F0930C00E75022 /* AES.Cryptors.swift in Sources */,
+				C863940922F1D32200506C49 /* ListaTemporalRow.swift in Sources */,
 				C801BAE122F093DD00E75022 /* CFB.swift in Sources */,
 				C801BD0D22F0B00300E75022 /* Atributos_pagina.swift in Sources */,
-				C863937622F0E91900506C49 /* NumeroRow.swift in Sources */,
 				C801BC4E22F09CA000E75022 /* Regex.swift in Sources */,
 				C801BAE622F093EE00E75022 /* OFB.swift in Sources */,
 				C801BB6322F095D000E75022 /* ConstraintMakerRelatable.swift in Sources */,
@@ -3314,8 +3318,8 @@
 				93F41AA6B3EC4E8AFB060597C04FD644 /* PODDIGIPROSDK-dummy.m in Sources */,
 				C801BCC522F0ADB500E75022 /* UIViewController+RESideMenu.m in Sources */,
 				C801BAEC22F0940300E75022 /* ChaCha20+Foundation.swift in Sources */,
-				C863935622F0E91900506C49 /* WizardCell.swift in Sources */,
 				C801BD7022F0B03A00E75022 /* FESkin.swift in Sources */,
+				C863940C22F1D32200506C49 /* ListaTemporalViewController.swift in Sources */,
 				C801BD6922F0B03A00E75022 /* FERegistro.swift in Sources */,
 				C801BAEE22F0940D00E75022 /* HMAC+Foundation.swift in Sources */,
 				C801BB5922F095B100E75022 /* ConstraintLayoutGuide.swift in Sources */,
@@ -3324,17 +3328,19 @@
 				C801BD0922F0B00300E75022 /* Atributos_texto.swift in Sources */,
 				C801BAE022F093DA00E75022 /* CBC.swift in Sources */,
 				C801BB1F22F094C900E75022 /* SegmentedRow.swift in Sources */,
+				C86393E722F1D32200506C49 /* SeccionCell.swift in Sources */,
 				C801BD6722F0B03A00E75022 /* FELicencia.swift in Sources */,
 				C801BAD022F0939500E75022 /* SHA2.swift in Sources */,
 				C801BAA522F092E600E75022 /* Element.swift in Sources */,
 				C801BDA322F0B0C000E75022 /* reglas.swift in Sources */,
 				C801BB1822F094AF00E75022 /* MultipleSelectorRow.swift in Sources */,
 				C801BCA122F0AC6600E75022 /* JGProgressHUDErrorIndicatorView.m in Sources */,
+				C86393E622F1D32200506C49 /* ListaCell.swift in Sources */,
 				C801BB2322F094D800E75022 /* TextAreaRow.swift in Sources */,
 				C801BAB022F0931300E75022 /* Authenticator.swift in Sources */,
+				C86393F422F1D32200506C49 /* BotonCell.swift in Sources */,
 				C801BD8322F0B08300E75022 /* SmsServicio.swift in Sources */,
 				C801BB4A22F0957900E75022 /* MenuContents.swift in Sources */,
-				C863936622F0E91900506C49 /* HeaderCell.swift in Sources */,
 				C801BB8622F0967400E75022 /* Location.swift in Sources */,
 				C801BB8922F0967C00E75022 /* SpreadsheetViewDataSource.swift in Sources */,
 				C801BD5422F0B03A00E75022 /* FEConsultaTemplate.swift in Sources */,
@@ -3346,7 +3352,6 @@
 				C801BB7B22F0964500E75022 /* BackgroundView.swift in Sources */,
 				C801BD1822F0B00300E75022 /* Atributos_huelladigital.swift in Sources */,
 				C801BD5322F0B03A00E75022 /* FECodigo.swift in Sources */,
-				C863934F22F0E91900506C49 /* FechaCell.swift in Sources */,
 				C801BCBA22F0AC6600E75022 /* JGProgressHUDRingIndicatorView.m in Sources */,
 				C801BB6B22F095F300E75022 /* ConstraintView+Extensions.swift in Sources */,
 				C801BC5422F09CA000E75022 /* Nodes.swift in Sources */,
@@ -3359,6 +3364,7 @@
 				C801BB5822F095AD00E75022 /* ConstraintItem.swift in Sources */,
 				C801BAAC22F0930300E75022 /* CalendarDateRangePickerViewController.swift in Sources */,
 				C801BAFD22F0944900E75022 /* Helpers.swift in Sources */,
+				C863940322F1D32200506C49 /* RangoFechasRow.swift in Sources */,
 				C801BAE322F093E300E75022 /* CTR.swift in Sources */,
 				C801BBED22F09AF600E75022 /* Promise+try.swift in Sources */,
 				C801BADB22F093C400E75022 /* ZeroPadding.swift in Sources */,
@@ -3377,13 +3383,10 @@
 				C801BC4A22F09CA000E75022 /* UIKit+Hero.swift in Sources */,
 				C801BC4922F09CA000E75022 /* ConditionalPreprocessor.swift in Sources */,
 				C801BD5A22F0B03A00E75022 /* FEItemCatalogoEsquema.swift in Sources */,
-				C863937422F0E91900506C49 /* MonedaRow.swift in Sources */,
-				C863934722F0E91900506C49 /* ListaTemporalCell.swift in Sources */,
 				C801BAB522F0933D00E75022 /* BlockEncryptor.swift in Sources */,
 				C801BD5222F0B03A00E75022 /* FETipoReporte.swift in Sources */,
 				C801BC6B22F09CF300E75022 /* BannerStyle.swift in Sources */,
 				C801BB1622F094A800E75022 /* FieldsRow.swift in Sources */,
-				C863935922F0E91900506C49 /* LogoRow.swift in Sources */,
 				C801BB7922F0964000E75022 /* AlertViewController.swift in Sources */,
 				C801BB7E22F0965200E75022 /* PresentationType.swift in Sources */,
 				C801BC3622F09CA000E75022 /* HeroViewPropertyViewContext.swift in Sources */,
@@ -3398,13 +3401,11 @@
 				C801BB8022F0965800E75022 /* ModalCenterPosition.swift in Sources */,
 				C801BB0922F0947100E75022 /* SwipeActions.swift in Sources */,
 				C801BD6F22F0B03A00E75022 /* FEAppSkin.swift in Sources */,
-				C863936722F0E91900506C49 /* BotonRow.swift in Sources */,
 				C801BC6F22F09CF300E75022 /* BannerHapticGenerator.swift in Sources */,
 				C801BB9222F0969800E75022 /* ScrollView.swift in Sources */,
 				C801BD1D22F0B00300E75022 /* Atributos_rangofechas.swift in Sources */,
 				C801BC5F22F09CA000E75022 /* SourcePreprocessor.swift in Sources */,
 				C801BB8122F0965B00E75022 /* CoverVerticalFromTopAnimation.swift in Sources */,
-				C863937022F0E91900506C49 /* TextoRow.swift in Sources */,
 				C801BB1322F0949200E75022 /* DateRow.swift in Sources */,
 				C801BAC422F0937300E75022 /* Int+Extension.swift in Sources */,
 				C801BBA122F096DE00E75022 /* CGPoint+Extensions.swift in Sources */,
@@ -3420,6 +3421,7 @@
 				C801BD1F22F0B00300E75022 /* Atributos_semaforo.swift in Sources */,
 				C801BB2B22F094FB00E75022 /* GenericMultipleSelectorRow.swift in Sources */,
 				C801BCD322F0AE2600E75022 /* XMLDictionary.m in Sources */,
+				C86393F922F1D32200506C49 /* TextoRow.swift in Sources */,
 				C801BD5F22F0B03A00E75022 /* FECampoReporte.swift in Sources */,
 				C801BC4122F09CA000E75022 /* BasePreprocessor.swift in Sources */,
 				C801BD7122F0B03A00E75022 /* FEConsultaFormato.swift in Sources */,
@@ -3447,7 +3449,6 @@
 				C801BC3D22F09CA000E75022 /* MatchPreprocessor.swift in Sources */,
 				C801BB6222F095CD00E75022 /* ConstraintMakerPriortizable.swift in Sources */,
 				C801BB8D22F0968800E75022 /* SpreadsheetView+UIViewHierarchy.swift in Sources */,
-				C863935122F0E91900506C49 /* EtiquetaCell.swift in Sources */,
 				C801BC5122F09CA000E75022 /* HeroAnimatorViewContext.swift in Sources */,
 				C801BB0822F0946E00E75022 /* SelectableSection.swift in Sources */,
 				C801BC4B22F09CA000E75022 /* HeroTargetState.swift in Sources */,
@@ -3456,7 +3457,6 @@
 				C801BC6E22F09CF300E75022 /* BannerColors.swift in Sources */,
 				C801BD5522F0B03A00E75022 /* FECatalogo.swift in Sources */,
 				C801BB3C22F0953D00E75022 /* DeserializationStatus.swift in Sources */,
-				C863934B22F0E91900506C49 /* RangoFechasRow.swift in Sources */,
 				C801BB0F22F0948600E75022 /* CheckRow.swift in Sources */,
 				C801BBF522F09AF600E75022 /* Promise.swift in Sources */,
 				C801BB4822F0956E00E75022 /* Data+Gzip.swift in Sources */,
@@ -3465,13 +3465,12 @@
 				C801BC3E22F09CA000E75022 /* CG+Hero.swift in Sources */,
 				C801BB7122F0960600E75022 /* UILayoutSupport+Extensions.swift in Sources */,
 				C801BD1722F0B00300E75022 /* Atributos_plantilla.swift in Sources */,
+				C86393FF22F1D32200506C49 /* LogicoCell.swift in Sources */,
 				C801BC4422F09CA000E75022 /* UIView+Hero.swift in Sources */,
 				C801BD0722F0B00300E75022 /* Atributos.swift in Sources */,
 				C801BC4722F09CA000E75022 /* HeroDebugPlugin.swift in Sources */,
 				C801BD9822F0B0AC00E75022 /* StringExtensions.swift in Sources */,
-				C863936322F0E91900506C49 /* LogicoRow.swift in Sources */,
 				C801BCA022F0AC6600E75022 /* JGProgressHUDIndeterminateIndicatorView.m in Sources */,
-				C863934222F0E91900506C49 /* SeccionCell.swift in Sources */,
 				C801BB6922F095EB00E75022 /* ConstraintRelation.swift in Sources */,
 				C801BAC022F0936000E75022 /* DigestType.swift in Sources */,
 				C801BC4F22F09CA000E75022 /* SwiftSupport.swift in Sources */,
@@ -3480,8 +3479,8 @@
 				C801BD9C22F0B0AC00E75022 /* Device.swift in Sources */,
 				C801BD2522F0B00300E75022 /* Atributos_espacio.swift in Sources */,
 				C801BB4622F0956000E75022 /* EVManagedObjectArrayExtension.swift in Sources */,
-				C863935322F0E91900506C49 /* SliderNewCell.swift in Sources */,
 				C801BB6022F095C600E75022 /* ConstraintMakerExtendable.swift in Sources */,
+				C86393DF22F1D32200506C49 /* HeaderTabCell.swift in Sources */,
 				C801BD2B22F0B00300E75022 /* Atributos_password.swift in Sources */,
 				C801BAC522F0937600E75022 /* MD5.swift in Sources */,
 				C801BADC22F093C900E75022 /* AEAD.swift in Sources */,
@@ -3503,6 +3502,7 @@
 				C801BC7622F0A08300E75022 /* UIScrollView+EmptyDataSet.m in Sources */,
 				C801BAA622F092E800E75022 /* Error.swift in Sources */,
 				C801BD1C22F0B00300E75022 /* Atributos_imagen.swift in Sources */,
+				C863940222F1D32200506C49 /* RangoFechasCell.swift in Sources */,
 				C801BC5622F09CA000E75022 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */,
 				C801BB3222F0951500E75022 /* ListCheckRow.swift in Sources */,
 				C801BD1A22F0B00300E75022 /* Atributos_hora.swift in Sources */,
@@ -3515,9 +3515,10 @@
 				C801BAB822F0934600E75022 /* Checksum.swift in Sources */,
 				C801BB1222F0948F00E75022 /* DatePickerRow.swift in Sources */,
 				C801BC5022F09CA000E75022 /* UIViewController+Hero.swift in Sources */,
+				C86393F822F1D32200506C49 /* FechaCell.swift in Sources */,
 				C801BD1122F0B00300E75022 /* Atributos_audio.swift in Sources */,
-				C863937322F0E91900506C49 /* MonedaCell.swift in Sources */,
 				C801BAE522F093EA00E75022 /* GCM.swift in Sources */,
+				C86393E822F1D32200506C49 /* SeccionRow.swift in Sources */,
 				C801BB4322F0955500E75022 /* EVWorkaroundHelpers.swift in Sources */,
 				C801BBEC22F09AF600E75022 /* Promise+tap.swift in Sources */,
 				C801BC5522F09CA000E75022 /* HeroStringConvertible.swift in Sources */,
@@ -3530,19 +3531,17 @@
 				C801BC4022F09CA000E75022 /* HeroModifier+HeroStringConvertible.swift in Sources */,
 				C801BC3322F09CA000E75022 /* HeroTransition+Interactive.swift in Sources */,
 				C801BB0B22F0947B00E75022 /* ActionSheetRow.swift in Sources */,
+				C863940122F1D32200506C49 /* LogicoRow.swift in Sources */,
 				C801BD8522F0B08300E75022 /* HuellaDigitalRespuesta.swift in Sources */,
 				C801BADF22F093D600E75022 /* BlockModeOptions.swift in Sources */,
-				C863934922F0E91900506C49 /* ListaTemporalViewController.swift in Sources */,
 				C801BCD522F0AFEB00E75022 /* APIManager.swift in Sources */,
 				C801BB3922F0952C00E75022 /* RuleRequired.swift in Sources */,
 				C801BAEA22F093FC00E75022 /* Array+Foundation.swift in Sources */,
 				C801BB6722F095E400E75022 /* ConstraintPriorityTarget.swift in Sources */,
 				C801BD1422F0B00300E75022 /* Formula.swift in Sources */,
 				C801BAA722F092EB00E75022 /* Options.swift in Sources */,
-				C863936822F0E91900506C49 /* BotonCell.swift in Sources */,
+				C86393D622F1D32200506C49 /* TextoAreaRow.swift in Sources */,
 				C801BC6D22F09CF300E75022 /* NotificationBannerUtilities.swift in Sources */,
-				C863923C22F0E82D00506C49 /* TextoAreaRow.swift in Sources */,
-				C863935822F0E91900506C49 /* WizardRow.swift in Sources */,
 				C801BACB22F0938800E75022 /* Rabbit.swift in Sources */,
 				C801BD5C22F0B03A00E75022 /* FEPlantillaMerge.swift in Sources */,
 				C801BD5922F0B03A00E75022 /* FEConsultaPlantilla.swift in Sources */,
@@ -3551,18 +3550,19 @@
 				C801BD0B22F0B00300E75022 /* Atributos_georeferencia.swift in Sources */,
 				C801BB1522F094A500E75022 /* DoublePickerRow.swift in Sources */,
 				C801BAD922F093B900E75022 /* Updatable.swift in Sources */,
+				C86393F222F1D32200506C49 /* NumeroCell.swift in Sources */,
 				C801BB0722F0946B00E75022 /* SelectableRowType.swift in Sources */,
 				C801BD9922F0B0AC00E75022 /* HeightLabel.swift in Sources */,
 				C801BACD22F0938B00E75022 /* RandomBytesSequence.swift in Sources */,
-				C863935F22F0E91900506C49 /* ListaViewController.swift in Sources */,
 				C801BB6822F095E800E75022 /* ConstraintRelatableTarget.swift in Sources */,
+				C863940522F1D32200506C49 /* MonedaCell.swift in Sources */,
 				C801BCB722F0AC6600E75022 /* JGProgressHUD.m in Sources */,
 				C801BAFE22F0944C00E75022 /* InlineRowType.swift in Sources */,
 				C801BCC922F0ADB500E75022 /* RECommonFunctions.m in Sources */,
+				C86393EC22F1D32200506C49 /* WizardRow.swift in Sources */,
 				C801BAFF22F0944F00E75022 /* NavigationAccessoryView.swift in Sources */,
 				C801BB8322F0966100E75022 /* ModalSize.swift in Sources */,
 				C801BD6822F0B03A00E75022 /* FELogError.swift in Sources */,
-				C863936522F0E91900506C49 /* HeaderRow.swift in Sources */,
 				C801BD6122F0B03A00E75022 /* FEPlantillaData.swift in Sources */,
 				C801BB5322F0959D00E75022 /* ConstraintConstantTarget.swift in Sources */,
 				C801BB3022F0950C00E75022 /* SelectorAlertController.swift in Sources */,
@@ -3571,7 +3571,7 @@
 				C801BB8F22F0968E00E75022 /* LayoutEngine.swift in Sources */,
 				C801BAB122F0931700E75022 /* BatchedCollection.swift in Sources */,
 				C801BB5D22F095BD00E75022 /* ConstraintLayoutSupportDSL.swift in Sources */,
-				C863937222F0E91900506C49 /* TextoCell.swift in Sources */,
+				C86393F622F1D32200506C49 /* FechaRow.swift in Sources */,
 				C801BB3A22F0953000E75022 /* RuleURL.swift in Sources */,
 				C801BB8B22F0968200E75022 /* Array+BinarySearch.swift in Sources */,
 				C801BD0322F0B00300E75022 /* Atributos_firma.swift in Sources */,
@@ -3601,7 +3601,6 @@
 				C801BB7022F0960300E75022 /* Typealiases.swift in Sources */,
 				C801BAC322F0936B00E75022 /* HMAC.swift in Sources */,
 				C801BAA422F092E200E75022 /* Document.swift in Sources */,
-				C863937822F0E91900506C49 /* NumeroCell.swift in Sources */,
 				C801BB6122F095CA00E75022 /* ConstraintMakerFinalizable.swift in Sources */,
 				C801BB3722F0952600E75022 /* RuleRange.swift in Sources */,
 				C801BB7722F0962B00E75022 /* CoverHorizontalAnimation.swift in Sources */,
@@ -3612,70 +3611,74 @@
 				C801BB3622F0952300E75022 /* RuleLength.swift in Sources */,
 				C801BB4C22F0957F00E75022 /* MenuItemView.swift in Sources */,
 				C801BB2422F094DB00E75022 /* TriplePickerInputRow.swift in Sources */,
-				C863923B22F0E82D00506C49 /* TextoAreaCell.swift in Sources */,
-				C863934D22F0E91900506C49 /* FechaRow.swift in Sources */,
+				C86393D522F1D32200506C49 /* TextoAreaCell.swift in Sources */,
 				C801BB9122F0969500E75022 /* SpreadsheetView+Layout.swift in Sources */,
 				C801BD6022F0B03A00E75022 /* FEConsultaAnexo.swift in Sources */,
 				C801BC4622F09CA000E75022 /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
 				C801BBF722F09AF600E75022 /* Promise+then.swift in Sources */,
-				C863935022F0E91900506C49 /* EtiquetaRow.swift in Sources */,
+				C863940F22F1D32200506C49 /* HeaderCell.swift in Sources */,
 				C801BAF922F0943900E75022 /* CellType.swift in Sources */,
 				C801BB7222F0961C00E75022 /* CoverVerticalAnimation.swift in Sources */,
 				C801BACE22F0938E00E75022 /* SecureBytes.swift in Sources */,
+				C863940E22F1D32200506C49 /* HeaderRow.swift in Sources */,
 				C801BBE822F09AF600E75022 /* Promise+void.swift in Sources */,
-				C863934622F0E91900506C49 /* ListaTemporalRow.swift in Sources */,
 				C801BB3B22F0953A00E75022 /* ConversionOptions.swift in Sources */,
 				C801BB9522F096A100E75022 /* Gridlines.swift in Sources */,
 				C801BC5E22F09CA000E75022 /* HeroModifier+Advanced.swift in Sources */,
 				C801BAB922F0934900E75022 /* Cipher.swift in Sources */,
+				C86393EA22F1D32200506C49 /* WizardCell.swift in Sources */,
 				C801BB6522F095DE00E75022 /* ConstraintOffsetTarget.swift in Sources */,
 				C801BB2E22F0950400E75022 /* SelectorRow.swift in Sources */,
 				C801BCBC22F0AC6600E75022 /* JGProgressHUDShadow.m in Sources */,
-				C863934A22F0E91900506C49 /* RangoFechasCell.swift in Sources */,
 				C801BD2822F0B00300E75022 /* Atributos_codigobarras.swift in Sources */,
 				C801BB0D22F0948000E75022 /* ButtonRow.swift in Sources */,
 				C801BB9D22F096D100E75022 /* SignatureDrawingViewController.swift in Sources */,
-				C863936022F0E91900506C49 /* ListaCell.swift in Sources */,
 				C801BADA22F093C100E75022 /* Utils.swift in Sources */,
 				C801BB1122F0948B00E75022 /* DateInlineRow.swift in Sources */,
 				C801BADD22F093CC00E75022 /* AEADChaCha20Poly1305.swift in Sources */,
 				C801BB2922F094F400E75022 /* DecimalFormatter.swift in Sources */,
 				C801BC7C22F0A13F00E75022 /* FCFileManager.m in Sources */,
 				C801BD9B22F0B0AC00E75022 /* Interface.swift in Sources */,
-				C863934122F0E91900506C49 /* TablaRow.swift in Sources */,
+				C86393DE22F1D32200506C49 /* TablaRow.swift in Sources */,
+				C863940A22F1D32200506C49 /* ListaTemporalCell.swift in Sources */,
 				C801BB7522F0962400E75022 /* PresentrShadow.swift in Sources */,
 				C801BB0C22F0947E00E75022 /* AlertRow.swift in Sources */,
 				C801BC0022F09C2400E75022 /* UIKitExtensions.swift in Sources */,
 				C801BAF822F0943600E75022 /* Cell.swift in Sources */,
+				C86393ED22F1D32200506C49 /* SliderNewCell.swift in Sources */,
 				C801BD8222F0B08300E75022 /* AjaxResponse.swift in Sources */,
 				C801BC3A22F09CA000E75022 /* HeroTransitionState.swift in Sources */,
+				C863941022F1D32200506C49 /* EtiquetaRow.swift in Sources */,
 				C801BB4B22F0957C00E75022 /* MenuItem.swift in Sources */,
 				C801BC7022F09CF300E75022 /* BaseNotificationBanner.swift in Sources */,
 				C801BB3522F0952000E75022 /* RuleEqualsToRow.swift in Sources */,
-				C863935A22F0E91900506C49 /* LogoCell.swift in Sources */,
 				C801BD2C22F0B00300E75022 /* Atributos_boton.swift in Sources */,
+				C86393E222F1D32200506C49 /* ListaRow.swift in Sources */,
 				C801BB3D22F0954000E75022 /* EVArrayExtension.swift in Sources */,
 				C801BB1722F094AB00E75022 /* LabelRow.swift in Sources */,
 				C801BD8722F0B08300E75022 /* CompareFacesResult.swift in Sources */,
 				C801BAC122F0936300E75022 /* Generics.swift in Sources */,
 				C801BB5022F0959500E75022 /* Constraint.swift in Sources */,
 				C801BC4222F09CA000E75022 /* HeroTransition+CustomTransition.swift in Sources */,
-				C863936122F0E91900506C49 /* LogicoCell.swift in Sources */,
 				C801BAB722F0934300E75022 /* ChaCha20.swift in Sources */,
+				C86393E522F1D32200506C49 /* ListaViewController.swift in Sources */,
 				C801BAC922F0938200E75022 /* Poly1305.swift in Sources */,
 				C801BAC722F0937C00E75022 /* OperatorsCryptoSwift.swift in Sources */,
+				C86393FC22F1D32200506C49 /* LogoRow.swift in Sources */,
 				C801BB6A22F095EF00E75022 /* ConstraintView.swift in Sources */,
 				C801BADE22F093D200E75022 /* BlockMode.swift in Sources */,
 				C801BD6D22F0B03A00E75022 /* FEAppSkinLogin.swift in Sources */,
 				C801BD7222F0B03A00E75022 /* FELogaltySaml.swift in Sources */,
-				C863933A22F0E91900506C49 /* Cells.swift in Sources */,
+				C86393D722F1D32200506C49 /* Cells.swift in Sources */,
 				C801BB5222F0959A00E75022 /* ConstraintConfig.swift in Sources */,
 				C801BD2422F0B00300E75022 /* Elemento.swift in Sources */,
 				C801BABB22F0934F00E75022 /* Collection+Extension.swift in Sources */,
+				C86393F022F1D32200506C49 /* NumeroRow.swift in Sources */,
 				C801BB7F22F0965500E75022 /* CrossDissolveAnimation.swift in Sources */,
-				C863933E22F0E91900506C49 /* TablaPlantillaViewController.swift in Sources */,
+				C86393DB22F1D32200506C49 /* TablaPlantillaViewController.swift in Sources */,
 				C801BAC822F0937F00E75022 /* Padding.swift in Sources */,
 				C801BB9A22F096B300E75022 /* CellNew.swift in Sources */,
+				C863940622F1D32200506C49 /* MonedaRow.swift in Sources */,
 				C801BCB222F0AC6600E75022 /* JGProgressHUDSuccessIndicatorView.m in Sources */,
 				C801BB8422F0966B00E75022 /* ScrollableSegmentedControl.swift in Sources */,
 				C801BAAA22F092FD00E75022 /* CalendarDateRangePickerCell.swift in Sources */,
@@ -3688,18 +3691,19 @@
 				C801BD0A22F0B00300E75022 /* Atributos_leyenda.swift in Sources */,
 				C801BB0622F0946800E75022 /* Section.swift in Sources */,
 				C801BB2D22F0950100E75022 /* Protocols.swift in Sources */,
-				C863933C22F0E91900506C49 /* TablaCell.swift in Sources */,
+				C86393D922F1D32200506C49 /* TablaCell.swift in Sources */,
 				C801BAC622F0937900E75022 /* NoPadding.swift in Sources */,
 				C801BD2022F0B00300E75022 /* Atributos_videollamada.swift in Sources */,
 				C801BD0E22F0B00300E75022 /* Atributos_video.swift in Sources */,
 				C801BB5422F095A100E75022 /* ConstraintDescription.swift in Sources */,
 				C801BB2F22F0950900E75022 /* MultipleSelectorViewController.swift in Sources */,
+				C863941122F1D32200506C49 /* EtiquetaCell.swift in Sources */,
 				C801BAF122F0941900E75022 /* Utils+Foundation.swift in Sources */,
 				C801BAAF22F0930F00E75022 /* Array+Extension.swift in Sources */,
 				C801BD6522F0B03A00E75022 /* FELogaltyDocuments.swift in Sources */,
 				C801BC3F22F09CA000E75022 /* DispatchQueue+Hero.swift in Sources */,
 				C801BD9722F0B0AC00E75022 /* KeychainPasswordItem.swift in Sources */,
-				C863937922F0E91900506C49 /* HeaderTabCell.swift in Sources */,
+				C86393F322F1D32200506C49 /* BotonRow.swift in Sources */,
 				C801BB5522F095A400E75022 /* ConstraintDSL.swift in Sources */,
 				C801BB5B22F095B700E75022 /* ConstraintLayoutGuideDSL.swift in Sources */,
 				C801BB8522F0967100E75022 /* SpreadsheetView+UIScrollView.swift in Sources */,
@@ -3708,7 +3712,6 @@
 				C801BB3E22F0954300E75022 /* EVCustomReflectable.swift in Sources */,
 				C801BB3822F0952900E75022 /* RuleRegExp.swift in Sources */,
 				C801BB9722F096A900E75022 /* ReuseQueue.swift in Sources */,
-				C863937B22F0E91900506C49 /* HeaderTabRow.swift in Sources */,
 				C801BD9F22F0B0AC00E75022 /* Colors.swift in Sources */,
 				C801BD5822F0B03A00E75022 /* FEExpDoc.swift in Sources */,
 				C801BB2122F094D000E75022 /* StepperRow.swift in Sources */,
@@ -3727,7 +3730,6 @@
 				C801BB2022F094CD00E75022 /* SliderRow.swift in Sources */,
 				C801BAC222F0936700E75022 /* HKDF.swift in Sources */,
 				C801BAE922F093F700E75022 /* AES+Foundation.swift in Sources */,
-				C863934322F0E91900506C49 /* SeccionRow.swift in Sources */,
 				C801BB9822F096AB00E75022 /* SpreadsheetView+Touches.swift in Sources */,
 				C801BD0422F0B00300E75022 /* Atributos_moneda.swift in Sources */,
 				C801BACF22F0939200E75022 /* SHA1.swift in Sources */,
@@ -3736,7 +3738,6 @@
 				C801BC4322F09CA000E75022 /* HeroDefaultAnimator.swift in Sources */,
 				C801BB9F22F096D800E75022 /* SignatureDrawingModel.swift in Sources */,
 				C801BBA222F096E100E75022 /* SignatureBezierProvider.swift in Sources */,
-				C863935C22F0E91900506C49 /* ListaRow.swift in Sources */,
 				C801BAA922F092F300E75022 /* ASHorizontalScrollView.swift in Sources */,
 				C801BD8622F0B08300E75022 /* IneResultOcrFormulas.swift in Sources */,
 				C801BD2F22F0B02200E75022 /* TipoElemento.swift in Sources */,
