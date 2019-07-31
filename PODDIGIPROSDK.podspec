@@ -29,12 +29,21 @@ Pod::Spec.new do |s|
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
     s.ios.deployment_target = '11.0'
-    s.swift_versions = '4.2'
+    s.swift_versions = '5.0'
+    
+    #s.resource_bundles = {
+    #    'PODDIGIPROSDK' => ['PODDIGIPROSDK/Assets/**/*.{png, xib}']
+    #}
     
     s.default_subspec = 'Core'
     s.subspec 'Core' do |core|
-        core.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,m,swift}'
+        core.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,m,swift,xib}'
         core.public_header_files = 'PODDIGIPROSDK/Classes/**/*.h'
+        core.resources = 'PODDIGIPROSDK/Assets/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}'
+        #s.resource_bundles = {
+        #    'PODDIGIPROSDK' => ['PODDIGIPROSDK/Assets/**/*.{png, xib}']
+        # }
+        
     end
     
     s.subspec 'AppExtension' do |ext|
@@ -44,9 +53,7 @@ Pod::Spec.new do |s|
     end
     #s.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,swift}'
     
-    # s.resource_bundles = {
-    #   'PODDIGIPROSDK' => ['PODDIGIPROSDK/Assets/*.png']
-    # }
+   
     
     #s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'

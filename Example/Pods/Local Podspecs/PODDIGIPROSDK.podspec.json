@@ -18,20 +18,22 @@
   "platforms": {
     "ios": "11.0"
   },
-  "swift_versions": "4.2",
+  "swift_versions": "5.0",
   "default_subspecs": "Core",
   "subspecs": [
     {
       "name": "Core",
-      "source_files": "PODDIGIPROSDK/Classes/**/*.{h,swift}"
+      "source_files": "PODDIGIPROSDK/Classes/**/*.{h,m,swift,xib}",
+      "public_header_files": "PODDIGIPROSDK/Classes/**/*.h",
+      "resources": "PODDIGIPROSDK/Assets/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
     },
     {
       "name": "AppExtension",
-      "source_files": "PODDIGIPROSDK/Classes/**/*.{h,swift}",
+      "source_files": "PODDIGIPROSDK/Classes/**/*.{h,m,swift}",
       "pod_target_xcconfig": {
         "GCC_PREPROCESSOR_DEFINITIONS": "MYLIBRARY_APP_EXTENSIONS=1"
       }
     }
   ],
-  "swift_version": "4.2"
+  "swift_version": "5.0"
 }
