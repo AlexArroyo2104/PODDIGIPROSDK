@@ -23,7 +23,7 @@
   "subspecs": [
     {
       "name": "Core",
-      "source_files": "PODDIGIPROSDK/Classes/**/*.{h,m,swift}",
+      "source_files": "PODDIGIPROSDK/Classes/**/*.{h,m,swift,xib}",
       "public_header_files": "PODDIGIPROSDK/Classes/**/*.h",
       "resource_bundles": {
         "PODDIGIPROSDK": [
