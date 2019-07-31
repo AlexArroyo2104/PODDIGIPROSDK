@@ -581,7 +581,6 @@
 		C863937E22F1045A00506C49 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50BF22EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf */; };
 		C863937F22F1045E00506C49 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C022EF4DDC0079B0B7 /* AlertViewController.xib */; };
 		C863938022F1046200506C49 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C122EF4DDC0079B0B7 /* Montserrat-Regular.ttf */; };
-		C863938322F1D10200506C49 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C863938222F1D10200506C49 /* .gitkeep */; };
 		C86393D522F1D32200506C49 /* TextoAreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863938622F1D32100506C49 /* TextoAreaCell.swift */; };
 		C86393D622F1D32200506C49 /* TextoAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863938722F1D32100506C49 /* TextoAreaRow.swift */; };
 		C86393D722F1D32200506C49 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863938922F1D32100506C49 /* Cells.swift */; };
@@ -1216,7 +1215,6 @@
 		C801BDA422F0B18100E75022 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = PODDIGIPROSDK/Classes/Constants.swift; sourceTree = "<group>"; };
 		C801BDA622F0B47E00E75022 /* PODDIGIPRO-Bridgging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PODDIGIPRO-Bridgging-Header.h"; path = "PODDIGIPROSDK/Classes/PODDIGIPRO-Bridgging-Header.h"; sourceTree = "<group>"; };
 		C801BDAA22F0CA2500E75022 /* FormularioUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FormularioUtilities.swift; path = PODDIGIPROSDK/Classes/FormularioUtilities.swift; sourceTree = "<group>"; };
-		C863938222F1D10200506C49 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		C863938622F1D32100506C49 /* TextoAreaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextoAreaCell.swift; sourceTree = "<group>"; };
 		C863938722F1D32100506C49 /* TextoAreaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextoAreaRow.swift; sourceTree = "<group>"; };
 		C863938922F1D32100506C49 /* Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
@@ -1955,7 +1953,6 @@
 			isa = PBXGroup;
 			children = (
 				C801BDA622F0B47E00E75022 /* PODDIGIPRO-Bridgging-Header.h */,
-				C863938122F1D10200506C49 /* Assets */,
 				78B3428D6DFD7CB75806667192810B70 /* Core */,
 				F8F7E5D13EB89BFE6BF96F558B62B020 /* Pod */,
 				B4D41691594931E83570A0BD6984B205 /* Support Files */,
@@ -2327,15 +2324,6 @@
 			);
 			name = Reglas;
 			path = PODDIGIPROSDK/Classes/Reglas;
-			sourceTree = "<group>";
-		};
-		C863938122F1D10200506C49 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				C863938222F1D10200506C49 /* .gitkeep */,
-			);
-			name = Assets;
-			path = PODDIGIPROSDK/Assets;
 			sourceTree = "<group>";
 		};
 		C863938422F1D32100506C49 /* DIGIPROSDKSO */ = {
@@ -3125,7 +3113,6 @@
 				C86393E922F1D32200506C49 /* SeccionRow.xib in Resources */,
 				C863941222F1D32200506C49 /* EtiquetaRow.xib in Resources */,
 				C86393FE22F1D32200506C49 /* LogoRow.xib in Resources */,
-				C863938322F1D10200506C49 /* .gitkeep in Resources */,
 				C86393EE22F1D32200506C49 /* SliderNewRow.xib in Resources */,
 				C86393F122F1D32200506C49 /* NumeroRow.xib in Resources */,
 				C86393DC22F1D32200506C49 /* TablaRow.xib in Resources */,

@@ -31,14 +31,20 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '11.0'
     s.swift_versions = '4.2'
     
+    #s.resource_bundles = {
+    #    'PODDIGIPROSDK' => ['PODDIGIPROSDK/Assets/**/*.{png, xib}']
+    #}
+    
     s.default_subspec = 'Core'
     s.subspec 'Core' do |core|
         core.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,m,swift}'
         core.public_header_files = 'PODDIGIPROSDK/Classes/**/*.h'
-        
-    s.resource_bundles = {
-        'PODDIGIPROSDK' => ['PODDIGIPROSDK/Assets/**/*.{png, xib}']
-    }
+        core.resource_bundles = {
+            'PODDIGIPROSDK' => ['PODDIGIPROSDK/Classes/**/*.{png, xib}']
+        }
+        #s.resource_bundles = {
+        #    'PODDIGIPROSDK' => ['PODDIGIPROSDK/Assets/**/*.{png, xib}']
+        # }
         
     end
     
@@ -49,7 +55,7 @@ Pod::Spec.new do |s|
     end
     #s.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,swift}'
     
-    
+   
     
     #s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
