@@ -11,7 +11,7 @@ import Foundation
 // MARK: SeccionRow
 open class _SeccionRowOf<T: Equatable> : Row<SeccionCell> {
     open var presentationMode: PresentationMode<UIViewController>?
-    open var onPresentCallback: ((FormViewController, SelectorViewController<SelectorRow<Cell>>) -> Void)?
+    open var onPresentCallback: ((FormViewController, SelectorViewController<SelectorRow<SeccionCell>>) -> Void)?
     
     required public init(tag: String?) {
         super.init(tag: tag)
