@@ -3758,6 +3758,40 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1F6CED169A6BA91FC8A7394A4387B358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B2B00CB6EA0EE2AEE9EC178479C59CD /* PODDIGIPROSDK.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PODDIGIPROSDK/PODDIGIPROSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PODDIGIPROSDK/PODDIGIPROSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PODDIGIPROSDK/PODDIGIPROSDK.modulemap";
+				PRODUCT_MODULE_NAME = PODDIGIPROSDK;
+				PRODUCT_NAME = PODDIGIPROSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2133D29E34FD07010CE84E2B5C40846F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A957896A3325D9065B06E8F877B18D37 /* Quick.xcconfig */;
@@ -3989,39 +4023,6 @@
 			};
 			name = Debug;
 		};
-		8D33B64B41873172AFB6CD3357978262 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B2B00CB6EA0EE2AEE9EC178479C59CD /* PODDIGIPROSDK.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PODDIGIPROSDK/PODDIGIPROSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PODDIGIPROSDK/PODDIGIPROSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PODDIGIPROSDK/PODDIGIPROSDK.modulemap";
-				PRODUCT_MODULE_NAME = PODDIGIPROSDK;
-				PRODUCT_NAME = PODDIGIPROSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		9BCC50620FFF6BE2820AEBA5648C9D01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9D877E6331F4686652ABD7DB7A5BE42B /* Pods-PODDIGIPROSDK_Tests.release.xcconfig */;
@@ -4051,40 +4052,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A46BC2EBF80A6C75C7E95EA5AFE958CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B2B00CB6EA0EE2AEE9EC178479C59CD /* PODDIGIPROSDK.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PODDIGIPROSDK/PODDIGIPROSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PODDIGIPROSDK/PODDIGIPROSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PODDIGIPROSDK/PODDIGIPROSDK.modulemap";
-				PRODUCT_MODULE_NAME = PODDIGIPROSDK;
-				PRODUCT_NAME = PODDIGIPROSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -4221,6 +4188,39 @@
 			};
 			name = Debug;
 		};
+		F78670F63C6FCF9DAED014F05679EB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B2B00CB6EA0EE2AEE9EC178479C59CD /* PODDIGIPROSDK.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PODDIGIPROSDK/PODDIGIPROSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PODDIGIPROSDK/PODDIGIPROSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PODDIGIPROSDK/PODDIGIPROSDK.modulemap";
+				PRODUCT_MODULE_NAME = PODDIGIPROSDK;
+				PRODUCT_NAME = PODDIGIPROSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4245,8 +4245,8 @@
 		572B3EAB4A572A718F62F9E4D234D7E2 /* Build configuration list for PBXNativeTarget "PODDIGIPROSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D33B64B41873172AFB6CD3357978262 /* Debug */,
-				A46BC2EBF80A6C75C7E95EA5AFE958CB /* Release */,
+				F78670F63C6FCF9DAED014F05679EB0F /* Debug */,
+				1F6CED169A6BA91FC8A7394A4387B358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
