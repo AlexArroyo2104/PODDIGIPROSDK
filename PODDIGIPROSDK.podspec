@@ -39,9 +39,7 @@ Pod::Spec.new do |s|
     s.subspec 'Core' do |core|
         core.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,m,swift,xib}'
         core.public_header_files = 'PODDIGIPROSDK/Classes/**/*.h'
-        core.resource_bundles = {
-            'PODDIGIPROSDK' => ['PODDIGIPROSDK/Classes/**/*.{png, xib}']
-        }
+        core.resources = 'PODDIGIPROSDK/Assets/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}'
         #s.resource_bundles = {
         #    'PODDIGIPROSDK' => ['PODDIGIPROSDK/Assets/**/*.{png, xib}']
         # }
