@@ -23,11 +23,17 @@
   "subspecs": [
     {
       "name": "Core",
-      "source_files": "PODDIGIPROSDK/Classes/**/*.{h,swift}"
+      "source_files": "PODDIGIPROSDK/Classes/**/*.{h,m,swift}",
+      "public_header_files": "PODDIGIPROSDK/Classes/**/*.h",
+      "resource_bundles": {
+        "PODDIGIPROSDK": [
+          "PODDIGIPROSDK/Classes/**/*.{png, xib}"
+        ]
+      }
     },
     {
       "name": "AppExtension",
-      "source_files": "PODDIGIPROSDK/Classes/**/*.{h,swift}",
+      "source_files": "PODDIGIPROSDK/Classes/**/*.{h,m,swift}",
       "pod_target_xcconfig": {
         "GCC_PREPROCESSOR_DEFINITIONS": "MYLIBRARY_APP_EXTENSIONS=1"
       }
