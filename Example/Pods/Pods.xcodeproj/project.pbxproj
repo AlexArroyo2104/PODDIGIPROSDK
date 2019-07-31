@@ -641,9 +641,10 @@
 		C863937A22F0E91900506C49 /* HeaderTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C863933822F0E91900506C49 /* HeaderTabCell.xib */; };
 		C863937B22F0E91900506C49 /* HeaderTabRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863933922F0E91900506C49 /* HeaderTabRow.swift */; };
 		C863937D22F0F38F00506C49 /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C667D813A7A9170C939286025D7A30 /* SelectorViewController.swift */; };
-		C8ED50D422EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50BF22EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf */; };
-		C8ED50D522EF4DDC0079B0B7 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C022EF4DDC0079B0B7 /* AlertViewController.xib */; };
-		C8ED50D622EF4DDC0079B0B7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C122EF4DDC0079B0B7 /* Montserrat-Regular.ttf */; };
+		C863937E22F1045A00506C49 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50BF22EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf */; };
+		C863937F22F1045E00506C49 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C022EF4DDC0079B0B7 /* AlertViewController.xib */; };
+		C863938022F1046200506C49 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8ED50C122EF4DDC0079B0B7 /* Montserrat-Regular.ttf */; };
+		C863938322F1D10200506C49 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C863938222F1D10200506C49 /* .gitkeep */; };
 		C912897D77798A90873A3DAD8A4BDC50 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4D831C03026C50D9C46AAA6A6A99DC /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA958DBAA5F69BBB7FABA426CF2898E9 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA112225FF526E65896DDDF956F74AF1 /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		CC4D4A58D5696C431EA499C04B436F5F /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4FE44A565B7D51777C3DCF0536EE10 /* SourceLocation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -1278,6 +1279,7 @@
 		C863933722F0E91900506C49 /* HeaderTabCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTabCell.swift; sourceTree = "<group>"; };
 		C863933822F0E91900506C49 /* HeaderTabCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderTabCell.xib; sourceTree = "<group>"; };
 		C863933922F0E91900506C49 /* HeaderTabRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTabRow.swift; sourceTree = "<group>"; };
+		C863938222F1D10200506C49 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		C8ED50B822EF4DDC0079B0B7 /* CoverVerticalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverVerticalAnimation.swift; sourceTree = "<group>"; };
 		C8ED50B922EF4DDC0079B0B7 /* PresentrController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentrController.swift; sourceTree = "<group>"; };
 		C8ED50BA22EF4DDC0079B0B7 /* Presentr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentr.swift; sourceTree = "<group>"; };
@@ -1953,6 +1955,7 @@
 			isa = PBXGroup;
 			children = (
 				C801BDA622F0B47E00E75022 /* PODDIGIPRO-Bridgging-Header.h */,
+				C863938122F1D10200506C49 /* Assets */,
 				78B3428D6DFD7CB75806667192810B70 /* Core */,
 				F8F7E5D13EB89BFE6BF96F558B62B020 /* Pod */,
 				B4D41691594931E83570A0BD6984B205 /* Support Files */,
@@ -2356,7 +2359,6 @@
 			children = (
 				C863923822F0E82D00506C49 /* TextoAreaCell.swift */,
 				C863923922F0E82D00506C49 /* TextoAreaRow.swift */,
-				C863923A22F0E82D00506C49 /* TextoAreaRow.xib */,
 			);
 			path = AreaTexto;
 			sourceTree = "<group>";
@@ -2538,6 +2540,16 @@
 				C863933922F0E91900506C49 /* HeaderTabRow.swift */,
 			);
 			path = HeaderTab;
+			sourceTree = "<group>";
+		};
+		C863938122F1D10200506C49 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C863923A22F0E82D00506C49 /* TextoAreaRow.xib */,
+				C863938222F1D10200506C49 /* .gitkeep */,
+			);
+			name = Assets;
+			path = PODDIGIPROSDK/Assets;
 			sourceTree = "<group>";
 		};
 		C8ED50B722EF4DDC0079B0B7 /* Presentr */ = {
@@ -3077,9 +3089,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8ED50D622EF4DDC0079B0B7 /* Montserrat-Regular.ttf in Resources */,
-				C8ED50D422EF4DDC0079B0B7 /* SourceSansPro-Regular.ttf in Resources */,
-				C8ED50D522EF4DDC0079B0B7 /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3093,6 +3102,7 @@
 				C863935D22F0E91900506C49 /* ListaRow.xib in Resources */,
 				C863937A22F0E91900506C49 /* HeaderTabCell.xib in Resources */,
 				C863936422F0E91900506C49 /* HeaderCell.xib in Resources */,
+				C863938022F1046200506C49 /* Montserrat-Regular.ttf in Resources */,
 				C801BCA722F0AC6600E75022 /* jg_hud_success@3x.png in Resources */,
 				C863934422F0E91900506C49 /* SeccionRow.xib in Resources */,
 				C801BCA522F0AC6600E75022 /* jg_hud_error@2x.png in Resources */,
@@ -3106,6 +3116,7 @@
 				C863934E22F0E91900506C49 /* FechaRow.xib in Resources */,
 				C801BCA622F0AC6600E75022 /* jg_hud_success.png in Resources */,
 				C863936922F0E91900506C49 /* BotonRow.xib in Resources */,
+				C863937E22F1045A00506C49 /* SourceSansPro-Regular.ttf in Resources */,
 				C863935222F0E91900506C49 /* EtiquetaRow.xib in Resources */,
 				C863937122F0E91900506C49 /* TextoRow.xib in Resources */,
 				C863934522F0E91900506C49 /* ListaTemporalViewController.xib in Resources */,
@@ -3115,6 +3126,8 @@
 				C863936222F0E91900506C49 /* LogicoRow.xib in Resources */,
 				C863933F22F0E91900506C49 /* TablaRow.xib in Resources */,
 				C863934822F0E91900506C49 /* ListaTemporalRow.xib in Resources */,
+				C863937F22F1045E00506C49 /* AlertViewController.xib in Resources */,
+				C863938322F1D10200506C49 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

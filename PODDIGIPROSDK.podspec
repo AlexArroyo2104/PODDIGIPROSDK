@@ -35,6 +35,11 @@ Pod::Spec.new do |s|
     s.subspec 'Core' do |core|
         core.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,m,swift}'
         core.public_header_files = 'PODDIGIPROSDK/Classes/**/*.h'
+        
+    s.resource_bundles = {
+        'PODDIGIPROSDK' => ['PODDIGIPROSDK/Assets/**/*.{png, xib}']
+    }
+        
     end
     
     s.subspec 'AppExtension' do |ext|
@@ -44,9 +49,7 @@ Pod::Spec.new do |s|
     end
     #s.source_files = 'PODDIGIPROSDK/Classes/**/*.{h,swift}'
     
-    # s.resource_bundles = {
-    #   'PODDIGIPROSDK' => ['PODDIGIPROSDK/Assets/*.png']
-    # }
+    
     
     #s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
